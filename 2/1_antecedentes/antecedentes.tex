@@ -55,6 +55,15 @@ Ante los resultados de estudios realizados en la Universidad de Cornell y Hollab
 
 \subsubsection{Metodología empleada por los autores}
 Se emplea información pública de delitos de la ciudad de Nueva York, San Francisco y Boston, y se filtra los tipos de delitos relacionados con acoso callejero y asalto, los cuales son tiroteo, asalto y robo. Asimismo, para la obtención cartográfica de dichas ciudades, se utilizó OpenStreetMap (OSM).
+%\medskip
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/SafeMetodo.jpg}
+		\caption{Metodología propuesta por los autores}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
 
 De acuerdo a la metodología propuesta por los autores, la arquitectura se divide en dos partes, la primera es donde interviene la red neuronal de aprendizaje por refuerzo, y el segundo es la red de políticas definidas para que la red neuronal utiliza al momento de tomar decisiones. Este entorno se presenta como proceso de decisión de Markov con tuplas que contienen los estados contínuos del mapa, las acciones disponibles para el algoritmo y la probabilidad de pasar de un estado a otro.
 %\medskip
@@ -103,6 +112,17 @@ Ante el problema del incremento de autos robados en Chile en el año 2017, se me
 
 
 \subsubsection{Metodología empleada por los autores}
+Los autores proponen la siguiente metodología: %\medskip
+
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/ChileMetodo.jpg}
+		\caption{Metodología propuesta por los autores}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+
 El primer paso de esta metodología empieza con la recolección de los datos, que en este caso son los eventos de robos de vehículos en las comunas de la Región de Chile del año 2015 al 2019, que contiene un total de 129.127 registros. Luego se procedió a realizar la suma de los eventos de robo por día de cada comuna para la creación de una serie de tiempo y posterior a esto, aplicar la regresión LOESS, el cual es una técnica no paramétrica que utiliza los mínimos cuadrados ponderados para asignar un mayor peso a los más cercanos y menos a los que están más lejos. La aplicación de dicha técnica permite la reducción de ruido de la serie de tiempo. De este paso, se obtuvo una matriz suavizada de número de eventos de robos, el cuál sirve como input para la red GCLSTM. 
 
 Dicha red suma las matrices de adyacencia e identidad para realizar la convolución con parámetros K, luego se le asigna a cada vecino un peso por iteración y estas van a las compuertas LSTM para la extracción de la última celda para el desarrollo de una capa de salida lineal con la función tanh. Para la optimización de la red GCLSTM, se aplicó el algoritmo de RMSprop para entrenar el modelo hasta que haya un sobreajuste en los datos.
@@ -127,7 +147,7 @@ Mientras que, en la fase de pruebas, se demuestra, con la métrica R2, que el mo
 \citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en el año 2022. Este fue titulado \citetitle{pr_dehghani2018copper}.
 
 \subsubsection{Planteamiento del Problema y objetivo }
-La creciente cifra de casos de acoso callejero en las calles de medellín, así como casos de asaltos y violación, ha tenido como consecuencia que el miedo de las mujeres aumente y por ende, se sientan inseguras por cuál ruta tomar. A pesar de los distintos métodos de prevención, se menciona que no siempre son efectivos para evitar ser víctima de acoso en espacios públicos. Además, aplicaciones de generación de rutas para el transporte, como Google Maps o Waze, no cuentan con la capacidad de detectar rutas seguras, ya que es propio sistema de estas sólo calculan sus rutas en base a la distancia más corta. Este trabajo de investigación busca solucionar este problema implementando el algoritmo de Dijkstra, para calcular tres caminos diferentes tomando en cuenta la distancia y el índice de riesgo.
+La creciente cifra de casos de acoso callejero en las calles de Medellín, así como casos de asaltos y violación, ha tenido como consecuencia que el miedo de las mujeres aumente y por ende, se sientan inseguras por cuál ruta tomar. A pesar de los distintos métodos de prevención, se menciona que no siempre son efectivos para evitar ser víctima de acoso en espacios públicos. Además, aplicaciones de generación de rutas para el transporte, como Google Maps o Waze, no cuentan con la capacidad de detectar rutas seguras, ya que es propio sistema de estas sólo calculan sus rutas en base a la distancia más corta. Este trabajo de investigación busca solucionar este problema implementando el algoritmo de Dijkstra, para calcular tres caminos diferentes tomando en cuenta la distancia y el índice de riesgo.
 
 \subsubsection{Metodología empleada por los autores}
 Para la obtención del mapa de Medellín, se empleó Open Street Maps (OSM) en Python, el cual contiene en cada segmento su longitud en metros, en qué sentidos va, y sus representaciones binarias proporcionadas por la propia librería OSM. Para el cálculo del riesgo, se empleó un conjunto de datos de la encuesta de calidad de vida de Medellín del año 2017; luego se procedió a realizar una combinación lineal (CL)  mediante el análisis de componentes principales, el cual  es la máxima varianza de la proporción de hogares que se sienten inseguros entre la proporción de hogares que tienen ingresos inferiores al salario mínimo; después se normaliza la combinación lineal y la proporción de esta es considera como el riesgo de acoso.
@@ -142,7 +162,16 @@ Para la obtención del mapa de Medellín, se empleó Open Street Maps (OSM) en P
 \end{figure}
 
 Se crea un diccionario que almacena el peso de cada vértice mediante el producto entre la longitud y riesgo de acoso de cada relación entre origen y destino. Se implementa el algoritmo de Dijkstra que requiere de tres parámetros los cuáles son los grafos creados, y los vértices de origen y destino. Este algoritmo calcula cada vecino del vértice actual a través de sus pesos que están almacenados en el diccionario para calcular el camino con menos peso. Además del cálculo tradicional que emplea, el cuál es r*d, donde r es el riesgo de acoso, y d es la distancia en metros, se calculó dos caminos más. El primero es la suma entre la distancia y el riesgo, mientras que el segundo eleva la distancia al riesgo de acoso. Para graficar estos tres resultados, se empleó la librería GmPlot, une el camino del origen y destino mediante las coordenadas ubicadas en Google maps, siendo más fácil de visualizar para el usuario.
+%\medskip
 
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/medellinMetodo.jpg}
+		\caption{Metodología propuesta por los autores}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
 
 \subsubsection{Resultados obtenidos}
 Se presenta los resultados que son obtenidos por el algoritmo, estableciendo el origen en la Universidad EAFIT hasta la Universidad Nacional, el cual se puede visualizar en la siguiente tabla:%\medskip
@@ -256,6 +285,15 @@ Este trabajo de investigación propone un nuevo enfoque de predicción de rutas 
 
 \subsubsection{Metodología empleada por los autores}
 Se utiliza un conjunto de datos de código abierto llamado pNEUMA, de la ciudad de Atenas, Grecia. Este conjunto de datos utiliza drones para recopilar los datos sobre el tráfico en horas pico, asimismo, bajo esta recopilación, se extrae los datos de la posición, velocidad, aceleración y tipo de vehículo. Luego se pre procesaron los datos mediante la comparación por pares de trayectorias. Después se calculó el tiempo de coalición (TTC) de cada ubicación para aplicarlo al modelo propuesto.
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/AtenaMetodo.jpg}
+		\caption{Metodología propuesta por los autores}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
 
 El modelo propuesto es un modelo de teoría de valores extremos (EVT), específicamente el modelo bayesiano jerárquico para estimar el riesgo de accidente de cada ubicación en tiempo real y se incorporan covariables para optimizar el rendimiento del modelo propuesto. Después de desarrollar el modelo bayesiano, se calcula el riesgo de colisión (ROC), que estima el número total de accidentes que se observan en una ubicación, también se calcula una métrica de tiempo de viaje para desarrollar una función de impedancia para realizar comparaciones entre los distintos nodos de una red de carreteras bajo un algoritmo de enrutamiento. Para el cálculo de la función de impedancia (S) es de la siguiente manera:
 %\medskip
