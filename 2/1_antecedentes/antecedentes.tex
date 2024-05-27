@@ -296,6 +296,7 @@ Se utiliza un conjunto de datos de código abierto llamado pNEUMA, de la ciudad 
 %\medskip
 
 El modelo propuesto es un modelo de teoría de valores extremos (EVT), específicamente el modelo bayesiano jerárquico para estimar el riesgo de accidente de cada ubicación en tiempo real y se incorporan covariables para optimizar el rendimiento del modelo propuesto. Después de desarrollar el modelo bayesiano, se calcula el riesgo de colisión (ROC), que estima el número total de accidentes que se observan en una ubicación, también se calcula una métrica de tiempo de viaje para desarrollar una función de impedancia para realizar comparaciones entre los distintos nodos de una red de carreteras bajo un algoritmo de enrutamiento. Para el cálculo de la función de impedancia (S) es de la siguiente manera:
+
 %\medskip
 \begin{figure}[h]
 	\begin{center}
@@ -303,8 +304,54 @@ El modelo propuesto es un modelo de teoría de valores extremos (EVT), específi
 	\end{center}
 \end{figure}
 %\medskip
+
 Posterior al cálculo de la función de impedancia, se utiliza en el algoritmo Dijkstra o el algoritmo A*. Después se desarrolla un algoritmo que elige la mejor ruta, el cuál identifica distintas rutas según la preferencia del usuario, tomando en cuenta tanto la seguridad como la movilidad.
 
 \subsubsection{Resultados obtenidos}
 Bajo la metodología propuesta, se encontró que el 23\% de las rutas más rápidas eran similares a las rutas más seguras. Además, la ruta más segura comparte en un 54\% los mismos enlaces que la ruta más rápida, existiendo un equilibrio entre seguridad y movilidad en distintos escenarios. Este trabajo de investigación aporta con un modelo de recomendación de rutas que presenta una buena eficacia en cuanto a cambios dinámicos en tiempo real en diferentes tipos de condiciones; sin embargo, para el cálculo de riesgo, depende de una percepción de seguridad más que la seguridad real, por lo que se recomienda que se establezca bajo su propia preferencia y prioridades, ya que es difícil cuantificar el riesgo real de un sector.
 
+\subsection{A reinforcement learning-based routing algorithm for large street networks. \citep*{pr_dehghani2018copper}}
+\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la « International Journal of Geographical Information Science» en el año 2024. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Un algoritmo de enrutamiento basado en aprendizaje de refuerzo para grandes redes de calles».
+
+\subsubsection{Planteamiento del Problema y objetivo }
+Ante la problemática de contar con sistemas de evacuación y rutas de emergencia para minimizar los daños ocasionados durante los desastres naturales, los algoritmos tradicionales de enrutamiento cuentan con problemas de escalavidiad cuándo estas se enfrentan a evacuaciones a gran escala que involucran a diferentes rutas, asimismo, la complejidad computacional de estos algoritmos puede aumentar a medida que crece y se vuelve más complejo un escenario de evacuación, llevando a tener largos tiempos de cáculos, además que trabajan con pocos parámetros que capturan la complejidad y dinamismo de las emergencias por inundaciones. Ante estas limitaciones y con las contribuciones recientes de algoritmos de aprendizaje por refuerzo profundo (DRL), se desarrolló un algoritmo de aprendizaje por refuerzo para mejorar la eficiencia de enrutamiento en una gran red de carrenteras en tiempo real, para lograr dicho objetivo, se entrenó dicho algoritmo en una supercomputadora FASTER, que maneja grandes redes de carreteras de una base de datos espacial.
+
+\subsubsection{Metodología empleada por los autores}
+Se recopilan los datos de redes de transporte de la ciudad de Nueva York y Houston, que contienen la longitud y latitud de cada punto de interés, asimismo para los datos de transporte se exporta información cartográfica del área centra de Houston y la ciudad de Nueva York. 
+
+Para el algoritmo de aprendizaje por refuerzo, el sistema de enrutamiento puede modelarse como una tupla de proceso de decisión de Markov (MDP. Cada tupla contiene el conjunto de estados de cada vértice, conjunto de acciones que considera la red neuronal durante el entrenamiento, la función de recompensa para optimizar la preferencia del usuario, donde se incorpora el factor de seguridad. Además, se establece políticas con el método de gradientes de políticas, el cual se conecta con el algoritmo de ascenso de gradiente estocástico. Para disminuir la varianza del estimado de gradientes del algorimo, se utiliza la Optimización de Política Proximal (PPO). 
+
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/algoMod.jpg}
+		\caption{Puntuaciones de evaluación}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+
+Para hacer frente a los entornos complejos y dinámicos, se requiere de una red neuronal que memorice los nodos y elija una acción válida a través de Q-learning, este algoritmo evita no seleccionar rutas inválidas con la red de políticas.
+
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/politica.jpg}
+		\caption{Puntuaciones de evaluación}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+
+\subsubsection{Resultados obtenidos}
+Se comparó con el método de Dijkstra y el algoritmo clásico de aprendiza por refuerzo mediante puntuación por métricas de seguridad y recompensa de cada ciudad, como también su tiempo. Los resultados indican que el mejor algoritmo es el modelo propuesto, ya que tienen un mayor puntaje de seguridad, como también un mayor indicador de recompensa. Sin embargo, tiene una mayor duración al ejecutar cada enrutamiento o detectar rutas seguras. También se destaca el hecho de que el modelo propuesto no atraviesa los puntos inundados, superando en términos de seguridad a los algoritmos tradicionales.
+
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/resultN.jpg}
+		\caption{Puntuaciones de evaluación}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
