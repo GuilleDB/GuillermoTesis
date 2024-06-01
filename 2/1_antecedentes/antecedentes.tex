@@ -1,8 +1,8 @@
 En esta sección se presentarán diversos artículos de investigación o tesis las cuales abordarán diversas técnicas y enfoques que se emplearon para afrontar problemas similares al de esta tesis. Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{A:table}) de lo que se presenta en esta sección.
 
 
-\subsection{Real-time deep reinforcement learning based vehicle navigation \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Applied Soft Computing» en el año 2020. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Navegación de vehículos basada en aprendizaje de refuerzo profundo en tiempo real».
+\subsection{Real-time deep reinforcement learning based vehicle navigation \citep*{pr_koh}}
+\citeauthor{pr_koh} realizaron un artículo de investigación el cual fue publicado en la revista «Applied Soft Computing» en el año 2020. Este fue titulado \citetitle{pr_koh} la cual traducida al español significa «Navegación de vehículos basada en aprendizaje de refuerzo profundo en tiempo real».
 
 \subsubsection{Planteamiento del Problema y objetivo }
 Los autores del siguiente artículo mencionan la gravedad del problema de la congestión vehícular en las ciudades contemporáneas, teniendo como consecuencia el alto consumo innecesario de energía, la contaminación y el tiempo invertido en viaje. Además, menciona la dificultad que tienen los algoritmos existentes para la optimización de las carreteras con el fin de afrontar dicho problema, siendo esta la complejidad que tienen los vehículos al interactuar en un entorno dinámico en tiempo real. Por lo que el objetivo de los autores es implementar un modelo de aprendizaje por refuerzo profundo (DRL) con el fin de construir un sistema de navegación en tiempo real a través de una secuencia de decisiones.
@@ -46,8 +46,8 @@ Para demostrar la eficiencia del modelo propuesto, se compara con diferentes mod
 	\end{center}
 \end{figure}
 
-\subsection{SafeRoute: Learning to navigate streets safely in an urban environment \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «ACM Transactions on Intelligent Systems and Technology» en el año 2020. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «SafeRoute: aprender a navegar por las calles de forma segura en un entorno urbano».
+\subsection{SafeRoute: Learning to navigate streets safely in an urban environment \citep*{pr_saferoute}}
+\citeauthor{pr_saferoute} realizaron un artículo de investigación el cual fue publicado en la revista «ACM Transactions on Intelligent Systems and Technology» en el año 2020. Este fue titulado \citetitle{pr_saferoute} la cual traducida al español significa «SafeRoute: aprender a navegar por las calles de forma segura en un entorno urbano».
 
 \subsubsection{Planteamiento del Problema y objetivo }
 Ante los resultados de estudios realizados en la Universidad de Cornell y Hollaback en 2014, se muestra que el 85\% de mujeres tomaron rutas diferentes para ir a su destino con el fin de evitar ser víctimas de acoso o agresión. También se menciona la necesidad de las personas, como los turistas, de contar con una aplicación que pueda detectar rutas seguras. Con esto en mente, se propone SafeRoute, que es una solución de estos problemas utilizando algoritmos de aprendizaje por refuerzo profundo, que tiene ventaja bajo los algoritmos clásicos como Dijkstra, ya que es una opción a problemas que requieren tomar decisiones incrementales por cada intersección que se presenta entre el origen y el destino, además que tiene la ventaja de adaptarse a nuevos datos sin requerir a ser entrenado nuevamente.
@@ -104,8 +104,8 @@ El modelo propuesto se comparó con el algoritmo de Dijkstra y SafePath, el cual
 
 Se observa que las distancias entre un ruta a la zona de crimen, el que presenta un valor más bajo es Boston, debido a su densidad de criminalidad, mientras que las rutas generadas en Nueva York son las que más se alejan. Sin embargo, se demuestra que tanto en la época 5 como la época 10, el modelo propuesto SafeRoute supera al modelo Dijkstra y los modelos de SafePath, a excepción de la ciudad de San Francisco, el cuál el número que más se aleja de los riesgos es el modelo más seguro de SafePath en la época 10.
 
-\subsection{Predicting motor vehicle theft in Santiago de Chile using graph-convolutional LSTM \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue presentado en la «39th International Conference of the Chilean Computer Science Society» en el año 2020. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Predicción del robo de vehículos de motor en Santiago de Chile utilizando LSTM gráfico convolucional».
+\subsection{Predicting motor vehicle theft in Santiago de Chile using graph-convolutional LSTM \citep*{pr_esquivel}}
+\citeauthor{pr_esquivel} realizaron un artículo de investigación el cual fue presentado en la «39th International Conference of the Chilean Computer Science Society» en el año 2020. Este fue titulado \citetitle{pr_esquivel} la cual traducida al español significa «Predicción del robo de vehículos de motor en Santiago de Chile utilizando LSTM gráfico convolucional».
 
 \subsubsection{Planteamiento del Problema y objetivo }
 Ante el problema del incremento de autos robados en Chile en el año 2017, se menciona que este tipo de delitos, que, si bien es de bajo riesgo, puede desencadenar otros delitos más graves como el contrabando de armas o drogas, o crímenes internacionales. Es por esto que a través de un modelo de predicción de robo de vehículos puede contribuir a la mitigación y mayor seguridad por parte de la fuerza policial en las zonas con mayor probabilidad de robos. En este trabajo de investigación busca crear una nueva metodología para la predicción de robos de vehículos en la ciudad de Santiago de Chile desarrollando una red neuronal convolucional LSTM basada en grafos (GCLSTM) utilizando la técnica de preprocesamiento de datos, la cuál es la regresión LOESS.
@@ -143,8 +143,8 @@ Para la fase de entrenamiento, se utilizó el 70\% del conjunto de datos, 20\% d
 Como parte de los resultados, en la fase de entrenamiento, se entrenó en el modelo tradicional LSTM y el modelo GCLSTM, dando como resultado que a partir de la iteración 31, la curva MSE del modelo GCLSTM desciende más que el tradicional. 
 Mientras que, en la fase de pruebas, se demuestra, con la métrica R2, que el modelo propuesto obtuvo 0.86, y el modelo LSTM tuvo 0.70, teniendo una mayor similitud la red GCLSTM entre lo esperado con lo observado. Por otra parte, el MSE del modelo propuesto fue 0.014 y el modelo LSTM es de 0.031; demostrando que el modelo puede obtener patrones temporales y espaciales para la predicción de crimen en distintas zonas de una ciudad. 
 
-\subsection{Algoritmo para calcular la ruta más segura y óptima \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en el año 2022. Este fue titulado \citetitle{pr_dehghani2018copper}.
+\subsection{Algoritmo para calcular la ruta más segura y óptima \citep*{pr_areiza}}
+\citeauthor{pr_areiza} realizaron un artículo de investigación el cual fue publicado en el año 2022. Este fue titulado \citetitle{pr_areiza}.
 
 \subsubsection{Planteamiento del Problema y objetivo }
 La creciente cifra de casos de acoso callejero en las calles de Medellín, así como casos de asaltos y violación, ha tenido como consecuencia que el miedo de las mujeres aumente y por ende, se sientan inseguras por cuál ruta tomar. A pesar de los distintos métodos de prevención, se menciona que no siempre son efectivos para evitar ser víctima de acoso en espacios públicos. Además, aplicaciones de generación de rutas para el transporte, como Google Maps o Waze, no cuentan con la capacidad de detectar rutas seguras, ya que es propio sistema de estas sólo calculan sus rutas en base a la distancia más corta. Este trabajo de investigación busca solucionar este problema implementando el algoritmo de Dijkstra, para calcular tres caminos diferentes tomando en cuenta la distancia y el índice de riesgo.
@@ -193,8 +193,8 @@ Se observa que en términos de evitar el mayor riesgo, la mejor opción es el te
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsection{Route-the safe: A robust model for safest route prediction using crime and accidental data \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado la entrevista en el año 2019. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Ruta segura: un modelo sólido para la predicción de rutas más seguras utilizando datos sobre delitos y accidentes».
+\subsection{Route-the safe: A robust model for safest route prediction using crime and accidental data \citep*{pr_Soni}}
+\citeauthor{pr_Soni} realizaron un artículo de investigación el cual fue publicado la entrevista en el año 2019. Este fue titulado \citetitle{pr_Soni} la cual traducida al español significa «Ruta segura: un modelo sólido para la predicción de rutas más seguras utilizando datos sobre delitos y accidentes».
 
 \subsubsection{Planteamiento del Problema y objetivo }
 La falta de conocimiento de la zona de una ciudad para un turista, así como invertir su tiempo en investigar sobre esta, puede crear una dependencia a sus conductores o pueden verse expuestas a ciertos peligros, como el robo de sus pertenencias. Asimismo, también se menciona la falta de capacidad que tienen las aplicaciones de rutas al momento de elegir un camino seguro. Con el objetivo de ser una herramienta de ayuda a la hora de elegir la ruta más segura para viajar, este proyecto  utiliza algoritmos de aprendizaje automático para la predicción de rutas seguras mediante el cálculo de puntuación de riesgo de cada ruta de las ciudad de Nueva York utilizando datos sobre delitos y accidentes.
@@ -277,8 +277,8 @@ Se establece un punto de origen A y un punto de destino B en el distrito de Manh
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\medskip
-\subsection{Real-time safest route identification: Examining the trade-off between safest and fastest routes \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la revista «Analytic methods in accident research» en el año 2023. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Identificación de la ruta más segura en tiempo real: examen de la relación entre las rutas más seguras y las más rápidas»..
+\subsection{Real-time safest route identification: Examining the trade-off between safest and fastest routes \citep*{pr_Ghoul}}
+\citeauthor{pr_Ghoul} realizaron un artículo de investigación el cual fue publicado en la revista «Analytic methods in accident research» en el año 2023. Este fue titulado \citetitle{pr_Ghoul} la cual traducida al español significa «Identificación de la ruta más segura en tiempo real: examen de la relación entre las rutas más seguras y las más rápidas»..
 
 \subsubsection{Planteamiento del Problema y objetivo }
 Este trabajo de investigación propone un nuevo enfoque de predicción de rutas seguras debido a la creciente congestión vehícular y accidentes, esto con el fin de mejorar el flujo vehícular  de un determinado sector utilizando datos en tiempo real para que se sincronice con el modelo y proporcionar avisos para que el usuario evite regiones congestionadas o que están expuestos a peligros en las carreteras. Tiene como objetivo desarrollar un algoritmo de enrutamiento en tiempo real bajo una métrica propuesta que combina el riesgo de accidentes con el tiempo de viaje a lo largo de diferentes puntos de una ruta.
@@ -310,8 +310,8 @@ Posterior al cálculo de la función de impedancia, se utiliza en el algoritmo D
 \subsubsection{Resultados obtenidos}
 Bajo la metodología propuesta, se encontró que el 23\% de las rutas más rápidas eran similares a las rutas más seguras. Además, la ruta más segura comparte en un 54\% los mismos enlaces que la ruta más rápida, existiendo un equilibrio entre seguridad y movilidad en distintos escenarios. Este trabajo de investigación aporta con un modelo de recomendación de rutas que presenta una buena eficacia en cuanto a cambios dinámicos en tiempo real en diferentes tipos de condiciones; sin embargo, para el cálculo de riesgo, depende de una percepción de seguridad más que la seguridad real, por lo que se recomienda que se establezca bajo su propia preferencia y prioridades, ya que es difícil cuantificar el riesgo real de un sector.
 
-\subsection{A reinforcement learning-based routing algorithm for large street networks. \citep*{pr_dehghani2018copper}}
-\citeauthor{pr_dehghani2018copper} realizaron un artículo de investigación el cual fue publicado en la « International Journal of Geographical Information Science» en el año 2024. Este fue titulado \citetitle{pr_dehghani2018copper} la cual traducida al español significa «Un algoritmo de enrutamiento basado en aprendizaje de refuerzo para grandes redes de calles».
+\subsection{A reinforcement learning-based routing algorithm for large street networks. \citep*{pr_diya}}
+\citeauthor{pr_diya} realizaron un artículo de investigación el cual fue publicado en la « International Journal of Geographical Information Science» en el año 2024. Este fue titulado \citetitle{pr_diya} la cual traducida al español significa «Un algoritmo de enrutamiento basado en aprendizaje de refuerzo para grandes redes de calles».
 
 \subsubsection{Planteamiento del Problema y objetivo }
 Ante la problemática de contar con sistemas de evacuación y rutas de emergencia para minimizar los daños ocasionados durante los desastres naturales, los algoritmos tradicionales de enrutamiento cuentan con problemas de escalavidiad cuándo estas se enfrentan a evacuaciones a gran escala que involucran a diferentes rutas, asimismo, la complejidad computacional de estos algoritmos puede aumentar a medida que crece y se vuelve más complejo un escenario de evacuación, llevando a tener largos tiempos de cáculos, además que trabajan con pocos parámetros que capturan la complejidad y dinamismo de las emergencias por inundaciones. Ante estas limitaciones y con las contribuciones recientes de algoritmos de aprendizaje por refuerzo profundo (DRL), se desarrolló un algoritmo de aprendizaje por refuerzo para mejorar la eficiencia de enrutamiento en una gran red de carrenteras en tiempo real, para lograr dicho objetivo, se entrenó dicho algoritmo en una supercomputadora FASTER, que maneja grandes redes de carreteras de una base de datos espacial.
