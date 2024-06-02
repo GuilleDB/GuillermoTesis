@@ -355,3 +355,46 @@ Se comparó con el método de Dijkstra y el algoritmo clásico de aprendiza por 
 	\end{center}
 \end{figure}
 %\medskip
+
+
+\subsection{An Enhanced Motif Graph Clustering-Based Deep Learning Approach for Traffic Forecasting \citep*{pr_zhang}}
+\citeauthor{pr_zhang} realizaron un artículo de investigación el cual fue publicado en el « GLOBECOM 2020 » en el año 2020. Este fue titulado \citetitle{pr_zhang} la cual traducida al español significa «Un enfoque de aprendizaje profundo basado en agrupamiento de gráficos de motivos mejorado para la previsión del tráfico».
+
+\subsubsection{Planteamiento del Problema y objetivo }
+Por la gran complejidad que existe para el logro de una predicción precisa, como es el gran tamaño y condiciones de redes de tráfico, los métodos de Aprendizaje Profundo basados en grafos ha sido una alternativa de solución en tendencia. Además, mientras más complejo sea las redes de tráfico, el rendimiento de los modelos de Graph Convolution Network (GCN) son cada vez más bajos. Para afrontar estos problemas, los autores del presente artículo proponen un enfoque basado en agrupamiento de grafos para aplicar un modelo de Spatio-Temporal Graph Convolutional Networks (STGCN) para la predicción de la velocidad de tráfico en lugares urbanos a gran escala.
+
+\subsubsection{Metodología empleada por los autores}
+La metodología propuesta empieza utilizando dos conjuntos de datos, el primer conjunto de datos pertenece a Nav-BJ y contiene datos de 1159 estaciones de sensores desplegadas en las diferentes carreteras de la ciudad de Beijing del mes de marzo de 2019, mientras que el segundo conjunto de datos pertenece a Caltrans Performace Measurement System (PeMS) que contiene 228 estaciones de sensores en el distrito 7 de California de los meses de mayo y junio de 2012. Luego se realiza un preprocesamiento de los datos, se realiza una normalización Z-Score y se aplica una interpolación lineal para la recuperación de datos faltantes. 
+
+Se utilizan otros tres enfoques del modelo propuesto EMGC-STGCN (agrupación de grafos), el primero es el modelo STGCN sin agrupación de grafos, el segundo es Random-STGCN, el cual utiliza el método de agrupación de grafos aleatorios, mientras que el último enfoque es Metis-STGCN que utiliza el método ingénuo de Metis. Para el entrenamiento del modelo propuesto, se necesita como parámetro las matrices de adyacencia de los dos conjuntos de datos y que representa el 60\% de estas; además, se utiliza el optimizador Adam durante 50 épocas. Luego se realiza el proceso de prueba del 20\% del conjunto de datos y por último el proceso de validación que representa el 20\%. 
+
+Se compara el modelo propuesto de los 3 enfoques distintos con los métodos de Promedio Histórico (HA) y ARIMA, así como el modelo GRU. Para esto, se hace uso de las métricas de Error Absoluto Medio (MAE), Error Porcentual Absoluto Medio (MAPE) y Raíz del Error Cuadrático Medio (RMSE).
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/CLUSTER.jpg}
+		\caption{Metodología EMGC-STGCN propuesta por los autores}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+\subsubsection{Resultados obtenidos}
+Mediante la comparación de los distintos módelos y métodos, se evidencia que el modelo propuesto es mejor que sus distintos enfoques, como también los métodos HA, ARIMA y el modelo GRU.
+ 
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/clusterRE1.jpg}
+		\caption{Resultados de modelos propuestos con el conjunto de datos Nav-BJ}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/clusterRE2.jpg}
+		\caption{Resultados de modelos propuestos con el conjunto de datos PeMS}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
