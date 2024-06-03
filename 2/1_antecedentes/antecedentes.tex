@@ -1,6 +1,5 @@
 En esta sección se presentarán diversos artículos de investigación o tesis las cuales abordarán diversas técnicas y enfoques que se emplearon para afrontar problemas similares al de esta tesis. Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{A:table}) de lo que se presenta en esta sección.
 
-
 \subsection{Real-time deep reinforcement learning based vehicle navigation \citep*{pr_koh}}
 \citeauthor{pr_koh} realizaron un artículo de investigación el cual fue publicado en la revista «Applied Soft Computing» en el año 2020. Este fue titulado \citetitle{pr_koh} la cual traducida al español significa «Navegación de vehículos basada en aprendizaje de refuerzo profundo en tiempo real».
 
@@ -78,12 +77,14 @@ De acuerdo a la metodología propuesta por los autores, la arquitectura se divid
 
 Se establece una función de recompensa para optimizar las múltiples preferencias del modelo, en este caso es evitar las áreas de crimen al crear una ruta. La definición de esta función se establece de la siguiente manera:
 %\medskip
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/EcuacSafe.jpg}
-	\end{center}
-\end{figure}
-
+\begin{equation} 
+r_{CRIME} = \left\{\begin{matrix}
+\frac{\frac{\sum _{i=1}^{n}\sum _{j=1}^{n}distance(x_{i},c_{ij})}{\sum _{i=1}^{n}number(c_{i})}}{length(p)},\;  if \: c\neq \O 
+ \\ 
+k,
+\end{matrix}\right.
+\end{equation}
+%\medskip
 Donde n es el número de bordes de cada camino, m es el número de delitos de cada nodo, x es la lista de puntos de cada camino, c es la lista de delitos de cada radio, p es el recorrido y k es un hiper parámetro.
 
 En la fase de entrenamiento, consta de dos partes, la primera es el pre entrenamiento de la red neuronal para detectar rutas más cortas, en este proceso se utilizan técnicas de aprendizaje por refuerzo, específicamente el algoritmo Monte Carlo Policy Gradient (REINFORCE) para que actualice los parámetros de la red neuronal. La segunda es el entrenamiento con recompensas, donde se entrena nuevamente a la red neuronal considerando la seguridad en cada ruta, premiandolo por evitar áreas con alto índice de crimen, el cuál es la función de recompensa, y de esta manera actualizando la política de la red neuronal.
@@ -213,7 +214,11 @@ Este trabajo de investigación presenta la siguiente metodología utilizada para
 Como primer paso de la metodología propuesta, se inicializa el mapa con el API de Google Maps, para luego proceder a configurar su función gmaps. Luego se cargan los datos, los cuáles contienen datos de delitos y accidentes desde el sitio web de datos abiertos de Nueva York, que brindan información del tipo de delito o accidente, así como su latitud y longitud. El siguiente paso se aplica al preprocesamiento de los datos para limpiar los datos atípicos o faltantes.
 Una vez realizado el preprocesamiento de los datos, se procede a etiquetar la puntuación de accidentes de un punto (AS) y la puntuación de delitos de un punto (CS). Para la puntuación de delitos se asigna ponderaciones que van desde 1 a 15 dependiendo del delito y tipo de castigo que se le impone al sospechoso. Mientras que la puntuación de accidentes se calcula de la siguiente manera:
 
-AS = PK*2 + CK*2 + MK*2 + PI + CI + MI
+%\medskip
+\begin{equation} 
+	AS = PK*2+CK*2+MK*2+PI+CI+MI
+\end{equation}
+%\medskip
 
 	Donde:
 
@@ -233,20 +238,21 @@ El siguiente paso es la formación de los grupos utilizando K Means, que es un a
 
 Después de hacer las agrupaciones de los grupos formados de un distrito, se realiza la puntuación promedio de cada agrupación, los cuáles se calculan de la siguiente manera:
 %\medskip
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.25\textwidth]{2/figures/agrupSafe.jpg}
-	\end{center}
-\end{figure}
+\begin{equation} 
+	C = \sum_{i = 1}^{N}\frac{C_{S}}{N}
+\end{equation}
+%\medskip
+\begin{equation} 
+	A = \sum_{i = 1}^{N}\frac{A_{S}}{N}
+\end{equation}
 %\medskip
 Donde N es el número de puntos de un grupo. Después se procede a calcular la puntuación del riesgo (RS) que toma como entrada el origen y destino de la ruta a calcular gracias al API de google maps llamado Direction Service,  que proporciona una serie de pasos al usuario para seguir la ruta. Luego se utiliza el modelo KNN Regresor para hallar el vecino más cercano según el grado de riesgo de cada punto. La puntuación de riesgo (RS) se calcula de la siguiente manera: 
 
+
 %\medskip
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.25\textwidth]{2/figures/riesgoSafe.jpg}
-	\end{center}
-\end{figure}
+\begin{equation} 
+	RS = \sum_{i=1}^{W}C_{S} + \sum_{i=1}^{W}A_{S}
+\end{equation}
 %\medskip
 
 Donde W es el número de puntos de rutas que hay entre el origen y el destino.
@@ -298,11 +304,11 @@ Se utiliza un conjunto de datos de código abierto llamado pNEUMA, de la ciudad 
 El modelo propuesto es un modelo de teoría de valores extremos (EVT), específicamente el modelo bayesiano jerárquico para estimar el riesgo de accidente de cada ubicación en tiempo real y se incorporan covariables para optimizar el rendimiento del modelo propuesto. Después de desarrollar el modelo bayesiano, se calcula el riesgo de colisión (ROC), que estima el número total de accidentes que se observan en una ubicación, también se calcula una métrica de tiempo de viaje para desarrollar una función de impedancia para realizar comparaciones entre los distintos nodos de una red de carreteras bajo un algoritmo de enrutamiento. Para el cálculo de la función de impedancia (S) es de la siguiente manera:
 
 %\medskip
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.35\textwidth]{2/figures/roc.jpg}
-	\end{center}
-\end{figure}
+
+\begin{equation} 
+	S_{t} = \sum_{i=1}^{n}ROC_{i,t}\times T\bar{T}_{i,t}
+\end{equation}
+
 %\medskip
 
 Posterior al cálculo de la función de impedancia, se utiliza en el algoritmo Dijkstra o el algoritmo A*. Después se desarrolla un algoritmo que elige la mejor ruta, el cuál identifica distintas rutas según la preferencia del usuario, tomando en cuenta tanto la seguridad como la movilidad.
@@ -398,3 +404,8 @@ Mediante la comparación de los distintos módelos y métodos, se evidencia que 
 	\end{center}
 \end{figure}
 %\medskip
+
+\subsection{Deep reinforcement learning meets graph neural networks: Exploring a routing optimization use case \citep*{ALMASAN}}
+\subsubsection{Planteamiento del Problema y objetivo }
+\subsubsection{Metodología empleada por los autores}
+\subsubsection{Resultados obtenidos}

@@ -1,10 +1,60 @@
-\subsection{Machine Learning}
- Es un subcampo de l]ecutar dificultosos procesos aprendiendo de datos, en lugar de seguir reglas preprogramadas \parencite{tec_royal2017machine}.
+%\subsection{Machine Learning}
+% Es un subcampo de l]ecutar dificultosos procesos aprendiendo de datos, en lugar de seguir reglas preprogramadas %\parencite{tec_royal2017machine}.
 
- es importante mencionar que existen también cinco tipos de problemas de aprendizaje que se pueden enfrentar: regresión, clasificación, simulación, optimización y clusterización \parencite{bk_gollapudi2016practical}. Por otro lado, el aprendizaje automático también posee una división por subcampos que se puede observar en la Figura 14.
+ %es importante mencionar que existen también cinco tipos de problemas de aprendizaje que se pueden enfrentar: regresión, clasificación, %simulación, optimización y clusterización \parencite{bk_gollapudi2016practical}. Por otro lado, el aprendizaje automático también posee una %división por subcampos que se puede observar en la Figura 14.
 %%Figura
- \subsection{Natural Language Processing (NLP)}
- Naturalmano \parencite{bk_goyal2018deep}. Otra definición para este término implica que es un campo especializado de la informática que es
+% \subsection{Natural Language Processing (NLP)}
+ %Naturalmano \parencite{bk_goyal2018deep}. Otra definición para este término implica que es un campo especializado de la informática que es
 
- De acuerdo con \citet{bk_goyal2018deep}, e
+ %De acuerdo con \citet{bk_goyal2018deep}, e
  
+\subsection{Inteligencia Artificial}
+
+\subsection{Aprendizaje Automático}
+\subsubsection{Aprendizaje Supervisado}
+\subsubsection{Aprendizaje No Supervisado}
+\subsubsection{Aprendizaje por Refuerzo}
+
+\subsection{Aprendizaje Profundo}
+Los algoritmos de aprendizaje profundo forman parte del aprendizaje automático, y los cuáles han tomado una mayor participación en los últimos años por la alta disponibilidad de grandes datos y los recursos computacionales potentes. Debido a que se cuenta con GPUs más rápidas para el entrenamiento de grandes modelos profundos, los algoritmos de Aprendizaje Profundo supera a los modelos tradicionales en múltiples aplicaciones, como el mejoramiento del rendimiento de modelos de reconocimiento de imágenes, redes neuronales convolucionales profundas al reducir la tasa de error, el rendimiento de sistemas de reconocimiento de voz el cual estuvo estancado varios años; y también aporta enormemente en el campo de la investigación del Procesamiento del Lenguaje Natural (NLP).
+
+\subsection{Aprendizaje Profundo por Refuerzo (DRL)}
+El Aprendizaje Profundo por Refuerzo o Deep Reinforcement Learning (DRL) es la combinación entre técnicas de Redes Neuronales Profundas con Aprendizaje por Refuerzo, esto tiene como beneficio la interacción de forma iterativa en un entorno para tomar decisiones que busquen maximizar una función de recompensas para encontrar estrategias más sofisticadas (https://www.geeksforgeeks.org/a-beginners-guide-to-deep-reinforcement-learning/). El Aprendizaje Profundo por Refuerzo es un paso importante en la evolución del aprendizaje de las máquinas que toma la decisión más beneficiosa y que utiliza esa decisión en escenarios futuros (https://www.iic.uam.es/aprendizaje-profundo-por-refuerzo/).
+
+ Un modelo de Aprendizaje Profundo por refuerzo está conformado por un agente, el cual es el que aprende las reglas a seguir y toma decisiones mediante la interacción con el entorno utilizando técnicas de Redes Neuronales Profundas.  Se menciona, además, que el DRL está basado en Q-learning, componentes de políticas para que se diriga las decisiones del agente, conceptos claves como lo son la función de valor que calcula las recompensas, las cuales son una señal que muestra el entorno sobre la acción deseada para que el agente cambie el estado de la situación actual del entorno. Son ampliamente utilizados en los sistemas de navegación, tratamientos médicos como la recomendación de medicamentes, perfeccionar los diseños de materiales con el fin de aumentar su efectividad y la personalización del entorno de eCommerce según los gustos de cada cliente (https://www.iic.uam.es/aprendizaje-profundo-por-refuerzo/).
+Con lo que respecta a los sistemas de navegación, se aplican tecnologías de información avanzadas para hacer frente al problema del control adaptativo de las señales de tráfico. Existen muchas investigaciones y propuestas como un enfoque que realiza simulaciones con datos de tráfico reales de la ciudad de Toronto, donde los agentes se coordinan mediante intersecciones vecinas. También la integración de un algoritmo de Aprendizaje por Refuerzo multiagente para enfrentar a los desafíos de estacionariedad y dimensionalidad en el control adaptativo de las señales de tráfico (https://arxiv.org/pdf/1701.07274).
+
+\subsubsection{Deep Q-Network (DQN)}
+Para que el modelo de Aprendizaje Profundo por Refuerzo pueda aprender, es fundamental tener una función de valor. Esta función está presente en las arquitecturas DQN, la cuál nace en el año 2015 por DeepMind (https://arxiv.org/pdf/1701.07274). Este algoritmo es creado por la necesidad de afrontar la inestabilidad de aprendizaje de la combinación de RL con redes neuronales, ya que almacena todo lo aprendido por el agente y luego lo reproduce aleatoriamente para proporcionar datos de entrenamiento diverso y des correlacionados. Este algoritmo ha presentado varios avances, estabilizando la dinámica de aprendizaje, priorizando las experiencias que ya han sido aprendidas o también conocidas como Experience Replay, además de normalizar, agregar y reescalar los resultados (https://deepmind.google/discover/blog/deep-reinforcement-learning/). 
+
+\subsubsection{Política}
+
+Una política es aquella que busca un mapeo óptimo en las acciones realizadas por los estados. Uno de los algoritmos de una política es el algoritmo de actor-crítico que aprende una función de valor de estado para actualizarlo a partir de estimaciones posteriores para reducir la varianza y acelerar el aprendizaje. Además de esto, en el campo de Aprendizaje por Refuerzo y Aprendizaje Profundo por Refuerzo, se tiene un enfoque en el gradiente de política y su optimización, donde el método más popular es el REINFORCE, que en comparación al Q-learning que es más eficiente en el uso de los datos, este tiende a ser más estable. Existen también otras gradientes que son eficientes en situaciones donde las acciones son continuas, una de estas gradientes es la Gradiente de Política Determinista (DPG), el cual se basa en la estimación de la gradiente de la función de valor de acción, siendo más eficiente que los métodos estocásticos de gradiente de política, además, utiliza Redes Neuronales Profundas para una mayor estabilidad del modelo de aprendizaje.
+
+Para la optimización de las políticas, se utiliza el método Trust Region Policy Optimization (TRPO), que controla las actualizaciones de la política mediante la restricción de región de confianza, mejorando la estabilidad del modelo y la eficiencia computacional (https://arxiv.org/pdf/1701.07274). 
+
+\subsubsection{Recompensa}
+Las recompensas son las que proporcionan una retroalimentación al agente para la toma de decisiones. Esta recompensa es calculada mediante una función que es modificada para facilitar el aprendizaje mientras se obtiene una política óptima. Sin embargo, estas funciones de recompensas no suelen estar presente en mucho de los problemas, por lo que se recurre al aprendizaje por imitación, donde el agente aprende mediante demostraciones de expertos (https://arxiv.org/pdf/1701.07274). Este tipo de aprendizaje tiene dos enfoques los cuáles son:
+
+•	Deep Q-learning from Demonstrations (DQfD): Este enfoque combina pérdidas por diferencia temporal (TD), supervisadas y regularizadas. Es entrenado a partir de datos de demostración con el fin de establecer una función de valor y así generar sus propias muestras para el entrenamiento del modelo.
+
+•	Inverse Reinforcement Learning (IRL): Permite aprender políticas a partir de los datos, evitando aprender una función de recompensa.
+
+
+\subsubsection{Modelo y Planificación}
+El entorno es un modelo que incluye el modelo de transición y un modelo de recompensa, este enfoque de Aprendizaje por Refuerzo basados en Modelos puede aprender de manera eficiente la función de valor y política, teniendo una ventaja al Aprendizaje por Refuerzo sin modelo, ya que no requiere de un gran número de muestras; sin embargo, puede tener problemas a la hora de identificar los modelos estimados y teniendo como resultado que no sean precisos o que el rendimiento sea limitado. Para hacer frente a este problema, la planificación construye una función de valor o una política en base a un modelo (https://arxiv.org/pdf/1701.07274).
+
+\subsubsection{Exploracion}
+Para reducir la incertidumbre sobre la función de recompensa y las probabilidades del entorno, el agente utiliza la exploración como principal herramienta de apoyo. La incertidumbre se puede cuantificar como intervalos de confianza o los propios parámetros del entorno relacionados con el recorrido de estado-acción. Existe más de un enfoque de exploración, como lo es la exploración basada en recuentos de recorridos para guiar el comportamiento del agente con el fin de reducir la incertidumbre, también está el enfoque de la motivación intrínseca que explora solo lo que es más sorprendente en un proceso de aprendizaje basado en los cambios en el error de la predicción (https://arxiv.org/pdf/1701.07274).
+
+\subsection{Fundamentos de grafos}
+Los grafos son la representación que existe en la relación entre entidades, y que están presentes en varios campos como las ciencias sociales, química, biología y física. Un ejemplo de estos grafos en el campo de la química son los compuestos químicos, en donde los átomos representan los nodos y los enlaces químicos representan las aristas.
+
+Un grafo puede ser denotado como G = \{V, E\}, donde V = \{v1, . . ., vN\} es un conjunto de N = |V| nodos y E = \{e1, . . ., eM\} es un conjunto de M aristas, además, G representa el tamaño que tiene el grafo. Un aspecto esencial en los grafos son los nodos, los cuales representan a las entidades mientras que el conjunto de aristas representa las conexiones que existen entre los nodos. 
+
+
+
+\subsection{Métodos de Redes Neuronales Profundas basadas en Grafos}
+\subsubsection{Graph Neural Networks}
+\subsubsection{Robust Graph Neural Networks}
+\subsubsection{Scalable Graph Neural Networks}

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,799 +18,1432 @@
 
 
 \refsection{0}
-  \datalist[entry]{apa/global//global/global}
-    \entry{pr_akita2016deep}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=bb1c6bbcc8a0592a7c2cc483d5c3b5ec}{%
-           family={Akita},
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{ALMASAN}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5b2c7ede60ef4a01357b43c9d5781749}{%
+           family={Almasan},
            familyi={A\bibinitperiod},
-           given={Ryo},
-           giveni={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=95579c566c4dff427c91c01bef5ac0a9}{%
-           family={Yoshihara},
-           familyi={Y\bibinitperiod},
-           given={Akira},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=82a7071a6c224375b0dd7314d752b05e}{%
+           family={Suárez-Varela},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=5e274388763fb2deb9f78659d85341b3}{%
-           family={Matsubara},
-           familyi={M\bibinitperiod},
-           given={Takashi},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6a5f8c6a5957757638ac13cdd32d69a9}{%
-           family={Uehara},
-           familyi={U\bibinitperiod},
-           given={Kuniaki},
+        {{un=0,uniquepart=base,hash=0f4868314726ad37e3ff6269c6f0de9c}{%
+           family={Rusek},
+           familyi={R\bibinitperiod},
+           given={Krzysztof},
            giveni={K\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=a830dfe56b3e48f80409684baf89f0aa}{%
+           family={Barlet-Ros},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={Pere},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5ebe55c68663d7c097ff835e0511e76}{%
+           family={Cabellos-Aparicio},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{1bf8403b964a45cae534191520658830}
-      \strng{fullhash}{397c7a26946278733a391f73c104686a}
-      \strng{bibnamehash}{397c7a26946278733a391f73c104686a}
-      \strng{authorbibnamehash}{397c7a26946278733a391f73c104686a}
-      \strng{authornamehash}{1bf8403b964a45cae534191520658830}
-      \strng{authorfullhash}{397c7a26946278733a391f73c104686a}
+      \strng{namehash}{16805369059671726acf24b15926cb77}
+      \strng{fullhash}{13ace533422e251bfbf7b8ceff7cf889}
+      \strng{bibnamehash}{13ace533422e251bfbf7b8ceff7cf889}
+      \strng{authorbibnamehash}{13ace533422e251bfbf7b8ceff7cf889}
+      \strng{authornamehash}{16805369059671726acf24b15926cb77}
+      \strng{authorfullhash}{13ace533422e251bfbf7b8ceff7cf889}
       \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2016 IEEE/ACIS 15th International Conference on Computer and Information Science (ICIS)}
-      \field{title}{Deep learning for stock prediction using numerical and textual information}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 6}
-      \range{pages}{6}
+      \field{issn}{0140-3664}
+      \field{journaltitle}{Computer Communications}
+      \field{title}{Deep reinforcement learning meets graph neural networks: Exploring a routing optimization use case}
+      \field{volume}{196}
+      \field{year}{2022}
+      \field{pages}{184\bibrangedash 194}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.comcom.2022.09.029
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0140366422003784
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0140366422003784
+      \endverb
     \endentry
-    \entry{pr_cortez2018alternative}{article}{}
+    \entry{pr_areiza}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=570e0566a06d510999425e2251297f79}{%
-           family={Cortez},
-           familyi={C\bibinitperiod},
-           given={CA\bibnamedelima Tapia},
-           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f43c23e3813ad7903c5e95654b0478b6}{%
-           family={Saydam},
-           familyi={S\bibinitperiod},
-           given={S},
+        {{un=0,uniquepart=base,hash=5c946dca5f6bef5291d6f3ca216af46c}{%
+           family={Areiza},
+           familyi={A\bibinitperiod},
+           given={Samuel},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=cc82c413d7a39af31599b542865c1f8a}{%
-           family={Coulton},
+        {{un=0,uniquepart=base,hash=3bc128f349e56709135cc5ceb856460c}{%
+           family={Cano},
            familyi={C\bibinitperiod},
-           given={J},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1e0aba4276fa951354675e709f85042}{%
+           family={Serna},
+           familyi={S\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be263a11cc4af237df3330155ffe0818}{%
+           family={Riascos},
+           familyi={R\bibinitperiod},
+           given={Jaime},
            giveni={J\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f411145dbcf686463265acb8bc106a85}{%
-           family={Sammut},
+      }
+      \list{publisher}{1}{%
+        {OSF}%
+      }
+      \strng{namehash}{2b6e447909f6b87387a1fbf70b1d5ab0}
+      \strng{fullhash}{86e18ff35eb8dee511befc79c1626fa2}
+      \strng{bibnamehash}{86e18ff35eb8dee511befc79c1626fa2}
+      \strng{authorbibnamehash}{86e18ff35eb8dee511befc79c1626fa2}
+      \strng{authornamehash}{2b6e447909f6b87387a1fbf70b1d5ab0}
+      \strng{authorfullhash}{86e18ff35eb8dee511befc79c1626fa2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ALGORITMO PARA CALCULAR LA RUTA MÁS SEGURA Y ÓPTIMA.}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.31219/osf.io/wd73v
+      \endverb
+      \verb{urlraw}
+      \verb https://osf.io/preprints/osf/wd73v
+      \endverb
+      \verb{url}
+      \verb https://osf.io/preprints/osf/wd73v
+      \endverb
+    \endentry
+    \entry{cu_track}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8881cbdb94c4b33ebb518421c90bdc6b}{%
+           family={Castillo},
+           familyi={C\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{fullhash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{bibnamehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{authorbibnamehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{authornamehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{authorfullhash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robo de autos en Perú: ¿Cuántos autos se roban al día?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.tracklink.pe/contenido/blog/robo-de-autos-peru-cuantos-autos-roban-dia/
+      \endverb
+      \verb{url}
+      \verb https://www.tracklink.pe/contenido/blog/robo-de-autos-peru-cuantos-autos-roban-dia/
+      \endverb
+    \endentry
+    \entry{cu_ceplan}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10e9c0cebd66a1160e08f73a90b4f832}{%
+           family={{CEPLAN}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Perú}%
+      }
+      \strng{namehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{fullhash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{bibnamehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{authorbibnamehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{authornamehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{authorfullhash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Análisis del crecimiento y expansión urbana a nivel nacional y el impacto a nivel regional}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://geo.ceplan.gob.pe/uploads/Analisis_crecimiento_expansion_urbana.pdf
+      \endverb
+      \verb{url}
+      \verb https://geo.ceplan.gob.pe/uploads/Analisis_crecimiento_expansion_urbana.pdf
+      \endverb
+    \endentry
+    \entry{pr_esquivel}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9c1ab9678f0267c47b44b29c20b10c40}{%
+           family={Esquivel},
+           familyi={E\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12ee3702cd86b72bc31020bd8ea604ce}{%
+           family={Nicolis},
+           familyi={N\bibinitperiod},
+           given={Orietta},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d57a303e760736df9ead915cb1452478}{%
+           family={Márquez},
+           familyi={M\bibinitperiod},
+           given={Billy\bibnamedelima Peralta},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8b11fa7a2abcb126060ac86b7905f2e}
+      \strng{fullhash}{fd77511813f2042e944bf3595a4b4087}
+      \strng{bibnamehash}{fd77511813f2042e944bf3595a4b4087}
+      \strng{authorbibnamehash}{fd77511813f2042e944bf3595a4b4087}
+      \strng{authornamehash}{a8b11fa7a2abcb126060ac86b7905f2e}
+      \strng{authorfullhash}{fd77511813f2042e944bf3595a4b4087}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 39th International Conference of the Chilean Computer Science Society (SCCC)}
+      \field{title}{Predicting Motor Vehicle Theft in Santiago de Chile using Graph-Convolutional LSTM}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/SCCC51225.2020.9281174
+      \endverb
+    \endentry
+    \entry{pr_Ghoul}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7ab2b4ddb28625b38eaf5af5534fcf97}{%
+           family={Ghoul},
+           familyi={G\bibinitperiod},
+           given={Tarek},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90ecd88a1e70ab5b67dce50413838476}{%
+           family={Sayed},
            familyi={S\bibinitperiod},
-           given={C},
+           given={Tarek},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0d944fba0e64d98ce8fa4837b82dd07}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Chuanyun},
            giveni={C\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{2d8b867059e9bf303fc79ad0ff03b24e}
-      \strng{fullhash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \strng{bibnamehash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \strng{authorbibnamehash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \strng{authornamehash}{2d8b867059e9bf303fc79ad0ff03b24e}
-      \strng{authorfullhash}{a1eb3bd8e29ba70f693be3c65655b237}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Mining Science and Technology}
-      \field{number}{2}
-      \field{title}{Alternative techniques for forecasting mineral commodity prices}
-      \field{volume}{28}
-      \field{year}{2018}
-      \field{pages}{309\bibrangedash 322}
-      \range{pages}{14}
-    \endentry
-    \entry{pr_dehghani2018copper}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=a79057a4a538b301e4d449684b45f3e4}{%
-           family={Dehghani},
-           familyi={D\bibinitperiod},
-           given={Hesam},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ed564004c869e4a67bd96ae114cc737}{%
-           family={Bogdanovic},
-           familyi={B\bibinitperiod},
-           given={Dejan},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{fullhash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{bibnamehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{authorbibnamehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{authornamehash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \strng{authorfullhash}{d8757c6a136b4dc64fc113b42ac76bb6}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Resources Policy}
-      \field{title}{Copper price estimation using bat algorithm}
-      \field{volume}{55}
-      \field{year}{2018}
-      \field{pages}{55\bibrangedash 61}
-      \range{pages}{7}
-    \endentry
-    \entry{gl_gartner}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
-           family={{Gartner}},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{fullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{bibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{authorbibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{authornamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
-      \strng{authorfullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{namehash}{480b3cf172e1533c1a0ad2564d56450c}
+      \strng{fullhash}{5060b0f007a587ade2927d8959e82379}
+      \strng{bibnamehash}{5060b0f007a587ade2927d8959e82379}
+      \strng{authorbibnamehash}{5060b0f007a587ade2927d8959e82379}
+      \strng{authornamehash}{480b3cf172e1533c1a0ad2564d56450c}
+      \strng{authorfullhash}{5060b0f007a587ade2927d8959e82379}
       \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Gartner IT Glossary}
-      \field{year}{2019}
+      \field{issn}{2213-6657}
+      \field{journaltitle}{Analytic Methods in Accident Research}
+      \field{title}{Real-time safest route identification: Examining the trade-off between safest and fastest routes}
+      \field{volume}{39}
+      \field{year}{2023}
+      \field{pages}{100277}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.amar.2023.100277
+      \endverb
       \verb{urlraw}
-      \verb https://www.gartner.com/it-glossary/
+      \verb https://www.sciencedirect.com/science/article/pii/S221366572300012X
       \endverb
       \verb{url}
-      \verb https://www.gartner.com/it-glossary/
+      \verb https://www.sciencedirect.com/science/article/pii/S221366572300012X
       \endverb
     \endentry
-    \entry{bk_gollapudi2016practical}{book}{}
+    \entry{cu_luishernan}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=732dd6fd2d43965a8359b40cfae167b3}{%
-           family={Gollapudi},
-           familyi={G\bibinitperiod},
-           given={Sunila},
-           giveni={S\bibinitperiod},
+        {{un=0,uniquepart=base,hash=2bd0004f247ee40d26f5c21698b3e5f7}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Packt Publishing Ltd}%
-      }
-      \strng{namehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{fullhash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{bibnamehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{authorbibnamehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{authornamehash}{732dd6fd2d43965a8359b40cfae167b3}
-      \strng{authorfullhash}{732dd6fd2d43965a8359b40cfae167b3}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \strng{namehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{fullhash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{bibnamehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{authorbibnamehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{authornamehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{authorfullhash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Practical machine learning}
-      \field{year}{2016}
+      \field{title}{¿Cuántos usuarios consultan Waze mensualmente?}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
+      \endverb
+      \verb{url}
+      \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
+      \endverb
     \endentry
-    \entry{bk_goyal2018deep}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=616affab8b6c99cb76ff4625b67efef9}{%
-           family={Goyal},
-           familyi={G\bibinitperiod},
-           given={Palash},
+    \entry{pr_koh}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=c1cf54c361551bac074a30b86192e799}{%
+           family={Koh},
+           familyi={K\bibinitperiod},
+           given={Songsang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78b85e16af77a1b542f32ece926f004b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c48da23df6ee220857f7e0b31a26b42}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72fc0ee82590c0f3f6ebbad2f840ff5e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Po},
            giveni={P\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bb7c80c0939ae6342738d051ce00ac27}{%
-           family={Pandey},
-           familyi={P\bibinitperiod},
-           given={Sumit},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a27a40d29f28ebbfe7759e9a74a68d4a}{%
-           family={Jain},
-           familyi={J\bibinitperiod},
-           given={Karan},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{d833b007bce49063c50fab58207c842e}
-      \strng{fullhash}{5809eb6f0eb2e846bdfa34973999416c}
-      \strng{bibnamehash}{5809eb6f0eb2e846bdfa34973999416c}
-      \strng{authorbibnamehash}{5809eb6f0eb2e846bdfa34973999416c}
-      \strng{authornamehash}{d833b007bce49063c50fab58207c842e}
-      \strng{authorfullhash}{5809eb6f0eb2e846bdfa34973999416c}
-      \field{sortinit}{G}
-      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Deep Learning for Natural Language Processing: Creating Neural Networks with Python [Berkeley, CA]: Apress}
-      \field{title}{Deep learning for natural language processing}
-      \field{year}{2018}
-      \field{pages}{138\bibrangedash 143}
-      \range{pages}{6}
-    \endentry
-    \entry{gl_ibm}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
-           family={{IBM}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
-      \field{sortinit}{I}
-      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{IBM AI glossary}
-      \field{year}{2019}
-      \verb{urlraw}
-      \verb https://www.ibm.com/cloud/garage/architectures/cognitiveArchitecture/glossary
-      \endverb
-      \verb{url}
-      \verb https://www.ibm.com/cloud/garage/architectures/cognitiveArchitecture/glossary
-      \endverb
-    \endentry
-    \entry{pr_jingrui2017method}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=9db23e38f05aa05b03f5023b7535b889}{%
-           family={Jingrui},
-           familyi={J\bibinitperiod},
-           given={Zhu},
+        {{un=0,uniquepart=base,hash=d743afce8048601fddb5b8b707770c60}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zaili},
            giveni={Z\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=559b1c2a45aa4351d71c13f97c2341c3}{%
-           family={Qinglin},
-           familyi={Q\bibinitperiod},
-           given={Wang},
+        {{un=0,uniquepart=base,hash=55242d2a60270145342841e4d4238da0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e9c1f340bdccbd849774082be9ebdd6}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60ba466a5964b5a8f35fccc2e057edf3}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Zhigang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83e5d70383c55ba3774c189198ebb6c7}
+      \strng{fullhash}{207679c528a40bfd876a3c005f95a736}
+      \strng{bibnamehash}{207679c528a40bfd876a3c005f95a736}
+      \strng{authorbibnamehash}{207679c528a40bfd876a3c005f95a736}
+      \strng{authornamehash}{83e5d70383c55ba3774c189198ebb6c7}
+      \strng{authorfullhash}{207679c528a40bfd876a3c005f95a736}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1568-4946}
+      \field{journaltitle}{Applied Soft Computing}
+      \field{title}{Real-time deep reinforcement learning based vehicle navigation}
+      \field{volume}{96}
+      \field{year}{2020}
+      \field{pages}{106694}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.asoc.2020.106694
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1568494620306323
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1568494620306323
+      \endverb
+    \endentry
+    \entry{pr_saferoute}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e209f3ce01183f7a919ab168005ba740}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebf728d4edd3772aa46233df8265003e}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wenhan},
            giveni={W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=72f7267bcbd45fb398fd901ee119d434}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Liu},
-           giveni={L\bibinitperiod},
+        {{un=0,uniquepart=base,hash=184e2deb7bd258cf0199fca5430c559b}{%
+           family={Belding},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=218fa32d4e65e6f95699163d9632ea2b}{%
-           family={Yuan},
-           familyi={Y\bibinitperiod},
-           given={Li},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{6958111ca6741f74542e7aa9cc923a41}
-      \strng{fullhash}{9b5f812f46764ee95f1c518a84234a53}
-      \strng{bibnamehash}{9b5f812f46764ee95f1c518a84234a53}
-      \strng{authorbibnamehash}{9b5f812f46764ee95f1c518a84234a53}
-      \strng{authornamehash}{6958111ca6741f74542e7aa9cc923a41}
-      \strng{authorfullhash}{9b5f812f46764ee95f1c518a84234a53}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2017 32nd Youth Academic Annual Conference of Chinese Association of Automation (YAC)}
-      \field{title}{A method of optimizing LDA result purity based on semantic similarity}
-      \field{year}{2017}
-      \field{pages}{361\bibrangedash 365}
-      \range{pages}{5}
-    \endentry
-    \entry{bk_kulkarni2019exploring}{inbook}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=05575118ed7fc830c5b5b209e84a695c}{%
-           family={Kulkarni},
-           familyi={K\bibinitperiod},
-           given={Akshay},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e11ecea52f77db0640dc312da99892d2}{%
-           family={Shivananda},
-           familyi={S\bibinitperiod},
-           given={Adarsha},
-           giveni={A\bibinitperiod},
+        {{un=0,uniquepart=base,hash=f547ec885594e76da25ad82058ba8850}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {Springer}%
+        {Association for Computing Machinery}%
       }
-      \strng{namehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{fullhash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{bibnamehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{authorbibnamehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{authornamehash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \strng{authorfullhash}{c7c203174a8573aff4f2988b3ec3c1d9}
-      \field{sortinit}{K}
-      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Natural Language Processing Recipes}
-      \field{title}{Exploring and Processing Text Data}
-      \field{year}{2019}
-      \field{pages}{37\bibrangedash 65}
-      \range{pages}{29}
-    \endentry
-    \entry{cu_lagos2017proyectar}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdf883aee6647618616c58f2c0fca8b4}{%
-           family={Lagos},
-           familyi={L\bibinitperiod},
-           given={Gustavo},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Chile}%
-      }
-      \strng{namehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{fullhash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{bibnamehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{authorbibnamehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{authornamehash}{bdf883aee6647618616c58f2c0fca8b4}
-      \strng{authorfullhash}{bdf883aee6647618616c58f2c0fca8b4}
+      \strng{namehash}{f55822e1c2ef0bfff43afa4965485858}
+      \strng{fullhash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \strng{bibnamehash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \strng{authorbibnamehash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \strng{authornamehash}{f55822e1c2ef0bfff43afa4965485858}
+      \strng{authorfullhash}{1b8b8a1e4c708a58fd2b0b1088fee218}
       \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{10}
-      \field{title}{¿Cómo lo han hecho los especialistas?: aciertos y desaciertos al proyectar el precio del cobre}
-      \field{year}{2017}
+      \field{issn}{2157-6904}
+      \field{journaltitle}{ACM Trans. Intell. Syst. Technol.}
+      \field{number}{6}
+      \field{title}{SafeRoute: Learning to Navigate Streets Safely in an Urban Environment}
+      \field{volume}{11}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3402818
+      \endverb
       \verb{urlraw}
-      \verb https://gyn.claseejecutiva.uc.cl/como-lo-han-hecho-los-especialistas-aciertos-y-desaciertos-al-proyectar-el-precio-del-cobre/#
+      \verb https://doi.org/10.1145/3402818
       \endverb
       \verb{url}
-      \verb https://gyn.claseejecutiva.uc.cl/como-lo-han-hecho-los-especialistas-aciertos-y-desaciertos-al-proyectar-el-precio-del-cobre/#
+      \verb https://doi.org/10.1145/3402818
       \endverb
     \endentry
-    \entry{ot_marti2018manual}{misc}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=da5c77996fdec5282c9630a2ee8e9462}{%
-           family={Martínez},
-           familyi={M\bibinitperiod},
-           given={Rodrigo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a18c5255b04644441fe3227dc150ff56}{%
-           family={Cohen},
-           familyi={C\bibinitperiod},
-           given={Ernesto},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{80018f213719015851f07775c3f127b6}
-      \strng{fullhash}{80018f213719015851f07775c3f127b6}
-      \strng{bibnamehash}{80018f213719015851f07775c3f127b6}
-      \strng{authorbibnamehash}{80018f213719015851f07775c3f127b6}
-      \strng{authornamehash}{80018f213719015851f07775c3f127b6}
-      \strng{authorfullhash}{80018f213719015851f07775c3f127b6}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Manual formulación, evaluación y monitoreo de proyectos sociales}
-      \field{year}{2018}
-      \field{pages}{114\bibrangedash 121}
-      \range{pages}{8}
-      \verb{urlraw}
-      \verb https://dds.cepal.org/redesoc/publicacion?id=242
-      \endverb
-      \verb{url}
-      \verb https://dds.cepal.org/redesoc/publicacion?id=242
-      \endverb
-    \endentry
-    \entry{cu_ministerioPeru_statsminas}{report}{}
+    \entry{tec_PPIC}{report}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7cb288ff12d12edb0ee4de2b1e4be870}{%
-           family={{Ministerio de Energía y Minas (ESTAMIN)}},
+        {{un=0,uniquepart=base,hash=9da6ae34bd4d09c6b704fa6de0a8ec28}{%
+           family={{Magnus Lofstrom, Brandon Martin}},
            familyi={M\bibinitperiod}}}%
       }
-      \strng{namehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{fullhash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{bibnamehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{authorbibnamehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{authornamehash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \strng{authorfullhash}{7cb288ff12d12edb0ee4de2b1e4be870}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{2}
-      \field{title}{Perú: país líder de los metales del futuro}
-      \field{type}{Boletín Estadistico Minero}
-      \field{year}{2019}
-    \endentry
-    \entry{pr_rao2015qualitative}{inproceedings}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=5087bf21561deec6d5448fc17fb14813}{%
-           family={Rao},
-           familyi={R\bibinitperiod},
-           given={Dongning},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5049159700f066d76e53238a585694a7}{%
-           family={Deng},
-           familyi={D\bibinitperiod},
-           given={Fudong},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=04ec368ffe65024a2967a645a0958931}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Zhihua},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6128b0977ac21c043fda87cb3411bf94}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Gansen},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{569f017624035beafcd1a494cc88b899}
-      \strng{fullhash}{16988f50f14e70ec7aa203709d2b2dab}
-      \strng{bibnamehash}{16988f50f14e70ec7aa203709d2b2dab}
-      \strng{authorbibnamehash}{16988f50f14e70ec7aa203709d2b2dab}
-      \strng{authornamehash}{569f017624035beafcd1a494cc88b899}
-      \strng{authorfullhash}{16988f50f14e70ec7aa203709d2b2dab}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2015 7th International Conference on Intelligent Human-Machine Systems and Cybernetics}
-      \field{title}{Qualitative Stock Market Predicting with Common Knowledge Based Nature Language Processing: A Unified View and Procedure}
-      \field{volume}{2}
-      \field{year}{2015}
-      \field{pages}{381\bibrangedash 384}
-      \range{pages}{4}
-    \endentry
-    \entry{gl_rae}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b397d66b02476457c3703cb2d7051bea}{%
-           family={{Real Academia Española}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{fullhash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{bibnamehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{authorbibnamehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{authornamehash}{b397d66b02476457c3703cb2d7051bea}
-      \strng{authorfullhash}{b397d66b02476457c3703cb2d7051bea}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{Twenty-third}
-      \field{title}{Diccionario de la lengua española}
-      \field{year}{2014}
-      \verb{urlraw}
-      \verb https://dle.rae.es/?w=diccionario
-      \endverb
-      \verb{url}
-      \verb https://dle.rae.es/?w=diccionario
-      \endverb
-    \endentry
-    \entry{tec_royal2017machine}{report}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=66805d426cdbc3e8bf7d42f3762e12bb}{%
-           family={{Royal Society Working Group}},
-           familyi={R\bibinitperiod}}}%
-      }
       \list{institution}{1}{%
-        {Technical report}%
+        {PPIC}%
       }
-      \strng{namehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{fullhash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{bibnamehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{authorbibnamehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{authornamehash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \strng{authorfullhash}{66805d426cdbc3e8bf7d42f3762e12bb}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \strng{namehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{fullhash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{bibnamehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{authorbibnamehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{authornamehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{authorfullhash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Machine learning: the power and promise of computers that learn by example}
+      \field{title}{Tendencias del Crimen en California}
       \field{type}{techreport}
-      \field{year}{2017}
+      \field{year}{2023}
     \endentry
-    \entry{cu_internationalcopper2018}{misc}{}
+    \entry{cu_infobae}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=241c2eb42acf2fad54c04f0787a478bf}{%
-           family={{Study Group International Copper}},
-           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=53b35d56cf409da246bcaf51f32d1103}{%
+           family={Melo},
+           familyi={M\bibinitperiod},
+           given={Yenny},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{fullhash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{bibnamehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{authorbibnamehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{authornamehash}{241c2eb42acf2fad54c04f0787a478bf}
-      \strng{authorfullhash}{241c2eb42acf2fad54c04f0787a478bf}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \strng{namehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{fullhash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{bibnamehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{authorbibnamehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{authornamehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{authorfullhash}{53b35d56cf409da246bcaf51f32d1103}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{The World Copper Factbook 2018}
-      \field{year}{2018}
+      \field{title}{Este es el día que más robos de celulares se registraron en el 2023, según reporte de Osiptel}
+      \field{year}{2024}
       \verb{urlraw}
-      \verb www.icsg.org
+      \verb https://www.infobae.com/peru/2024/02/05/este-es-el-dia-que-mas-robos-de-celulares-se-registraron-en-el-2023-segun-reporte-de-osiptel/
       \endverb
       \verb{url}
-      \verb www.icsg.org
+      \verb https://www.infobae.com/peru/2024/02/05/este-es-el-dia-que-mas-robos-de-celulares-se-registraron-en-el-2023-segun-reporte-de-osiptel/
       \endverb
     \endentry
-    \entry{tec_vectorwords_tensorflow}{misc}{}
+    \entry{cu_numbeo2023}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=074dd699710da0ec1eb45f13b31788e3}{%
-           family={{TensorFlow}},
-           familyi={T\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=24a212d24710432c7fb7b249be21b32d}{%
+           family={{Numbeo}},
+           familyi={N\bibinitperiod}}}%
       }
-      \strng{namehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{fullhash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{bibnamehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{authorbibnamehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{authornamehash}{074dd699710da0ec1eb45f13b31788e3}
-      \strng{authorfullhash}{074dd699710da0ec1eb45f13b31788e3}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \strng{namehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{fullhash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{bibnamehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{authorbibnamehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{authornamehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{authorfullhash}{24a212d24710432c7fb7b249be21b32d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Vector Representations of Words}
-      \field{year}{2019}
+      \field{title}{América: Índice de Criminalidad 2023}
+      \field{year}{2023}
       \verb{urlraw}
-      \verb https://www.tensorflow.org/tutorials/representation/word2vec
+      \verb https://es.numbeo.com/criminalidad/clasificaciones-por-regi\%C3\%B3n?region=019\&title=2023
       \endverb
       \verb{url}
-      \verb https://www.tensorflow.org/tutorials/representation/word2vec
+      \verb https://es.numbeo.com/criminalidad/clasificaciones-por-regi%5C%C3%5C%B3n?region=019%5C&title=2023
       \endverb
     \endentry
-    \entry{pr_tipirisetty2018stock}{thesis}{}
+    \entry{cu_amcha}{misc}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1bcafd73d78a8cebb23d40711452588a}{%
-           family={Tipirisetty},
-           familyi={T\bibinitperiod},
-           given={Abhinav},
+        {{un=0,uniquepart=base,hash=309647fb3261ea00c346eca7a332053d}{%
+           family={Perú},
+           familyi={P\bibinitperiod},
+           given={AmCham},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \list{institution}{1}{%
-        {San José State University}%
-      }
-      \strng{namehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{fullhash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{bibnamehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{authorbibnamehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{authornamehash}{1bcafd73d78a8cebb23d40711452588a}
-      \strng{authorfullhash}{1bcafd73d78a8cebb23d40711452588a}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \strng{namehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{fullhash}{309647fb3261ea00c346eca7a332053d}
+      \strng{bibnamehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{authorbibnamehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{authornamehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{authorfullhash}{309647fb3261ea00c346eca7a332053d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Master's Projects}
-      \field{title}{Stock Price Prediction using Deep Learning}
-      \field{type}{mathesis}
-      \field{year}{2018}
-      \verb{doi}
-      \verb https://doi.org/10.31979/etd.bzmm-36m7
+      \field{title}{Venta de vehículos creció 2.4\% en el 2023}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://amcham.org.pe/news/venta-de-vehiculos-crecio-2-4-en-el-2023/#:~:text=La\%20industria\%20automotriz\%20volvi\%C3\%B3\%20a,en\%20comparaci\%C3\%B3n\%20con\%20el\%202022
+      \endverb
+      \verb{url}
+      \verb https://amcham.org.pe/news/venta-de-vehiculos-crecio-2-4-en-el-2023/#:~:text=La%5C%20industria%5C%20automotriz%5C%20volvi%5C%C3%5C%B3%5C%20a,en%5C%20comparaci%5C%C3%5C%B3n%5C%20con%5C%20el%5C%202022
       \endverb
     \endentry
-    \entry{pr_trastour2016prediction}{misc}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=0db23ea230df43e37f61ffc8e1fd37cf}{%
-           family={Trastour},
-           familyi={T\bibinitperiod},
-           given={Sophie},
+    \entry{cu_comercio}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f5305ee02dd2a5c6215b53401b4a10b0}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Sebastián},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=a36d51d1d2cd44275a58e828f2347bb9}{%
-           family={Genin},
-           familyi={G\bibinitperiod},
-           given={Maxime},
-           giveni={M\bibinitperiod},
+      }
+      \strng{namehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{fullhash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{bibnamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorbibnamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authornamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorfullhash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cada hora roban 200 celulares en el país: ¿Qué hay detrás del aumento de este delito?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+      \verb{url}
+      \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+    \endentry
+    \entry{pr_Soni}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44bf3c4b09d6103b69d7db2581b169fb}{%
+           family={Soni},
+           familyi={S\bibinitperiod},
+           given={Shivangi},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=624df7ebdb976ebbb815e06eea089bce}{%
-           family={Morlot},
-           familyi={M\bibinitperiod},
-           given={Arthur},
+        {{un=0,uniquepart=base,hash=9051314b716f9cf6aed7571bec942167}{%
+           family={Gauri\bibnamedelima Shankar},
+           familyi={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Venkatesh},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3dc45074db43b0c47911ef7a2d52845}{%
+           family={Sandeep},
+           familyi={S\bibinitperiod},
+           given={Chaurasia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6be2593dc2c820266b0a9c1e107bb4b}
+      \strng{fullhash}{436628cf5cd213b27a24eb135255c94d}
+      \strng{bibnamehash}{436628cf5cd213b27a24eb135255c94d}
+      \strng{authorbibnamehash}{436628cf5cd213b27a24eb135255c94d}
+      \strng{authornamehash}{a6be2593dc2c820266b0a9c1e107bb4b}
+      \strng{authorfullhash}{436628cf5cd213b27a24eb135255c94d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Route-The Safe: A Robust Model for Safest Route Prediction Using Crime and Accidental Data}
+      \field{volume}{28}
+      \field{year}{2019}
+      \field{pages}{1415\bibrangedash 1428}
+      \range{pages}{14}
+    \endentry
+    \entry{cu_statista2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=31aa3dadd16b69b42330885c87cdbd67}{%
+           family={{Statista Research Department}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{fullhash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{bibnamehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{authorbibnamehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{authornamehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{authorfullhash}{31aa3dadd16b69b42330885c87cdbd67}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crimenes con mayor tasa de victimas en areas urbanas de Peru entre julio y diciembre del 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://es.statista.com/estadisticas/1290030/tasa-de-victimas-por-hecho-delictivo-peru/
+      \endverb
+      \verb{url}
+      \verb https://es.statista.com/estadisticas/1290030/tasa-de-victimas-por-hecho-delictivo-peru/
+      \endverb
+    \endentry
+    \entry{pr_zhang}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=91ddab86438f65f7f6597e1284752f2c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chenhan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec39fa304e1f1052e3ea9da533349f06}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shuyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4624a6bdc229727c62f10b07bf849351}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={James\bibnamedelimb J.\bibnamedelimi Q.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b59eb1f5bb7d3da06d3abaa844fa6d1a}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Shui},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2fb10abaa4155b6495b32610707115d}
+      \strng{fullhash}{be0d7d6199b8a5700762d305d26d0922}
+      \strng{bibnamehash}{be0d7d6199b8a5700762d305d26d0922}
+      \strng{authorbibnamehash}{be0d7d6199b8a5700762d305d26d0922}
+      \strng{authornamehash}{f2fb10abaa4155b6495b32610707115d}
+      \strng{authorfullhash}{be0d7d6199b8a5700762d305d26d0922}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GLOBECOM 2020 - 2020 IEEE Global Communications Conference}
+      \field{title}{An Enhanced Motif Graph Clustering-Based Deep Learning Approach for Traffic Forecasting}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/GLOBECOM42002.2020.9322104
+      \endverb
+      \keyw{Convolution;Roads;Deep learning;Matrix decomposition;Predictive models;Logic gates;Urban areas;smart city;intelligent transportation system;graph clustering;traffic speed prediction}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{ALMASAN}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=5b2c7ede60ef4a01357b43c9d5781749}{%
+           family={Almasan},
+           familyi={A\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82a7071a6c224375b0dd7314d752b05e}{%
+           family={Suárez-Varela},
+           familyi={S\bibinithyphendelim V\bibinitperiod},
+           given={José},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f4868314726ad37e3ff6269c6f0de9c}{%
+           family={Rusek},
+           familyi={R\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a830dfe56b3e48f80409684baf89f0aa}{%
+           family={Barlet-Ros},
+           familyi={B\bibinithyphendelim R\bibinitperiod},
+           given={Pere},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5ebe55c68663d7c097ff835e0511e76}{%
+           family={Cabellos-Aparicio},
+           familyi={C\bibinithyphendelim A\bibinitperiod},
+           given={Albert},
            giveni={A\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{6ac4bca57de869353b1b23000920d165}
-      \strng{fullhash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \strng{bibnamehash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \strng{authorbibnamehash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \strng{authornamehash}{6ac4bca57de869353b1b23000920d165}
-      \strng{authorfullhash}{06e17b1e9f6d4db2d48aaf91f5658606}
-      \field{sortinit}{T}
-      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \strng{namehash}{16805369059671726acf24b15926cb77}
+      \strng{fullhash}{13ace533422e251bfbf7b8ceff7cf889}
+      \strng{bibnamehash}{13ace533422e251bfbf7b8ceff7cf889}
+      \strng{authorbibnamehash}{13ace533422e251bfbf7b8ceff7cf889}
+      \strng{authornamehash}{16805369059671726acf24b15926cb77}
+      \strng{authorfullhash}{13ace533422e251bfbf7b8ceff7cf889}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Prediction of the crude oil price thanks to natural language processing applied to newspapers}
-      \field{year}{2016}
+      \field{issn}{0140-3664}
+      \field{journaltitle}{Computer Communications}
+      \field{title}{Deep reinforcement learning meets graph neural networks: Exploring a routing optimization use case}
+      \field{volume}{196}
+      \field{year}{2022}
+      \field{pages}{184\bibrangedash 194}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.comcom.2022.09.029
+      \endverb
       \verb{urlraw}
-      \verb http://cs229.stanford.edu/proj2016/report/
+      \verb https://www.sciencedirect.com/science/article/pii/S0140366422003784
       \endverb
       \verb{url}
-      \verb http://cs229.stanford.edu/proj2016/report/
+      \verb https://www.sciencedirect.com/science/article/pii/S0140366422003784
       \endverb
     \endentry
-    \entry{cu_USAcommodity2019}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=443478d363b15c65a1ee517d1122e79b}{%
-           family={{U.S. Geological Survey}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{fullhash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{bibnamehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{authorbibnamehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{authornamehash}{443478d363b15c65a1ee517d1122e79b}
-      \strng{authorfullhash}{443478d363b15c65a1ee517d1122e79b}
-      \field{sortinit}{U}
-      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Mineral commodity summaries 2019: U.S. Geological Survey}
-      \field{year}{2019}
-      \verb{doi}
-      \verb https://doi.org/10.3133/70202434
-      \endverb
-    \endentry
-    \entry{pr_yun2019stock}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=36f0ee067a5005075500394ccfc1bde2}{%
-           family={Yun},
-           familyi={Y\bibinitperiod},
-           given={Hyungbin},
-           giveni={H\bibinitperiod},
+    \entry{pr_areiza}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c946dca5f6bef5291d6f3ca216af46c}{%
+           family={Areiza},
+           familyi={A\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=af51b235304f032b4c03d87f7298ec86}{%
-           family={Sim},
-           familyi={S\bibinitperiod},
-           given={Ghudae},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=3bc128f349e56709135cc5ceb856460c}{%
+           family={Cano},
+           familyi={C\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2b9f183eb37c32aef21332c0f770ecc9}{%
-           family={Seok},
+        {{un=0,uniquepart=base,hash=f1e0aba4276fa951354675e709f85042}{%
+           family={Serna},
            familyi={S\bibinitperiod},
-           given={Junhee},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be263a11cc4af237df3330155ffe0818}{%
+           family={Riascos},
+           familyi={R\bibinitperiod},
+           given={Jaime},
            giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \list{organization}{1}{%
-        {IEEE}%
+      \list{publisher}{1}{%
+        {OSF}%
       }
-      \strng{namehash}{99508b55190d5c8a0bcc738bf085bc00}
-      \strng{fullhash}{1307f4512a5e024d0527a323a849ee55}
-      \strng{bibnamehash}{1307f4512a5e024d0527a323a849ee55}
-      \strng{authorbibnamehash}{1307f4512a5e024d0527a323a849ee55}
-      \strng{authornamehash}{99508b55190d5c8a0bcc738bf085bc00}
-      \strng{authorfullhash}{1307f4512a5e024d0527a323a849ee55}
-      \field{sortinit}{Y}
-      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \strng{namehash}{2b6e447909f6b87387a1fbf70b1d5ab0}
+      \strng{fullhash}{86e18ff35eb8dee511befc79c1626fa2}
+      \strng{bibnamehash}{86e18ff35eb8dee511befc79c1626fa2}
+      \strng{authorbibnamehash}{86e18ff35eb8dee511befc79c1626fa2}
+      \strng{authornamehash}{2b6e447909f6b87387a1fbf70b1d5ab0}
+      \strng{authorfullhash}{86e18ff35eb8dee511befc79c1626fa2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2019 International Conference on Artificial Intelligence in Information and Communication (ICAIIC)}
-      \field{title}{Stock Prices Prediction using the Title of Newspaper Articles with Korean Natural Language Processing}
-      \field{year}{2019}
-      \field{pages}{019\bibrangedash 021}
-      \range{pages}{3}
+      \field{title}{ALGORITMO PARA CALCULAR LA RUTA MÁS SEGURA Y ÓPTIMA.}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.31219/osf.io/wd73v
+      \endverb
+      \verb{urlraw}
+      \verb https://osf.io/preprints/osf/wd73v
+      \endverb
+      \verb{url}
+      \verb https://osf.io/preprints/osf/wd73v
+      \endverb
     \endentry
-    \entry{pr_zhao2017fuzzy}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5db4068796cde560b4fd3829096ef6c5}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Rui},
-           giveni={R\bibinitperiod},
+    \entry{cu_track}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8881cbdb94c4b33ebb518421c90bdc6b}{%
+           family={Castillo},
+           familyi={C\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=67e409f5440ed1814db213256b249e30}{%
-           family={Mao},
+      }
+      \strng{namehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{fullhash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{bibnamehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{authorbibnamehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{authornamehash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \strng{authorfullhash}{8881cbdb94c4b33ebb518421c90bdc6b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Robo de autos en Perú: ¿Cuántos autos se roban al día?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.tracklink.pe/contenido/blog/robo-de-autos-peru-cuantos-autos-roban-dia/
+      \endverb
+      \verb{url}
+      \verb https://www.tracklink.pe/contenido/blog/robo-de-autos-peru-cuantos-autos-roban-dia/
+      \endverb
+    \endentry
+    \entry{cu_ceplan}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=10e9c0cebd66a1160e08f73a90b4f832}{%
+           family={{CEPLAN}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Perú}%
+      }
+      \strng{namehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{fullhash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{bibnamehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{authorbibnamehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{authornamehash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \strng{authorfullhash}{10e9c0cebd66a1160e08f73a90b4f832}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Análisis del crecimiento y expansión urbana a nivel nacional y el impacto a nivel regional}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://geo.ceplan.gob.pe/uploads/Analisis_crecimiento_expansion_urbana.pdf
+      \endverb
+      \verb{url}
+      \verb https://geo.ceplan.gob.pe/uploads/Analisis_crecimiento_expansion_urbana.pdf
+      \endverb
+    \endentry
+    \entry{pr_esquivel}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9c1ab9678f0267c47b44b29c20b10c40}{%
+           family={Esquivel},
+           familyi={E\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12ee3702cd86b72bc31020bd8ea604ce}{%
+           family={Nicolis},
+           familyi={N\bibinitperiod},
+           given={Orietta},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d57a303e760736df9ead915cb1452478}{%
+           family={Márquez},
            familyi={M\bibinitperiod},
-           given={Kezhi},
-           giveni={K\bibinitperiod},
+           given={Billy\bibnamedelima Peralta},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8b11fa7a2abcb126060ac86b7905f2e}
+      \strng{fullhash}{fd77511813f2042e944bf3595a4b4087}
+      \strng{bibnamehash}{fd77511813f2042e944bf3595a4b4087}
+      \strng{authorbibnamehash}{fd77511813f2042e944bf3595a4b4087}
+      \strng{authornamehash}{a8b11fa7a2abcb126060ac86b7905f2e}
+      \strng{authorfullhash}{fd77511813f2042e944bf3595a4b4087}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2020 39th International Conference of the Chilean Computer Science Society (SCCC)}
+      \field{title}{Predicting Motor Vehicle Theft in Santiago de Chile using Graph-Convolutional LSTM}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 7}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/SCCC51225.2020.9281174
+      \endverb
+    \endentry
+    \entry{pr_Ghoul}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7ab2b4ddb28625b38eaf5af5534fcf97}{%
+           family={Ghoul},
+           familyi={G\bibinitperiod},
+           given={Tarek},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90ecd88a1e70ab5b67dce50413838476}{%
+           family={Sayed},
+           familyi={S\bibinitperiod},
+           given={Tarek},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0d944fba0e64d98ce8fa4837b82dd07}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Chuanyun},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{480b3cf172e1533c1a0ad2564d56450c}
+      \strng{fullhash}{5060b0f007a587ade2927d8959e82379}
+      \strng{bibnamehash}{5060b0f007a587ade2927d8959e82379}
+      \strng{authorbibnamehash}{5060b0f007a587ade2927d8959e82379}
+      \strng{authornamehash}{480b3cf172e1533c1a0ad2564d56450c}
+      \strng{authorfullhash}{5060b0f007a587ade2927d8959e82379}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2213-6657}
+      \field{journaltitle}{Analytic Methods in Accident Research}
+      \field{title}{Real-time safest route identification: Examining the trade-off between safest and fastest routes}
+      \field{volume}{39}
+      \field{year}{2023}
+      \field{pages}{100277}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.amar.2023.100277
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S221366572300012X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S221366572300012X
+      \endverb
+    \endentry
+    \entry{cu_luishernan}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2bd0004f247ee40d26f5c21698b3e5f7}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{fullhash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{bibnamehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{authorbibnamehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{authornamehash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \strng{authorfullhash}{2bd0004f247ee40d26f5c21698b3e5f7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Cuántos usuarios consultan Waze mensualmente?}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
+      \endverb
+      \verb{url}
+      \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
+      \endverb
+    \endentry
+    \entry{pr_koh}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=c1cf54c361551bac074a30b86192e799}{%
+           family={Koh},
+           familyi={K\bibinitperiod},
+           given={Songsang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78b85e16af77a1b542f32ece926f004b}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c48da23df6ee220857f7e0b31a26b42}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72fc0ee82590c0f3f6ebbad2f840ff5e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Po},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d743afce8048601fddb5b8b707770c60}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zaili},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55242d2a60270145342841e4d4238da0}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e9c1f340bdccbd849774082be9ebdd6}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60ba466a5964b5a8f35fccc2e057edf3}{%
+           family={Ji},
+           familyi={J\bibinitperiod},
+           given={Zhigang},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83e5d70383c55ba3774c189198ebb6c7}
+      \strng{fullhash}{207679c528a40bfd876a3c005f95a736}
+      \strng{bibnamehash}{207679c528a40bfd876a3c005f95a736}
+      \strng{authorbibnamehash}{207679c528a40bfd876a3c005f95a736}
+      \strng{authornamehash}{83e5d70383c55ba3774c189198ebb6c7}
+      \strng{authorfullhash}{207679c528a40bfd876a3c005f95a736}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1568-4946}
+      \field{journaltitle}{Applied Soft Computing}
+      \field{title}{Real-time deep reinforcement learning based vehicle navigation}
+      \field{volume}{96}
+      \field{year}{2020}
+      \field{pages}{106694}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.asoc.2020.106694
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1568494620306323
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1568494620306323
+      \endverb
+    \endentry
+    \entry{pr_saferoute}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e209f3ce01183f7a919ab168005ba740}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Sharon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebf728d4edd3772aa46233df8265003e}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wenhan},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=184e2deb7bd258cf0199fca5430c559b}{%
+           family={Belding},
+           familyi={B\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f547ec885594e76da25ad82058ba8850}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
            givenun=0}}%
       }
       \list{publisher}{1}{%
-        {IEEE}%
+        {Association for Computing Machinery}%
       }
-      \strng{namehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{fullhash}{70280f6551ca9727466165bb5dad631c}
-      \strng{bibnamehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{authorbibnamehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{authornamehash}{70280f6551ca9727466165bb5dad631c}
-      \strng{authorfullhash}{70280f6551ca9727466165bb5dad631c}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \strng{namehash}{f55822e1c2ef0bfff43afa4965485858}
+      \strng{fullhash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \strng{bibnamehash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \strng{authorbibnamehash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \strng{authornamehash}{f55822e1c2ef0bfff43afa4965485858}
+      \strng{authorfullhash}{1b8b8a1e4c708a58fd2b0b1088fee218}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Fuzzy Systems}
-      \field{number}{2}
-      \field{title}{Fuzzy bag-of-words model for document representation}
-      \field{volume}{26}
-      \field{year}{2017}
-      \field{pages}{794\bibrangedash 804}
-      \range{pages}{11}
+      \field{issn}{2157-6904}
+      \field{journaltitle}{ACM Trans. Intell. Syst. Technol.}
+      \field{number}{6}
+      \field{title}{SafeRoute: Learning to Navigate Streets Safely in an Urban Environment}
+      \field{volume}{11}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1145/3402818
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/3402818
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/3402818
+      \endverb
+    \endentry
+    \entry{tec_PPIC}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9da6ae34bd4d09c6b704fa6de0a8ec28}{%
+           family={{Magnus Lofstrom, Brandon Martin}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PPIC}%
+      }
+      \strng{namehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{fullhash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{bibnamehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{authorbibnamehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{authornamehash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \strng{authorfullhash}{9da6ae34bd4d09c6b704fa6de0a8ec28}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tendencias del Crimen en California}
+      \field{type}{techreport}
+      \field{year}{2023}
+    \endentry
+    \entry{cu_infobae}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53b35d56cf409da246bcaf51f32d1103}{%
+           family={Melo},
+           familyi={M\bibinitperiod},
+           given={Yenny},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{fullhash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{bibnamehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{authorbibnamehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{authornamehash}{53b35d56cf409da246bcaf51f32d1103}
+      \strng{authorfullhash}{53b35d56cf409da246bcaf51f32d1103}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Este es el día que más robos de celulares se registraron en el 2023, según reporte de Osiptel}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.infobae.com/peru/2024/02/05/este-es-el-dia-que-mas-robos-de-celulares-se-registraron-en-el-2023-segun-reporte-de-osiptel/
+      \endverb
+      \verb{url}
+      \verb https://www.infobae.com/peru/2024/02/05/este-es-el-dia-que-mas-robos-de-celulares-se-registraron-en-el-2023-segun-reporte-de-osiptel/
+      \endverb
+    \endentry
+    \entry{cu_numbeo2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24a212d24710432c7fb7b249be21b32d}{%
+           family={{Numbeo}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{fullhash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{bibnamehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{authorbibnamehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{authornamehash}{24a212d24710432c7fb7b249be21b32d}
+      \strng{authorfullhash}{24a212d24710432c7fb7b249be21b32d}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{América: Índice de Criminalidad 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://es.numbeo.com/criminalidad/clasificaciones-por-regi\%C3\%B3n?region=019\&title=2023
+      \endverb
+      \verb{url}
+      \verb https://es.numbeo.com/criminalidad/clasificaciones-por-regi%5C%C3%5C%B3n?region=019%5C&title=2023
+      \endverb
+    \endentry
+    \entry{cu_amcha}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=309647fb3261ea00c346eca7a332053d}{%
+           family={Perú},
+           familyi={P\bibinitperiod},
+           given={AmCham},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{fullhash}{309647fb3261ea00c346eca7a332053d}
+      \strng{bibnamehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{authorbibnamehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{authornamehash}{309647fb3261ea00c346eca7a332053d}
+      \strng{authorfullhash}{309647fb3261ea00c346eca7a332053d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Venta de vehículos creció 2.4\% en el 2023}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://amcham.org.pe/news/venta-de-vehiculos-crecio-2-4-en-el-2023/#:~:text=La\%20industria\%20automotriz\%20volvi\%C3\%B3\%20a,en\%20comparaci\%C3\%B3n\%20con\%20el\%202022
+      \endverb
+      \verb{url}
+      \verb https://amcham.org.pe/news/venta-de-vehiculos-crecio-2-4-en-el-2023/#:~:text=La%5C%20industria%5C%20automotriz%5C%20volvi%5C%C3%5C%B3%5C%20a,en%5C%20comparaci%5C%C3%5C%B3n%5C%20con%5C%20el%5C%202022
+      \endverb
+    \endentry
+    \entry{cu_comercio}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f5305ee02dd2a5c6215b53401b4a10b0}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Sebastián},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{fullhash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{bibnamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorbibnamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authornamehash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \strng{authorfullhash}{f5305ee02dd2a5c6215b53401b4a10b0}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cada hora roban 200 celulares en el país: ¿Qué hay detrás del aumento de este delito?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+      \verb{url}
+      \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+    \endentry
+    \entry{pr_Soni}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44bf3c4b09d6103b69d7db2581b169fb}{%
+           family={Soni},
+           familyi={S\bibinitperiod},
+           given={Shivangi},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9051314b716f9cf6aed7571bec942167}{%
+           family={Gauri\bibnamedelima Shankar},
+           familyi={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Venkatesh},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c3dc45074db43b0c47911ef7a2d52845}{%
+           family={Sandeep},
+           familyi={S\bibinitperiod},
+           given={Chaurasia},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6be2593dc2c820266b0a9c1e107bb4b}
+      \strng{fullhash}{436628cf5cd213b27a24eb135255c94d}
+      \strng{bibnamehash}{436628cf5cd213b27a24eb135255c94d}
+      \strng{authorbibnamehash}{436628cf5cd213b27a24eb135255c94d}
+      \strng{authornamehash}{a6be2593dc2c820266b0a9c1e107bb4b}
+      \strng{authorfullhash}{436628cf5cd213b27a24eb135255c94d}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Route-The Safe: A Robust Model for Safest Route Prediction Using Crime and Accidental Data}
+      \field{volume}{28}
+      \field{year}{2019}
+      \field{pages}{1415\bibrangedash 1428}
+      \range{pages}{14}
+    \endentry
+    \entry{cu_statista2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=31aa3dadd16b69b42330885c87cdbd67}{%
+           family={{Statista Research Department}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{fullhash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{bibnamehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{authorbibnamehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{authornamehash}{31aa3dadd16b69b42330885c87cdbd67}
+      \strng{authorfullhash}{31aa3dadd16b69b42330885c87cdbd67}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crimenes con mayor tasa de victimas en areas urbanas de Peru entre julio y diciembre del 2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://es.statista.com/estadisticas/1290030/tasa-de-victimas-por-hecho-delictivo-peru/
+      \endverb
+      \verb{url}
+      \verb https://es.statista.com/estadisticas/1290030/tasa-de-victimas-por-hecho-delictivo-peru/
+      \endverb
+    \endentry
+    \entry{pr_zhang}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=91ddab86438f65f7f6597e1284752f2c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chenhan},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec39fa304e1f1052e3ea9da533349f06}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shuyu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4624a6bdc229727c62f10b07bf849351}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={James\bibnamedelimb J.\bibnamedelimi Q.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b59eb1f5bb7d3da06d3abaa844fa6d1a}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Shui},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f2fb10abaa4155b6495b32610707115d}
+      \strng{fullhash}{be0d7d6199b8a5700762d305d26d0922}
+      \strng{bibnamehash}{be0d7d6199b8a5700762d305d26d0922}
+      \strng{authorbibnamehash}{be0d7d6199b8a5700762d305d26d0922}
+      \strng{authornamehash}{f2fb10abaa4155b6495b32610707115d}
+      \strng{authorfullhash}{be0d7d6199b8a5700762d305d26d0922}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GLOBECOM 2020 - 2020 IEEE Global Communications Conference}
+      \field{title}{An Enhanced Motif Graph Clustering-Based Deep Learning Approach for Traffic Forecasting}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/GLOBECOM42002.2020.9322104
+      \endverb
+      \keyw{Convolution;Roads;Deep learning;Matrix decomposition;Predictive models;Logic gates;Urban areas;smart city;intelligent transportation system;graph clustering;traffic speed prediction}
     \endentry
   \enddatalist
 \endrefsection
