@@ -200,6 +200,86 @@
       \verb https://geo.ceplan.gob.pe/uploads/Analisis_crecimiento_expansion_urbana.pdf
       \endverb
     \endentry
+    \entry{gl_riesgo}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74afc11abcf3205969e00fb5d70a3ab5}{%
+           family={{ConceptoDefinicion}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{fullhash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{bibnamehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{authorbibnamehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{authornamehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{authorfullhash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definición de Riesgo}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://conceptodefinicion.de/riesgo/
+      \endverb
+      \verb{url}
+      \verb https://conceptodefinicion.de/riesgo/
+      \endverb
+    \endentry
+    \entry{gl_concepto}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cfcba6a93038f70edcfb94a64d8fe37e}{%
+           family={{Conceptualia}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{fullhash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{bibnamehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{authorbibnamehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{authornamehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{authorfullhash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Delincuencia}
+      \verb{urlraw}
+      \verb https://conceptualia.es/cultura-y-sociedad/sociedad/delincuencia/
+      \endverb
+      \verb{url}
+      \verb https://conceptualia.es/cultura-y-sociedad/sociedad/delincuencia/
+      \endverb
+    \endentry
+    \entry{gl_humanidades}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a78537d931124550cd130866530d8046}{%
+           family={{Enciclopedia Humanidades}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a78537d931124550cd130866530d8046}
+      \strng{fullhash}{a78537d931124550cd130866530d8046}
+      \strng{bibnamehash}{a78537d931124550cd130866530d8046}
+      \strng{authorbibnamehash}{a78537d931124550cd130866530d8046}
+      \strng{authornamehash}{a78537d931124550cd130866530d8046}
+      \strng{authorfullhash}{a78537d931124550cd130866530d8046}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zona urbana}
+      \verb{urlraw}
+      \verb https://humanidades.com/zona-urbana/
+      \endverb
+      \verb{url}
+      \verb https://humanidades.com/zona-urbana/
+      \endverb
+    \endentry
     \entry{pr_esquivel}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9c1ab9678f0267c47b44b29c20b10c40}{%
@@ -241,6 +321,32 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1109/SCCC51225.2020.9281174
+      \endverb
+    \endentry
+    \entry{gl_Gamco}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acff25b5c48354058a29ff044c3bb393}{%
+           family={{Gamco}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{fullhash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{bibnamehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{authorbibnamehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{authornamehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{authorfullhash}{acff25b5c48354058a29ff044c3bb393}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Aprendizaje por refuerzo profundo?}
+      \verb{urlraw}
+      \verb https://gamco.es/glosario/aprendizaje-por-refuerzo-profundo/
+      \endverb
+      \verb{url}
+      \verb https://gamco.es/glosario/aprendizaje-por-refuerzo-profundo/
       \endverb
     \endentry
     \entry{pr_Ghoul}{article}{}
@@ -323,6 +429,32 @@
       \endverb
       \verb{url}
       \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
+      \endverb
+    \endentry
+    \entry{gl_IBMIA}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Deep Learning?}
+      \verb{urlraw}
+      \verb https://www.ibm.com/es-es/topics/deep-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/es-es/topics/deep-learning
       \endverb
     \endentry
     \entry{pr_koh}{article}{}
@@ -550,6 +682,34 @@
       \verb https://es.numbeo.com/criminalidad/clasificaciones-por-regi%5C%C3%5C%B3n?region=019%5C&title=2023
       \endverb
     \endentry
+    \entry{gl_Nvidia}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a21e2561359ebf2fb2d634ee7837a8e}{%
+           family={{Nvidia}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{fullhash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{bibnamehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{authorbibnamehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{authornamehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{authorfullhash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué Son las Graph Neural Networks?}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://la.blogs.nvidia.com/blog/que-son-las-graph-neural-networks/
+      \endverb
+      \verb{url}
+      \verb https://la.blogs.nvidia.com/blog/que-son-las-graph-neural-networks/
+      \endverb
+    \endentry
     \entry{cu_amcha}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=309647fb3261ea00c346eca7a332053d}{%
@@ -610,6 +770,32 @@
       \endverb
       \verb{url}
       \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+    \endentry
+    \entry{gl_ruta}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eba6c29c0cf6d9b4fde0621ea0c938a3}{%
+           family={{Significado}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{fullhash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{bibnamehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{authorbibnamehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{authornamehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{authorfullhash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definición de Ruta}
+      \verb{urlraw}
+      \verb https://significado.com/ruta/
+      \endverb
+      \verb{url}
+      \verb https://significado.com/ruta/
       \endverb
     \endentry
     \entry{pr_Soni}{article}{}
@@ -679,6 +865,79 @@
       \endverb
       \verb{url}
       \verb https://es.statista.com/estadisticas/1290030/tasa-de-victimas-por-hecho-delictivo-peru/
+      \endverb
+    \endentry
+    \entry{pr_talaei}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=efc20f082cc4ad0d510b95dd7adad244}{%
+           family={Talaei},
+           familyi={T\bibinitperiod},
+           given={Tala},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b57ffb69a59924fe097c4ab9493fdd5d}{%
+           family={Ould},
+           familyi={O\bibinitperiod},
+           given={Hadjar},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=660fb747f55b448b3df271c3fd4c2944}{%
+           family={Kaabouch},
+           familyi={K\bibinitperiod},
+           given={Naima},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{add6f7c99d42da3608fcd98f7e93217d}
+      \strng{fullhash}{91dc2b24d1714dff65301464610b2331}
+      \strng{bibnamehash}{91dc2b24d1714dff65301464610b2331}
+      \strng{authorbibnamehash}{91dc2b24d1714dff65301464610b2331}
+      \strng{authornamehash}{add6f7c99d42da3608fcd98f7e93217d}
+      \strng{authorfullhash}{91dc2b24d1714dff65301464610b2331}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computing and Applications}
+      \field{number}{31}
+      \field{title}{Deep learning: systematic review, models, challenges, and research directions}
+      \field{volume}{35}
+      \field{year}{2023}
+      \field{pages}{23103\bibrangedash 23124}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s00521-023-08957-4
+      \endverb
+    \endentry
+    \entry{gl_techopedia}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d0ed76dc2bb8ec0ba5cf4473f5c4c74}{%
+           family={{Techopedia}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{fullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{bibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorbibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authornamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorfullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aprendizaje por refuerzo}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.techopedia.com/es/definicion/aprendizaje-por-refuerzo
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/es/definicion/aprendizaje-por-refuerzo
       \endverb
     \endentry
     \entry{pr_zhang}{article}{}
@@ -914,6 +1173,86 @@
       \verb https://geo.ceplan.gob.pe/uploads/Analisis_crecimiento_expansion_urbana.pdf
       \endverb
     \endentry
+    \entry{gl_riesgo}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=74afc11abcf3205969e00fb5d70a3ab5}{%
+           family={{ConceptoDefinicion}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{fullhash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{bibnamehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{authorbibnamehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{authornamehash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \strng{authorfullhash}{74afc11abcf3205969e00fb5d70a3ab5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definición de Riesgo}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://conceptodefinicion.de/riesgo/
+      \endverb
+      \verb{url}
+      \verb https://conceptodefinicion.de/riesgo/
+      \endverb
+    \endentry
+    \entry{gl_concepto}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cfcba6a93038f70edcfb94a64d8fe37e}{%
+           family={{Conceptualia}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{fullhash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{bibnamehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{authorbibnamehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{authornamehash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \strng{authorfullhash}{cfcba6a93038f70edcfb94a64d8fe37e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Delincuencia}
+      \verb{urlraw}
+      \verb https://conceptualia.es/cultura-y-sociedad/sociedad/delincuencia/
+      \endverb
+      \verb{url}
+      \verb https://conceptualia.es/cultura-y-sociedad/sociedad/delincuencia/
+      \endverb
+    \endentry
+    \entry{gl_humanidades}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a78537d931124550cd130866530d8046}{%
+           family={{Enciclopedia Humanidades}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a78537d931124550cd130866530d8046}
+      \strng{fullhash}{a78537d931124550cd130866530d8046}
+      \strng{bibnamehash}{a78537d931124550cd130866530d8046}
+      \strng{authorbibnamehash}{a78537d931124550cd130866530d8046}
+      \strng{authornamehash}{a78537d931124550cd130866530d8046}
+      \strng{authorfullhash}{a78537d931124550cd130866530d8046}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zona urbana}
+      \verb{urlraw}
+      \verb https://humanidades.com/zona-urbana/
+      \endverb
+      \verb{url}
+      \verb https://humanidades.com/zona-urbana/
+      \endverb
+    \endentry
     \entry{pr_esquivel}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=9c1ab9678f0267c47b44b29c20b10c40}{%
@@ -955,6 +1294,32 @@
       \range{pages}{7}
       \verb{doi}
       \verb 10.1109/SCCC51225.2020.9281174
+      \endverb
+    \endentry
+    \entry{gl_Gamco}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acff25b5c48354058a29ff044c3bb393}{%
+           family={{Gamco}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{fullhash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{bibnamehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{authorbibnamehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{authornamehash}{acff25b5c48354058a29ff044c3bb393}
+      \strng{authorfullhash}{acff25b5c48354058a29ff044c3bb393}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Aprendizaje por refuerzo profundo?}
+      \verb{urlraw}
+      \verb https://gamco.es/glosario/aprendizaje-por-refuerzo-profundo/
+      \endverb
+      \verb{url}
+      \verb https://gamco.es/glosario/aprendizaje-por-refuerzo-profundo/
       \endverb
     \endentry
     \entry{pr_Ghoul}{article}{}
@@ -1037,6 +1402,32 @@
       \endverb
       \verb{url}
       \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
+      \endverb
+    \endentry
+    \entry{gl_IBMIA}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué es Deep Learning?}
+      \verb{urlraw}
+      \verb https://www.ibm.com/es-es/topics/deep-learning
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/es-es/topics/deep-learning
       \endverb
     \endentry
     \entry{pr_koh}{article}{}
@@ -1264,6 +1655,34 @@
       \verb https://es.numbeo.com/criminalidad/clasificaciones-por-regi%5C%C3%5C%B3n?region=019%5C&title=2023
       \endverb
     \endentry
+    \entry{gl_Nvidia}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2a21e2561359ebf2fb2d634ee7837a8e}{%
+           family={{Nvidia}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{fullhash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{bibnamehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{authorbibnamehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{authornamehash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \strng{authorfullhash}{2a21e2561359ebf2fb2d634ee7837a8e}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Qué Son las Graph Neural Networks?}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://la.blogs.nvidia.com/blog/que-son-las-graph-neural-networks/
+      \endverb
+      \verb{url}
+      \verb https://la.blogs.nvidia.com/blog/que-son-las-graph-neural-networks/
+      \endverb
+    \endentry
     \entry{cu_amcha}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=309647fb3261ea00c346eca7a332053d}{%
@@ -1324,6 +1743,32 @@
       \endverb
       \verb{url}
       \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+    \endentry
+    \entry{gl_ruta}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eba6c29c0cf6d9b4fde0621ea0c938a3}{%
+           family={{Significado}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{fullhash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{bibnamehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{authorbibnamehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{authornamehash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \strng{authorfullhash}{eba6c29c0cf6d9b4fde0621ea0c938a3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Definición de Ruta}
+      \verb{urlraw}
+      \verb https://significado.com/ruta/
+      \endverb
+      \verb{url}
+      \verb https://significado.com/ruta/
       \endverb
     \endentry
     \entry{pr_Soni}{article}{}
@@ -1393,6 +1838,79 @@
       \endverb
       \verb{url}
       \verb https://es.statista.com/estadisticas/1290030/tasa-de-victimas-por-hecho-delictivo-peru/
+      \endverb
+    \endentry
+    \entry{pr_talaei}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=efc20f082cc4ad0d510b95dd7adad244}{%
+           family={Talaei},
+           familyi={T\bibinitperiod},
+           given={Tala},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b57ffb69a59924fe097c4ab9493fdd5d}{%
+           family={Ould},
+           familyi={O\bibinitperiod},
+           given={Hadjar},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=660fb747f55b448b3df271c3fd4c2944}{%
+           family={Kaabouch},
+           familyi={K\bibinitperiod},
+           given={Naima},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{add6f7c99d42da3608fcd98f7e93217d}
+      \strng{fullhash}{91dc2b24d1714dff65301464610b2331}
+      \strng{bibnamehash}{91dc2b24d1714dff65301464610b2331}
+      \strng{authorbibnamehash}{91dc2b24d1714dff65301464610b2331}
+      \strng{authornamehash}{add6f7c99d42da3608fcd98f7e93217d}
+      \strng{authorfullhash}{91dc2b24d1714dff65301464610b2331}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural Computing and Applications}
+      \field{number}{31}
+      \field{title}{Deep learning: systematic review, models, challenges, and research directions}
+      \field{volume}{35}
+      \field{year}{2023}
+      \field{pages}{23103\bibrangedash 23124}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s00521-023-08957-4
+      \endverb
+    \endentry
+    \entry{gl_techopedia}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2d0ed76dc2bb8ec0ba5cf4473f5c4c74}{%
+           family={{Techopedia}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{fullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{bibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorbibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authornamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorfullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aprendizaje por refuerzo}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.techopedia.com/es/definicion/aprendizaje-por-refuerzo
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/es/definicion/aprendizaje-por-refuerzo
       \endverb
     \endentry
     \entry{pr_zhang}{article}{}

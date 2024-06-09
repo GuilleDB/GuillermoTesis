@@ -3065,7 +3065,7 @@
     <bcf:citekey order="4" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="5" intorder="1">pr_Soni</bcf:citekey>
     <bcf:citekey order="6" intorder="1">pr_Ghoul</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">pr_diya</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="8" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="9" intorder="1">ALMASAN</bcf:citekey>
     <bcf:citekey order="10" intorder="1">cu_ceplan</bcf:citekey>
@@ -3095,13 +3095,22 @@
     <bcf:citekey order="34" intorder="1">pr_Ghoul</bcf:citekey>
     <bcf:citekey order="35" intorder="1">pr_Ghoul</bcf:citekey>
     <bcf:citekey order="36" intorder="1">pr_Ghoul</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">pr_diya</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">pr_diya</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">pr_diya</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">pr_de</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">pr_de</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="40" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="41" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="42" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="43" intorder="1">ALMASAN</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">gl_IBMIA</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">gl_techopedia</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">gl_Gamco</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">pr_talaei</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">gl_Nvidia</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">gl_humanidades</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">gl_concepto</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">gl_ruta</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">gl_riesgo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
