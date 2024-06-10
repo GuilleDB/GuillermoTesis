@@ -85,7 +85,7 @@ k,
 \end{matrix}\right.
 \end{equation}
 %\medskip
-Donde n es el número de bordes de cada camino, m es el número de delitos de cada nodo, x es la lista de puntos de cada camino, c es la lista de delitos de cada radio, p es el recorrido y k es un hiper parámetro.
+Donde $n$ es el número de bordes de cada camino, $m$ es el número de delitos de cada nodo, $x$ es la lista de puntos de cada camino, $c$ es la lista de delitos de cada radio, $p$ es el recorrido y $k$ es un hiper parámetro.
 
 En la fase de entrenamiento, consta de dos partes, la primera es el pre entrenamiento de la red neuronal para detectar rutas más cortas, en este proceso se utilizan técnicas de aprendizaje por refuerzo, específicamente el algoritmo Monte Carlo Policy Gradient (REINFORCE) para que actualice los parámetros de la red neuronal. La segunda es el entrenamiento con recompensas, donde se entrena nuevamente a la red neuronal considerando la seguridad en cada ruta, premiandolo por evitar áreas con alto índice de crimen, el cuál es la función de recompensa, y de esta manera actualizando la política de la red neuronal.
 
@@ -128,7 +128,7 @@ Los autores proponen la siguiente metodología: %\medskip
 %\medskip
 El primer paso de esta metodología empieza con la recolección de los datos, que en este caso son los eventos de robos de vehículos en las comunas de la Región de Chile del año 2015 al 2019, que contiene un total de 129.127 registros. Luego se procedió a realizar la suma de los eventos de robo por día de cada comuna para la creación de una serie de tiempo y posterior a esto, aplicar la regresión LOESS, el cual es una técnica no paramétrica que utiliza los mínimos cuadrados ponderados para asignar un mayor peso a los más cercanos y menos a los que están más lejos. La aplicación de dicha técnica permite la reducción de ruido de la serie de tiempo. De este paso, se obtuvo una matriz suavizada de número de eventos de robos, el cuál sirve como input para la red GCLSTM. 
 
-Dicha red suma las matrices de adyacencia e identidad para realizar la convolución con parámetros K, luego se le asigna a cada vecino un peso por iteración y estas van a las compuertas LSTM para la extracción de la última celda para el desarrollo de una capa de salida lineal con la función tanh. Para la optimización de la red GCLSTM, se aplicó el algoritmo de RMSprop para entrenar el modelo hasta que haya un sobreajuste en los datos.
+Dicha red suma las matrices de adyacencia e identidad para realizar la convolución con parámetros $K$, luego se le asigna a cada vecino un peso por iteración y estas van a las compuertas LSTM para la extracción de la última celda para el desarrollo de una capa de salida lineal con la función tanh. Para la optimización de la red GCLSTM, se aplicó el algoritmo de RMSprop para entrenar el modelo hasta que haya un sobreajuste en los datos.
 
 %\medskip
 
@@ -145,8 +145,8 @@ Dicha red suma las matrices de adyacencia e identidad para realizar la convoluci
 Para la fase de entrenamiento, se utilizó el 70\% del conjunto de datos, 20\% de validación y 10\% para la fase de prueba.
 
 \subsubsection{Resultados obtenidos}
-Como parte de los resultados, en la fase de entrenamiento, se entrenó en el modelo tradicional LSTM y el modelo GCLSTM, dando como resultado que a partir de la iteración 31, la curva MSE del modelo GCLSTM desciende más que el tradicional. 
-Mientras que, en la fase de pruebas, se demuestra, con la métrica R2, que el modelo propuesto obtuvo 0.86, y el modelo LSTM tuvo 0.70, teniendo una mayor similitud la red GCLSTM entre lo esperado con lo observado. Por otra parte, el MSE del modelo propuesto fue 0.014 y el modelo LSTM es de 0.031; demostrando que el modelo puede obtener patrones temporales y espaciales para la predicción de crimen en distintas zonas de una ciudad. 
+Como parte de los resultados, en la fase de entrenamiento, se entrenó en el modelo tradicional LSTM y el modelo GCLSTM, dando como resultado que a partir de la iteración 31, la curva $MSE$ del modelo GCLSTM desciende más que el tradicional. 
+Mientras que, en la fase de pruebas, se demuestra, con la métrica $R^{2}$, que el modelo propuesto obtuvo 0.86, y el modelo LSTM tuvo 0.70, teniendo una mayor similitud la red GCLSTM entre lo esperado con lo observado. Por otra parte, el $MSE$ del modelo propuesto fue 0.014 y el modelo LSTM es de 0.031; demostrando que el modelo puede obtener patrones temporales y espaciales para la predicción de crimen en distintas zonas de una ciudad. 
 
 \subsection{Algoritmo para calcular la ruta más segura y óptima \citep*{pr_areiza}}
 \citeauthor{pr_areiza} realizaron un artículo de investigación el cual fue publicado en el año 2022. Este fue titulado \citetitle{pr_areiza}.
@@ -157,7 +157,7 @@ La creciente cifra de casos de acoso callejero en las calles de Medellín, así 
 \subsubsection{Metodología empleada por los autores}
 
 
-Para la obtención del mapa de Medellín, se empleó Open Street Maps (OSM) en Python, el cual contiene en cada segmento su longitud en metros, en qué sentidos va, y sus representaciones binarias proporcionadas por la propia librería OSM. Para el cálculo del riesgo, se empleó un conjunto de datos de la encuesta de calidad de vida de Medellín del año 2017; luego se procedió a realizar una combinación lineal (CL)  mediante el análisis de componentes principales, el cual  es la máxima varianza de la proporción de hogares que se sienten inseguros entre la proporción de hogares que tienen ingresos inferiores al salario mínimo; después se normaliza la combinación lineal y la proporción de esta es considera como el riesgo de acoso.
+Para la obtención del mapa de Medellín, se empleó Open Street Maps (OSM) en Python, el cual contiene en cada segmento su longitud en metros, en qué sentidos va, y sus representaciones binarias proporcionadas por la propia librería OSM. Para el cálculo del riesgo, se empleó un conjunto de datos de la encuesta de calidad de vida de Medellín del año 2017; luego se procedió a realizar una combinación lineal ($CL$)  mediante el análisis de componentes principales, el cual  es la máxima varianza de la proporción de hogares que se sienten inseguros entre la proporción de hogares que tienen ingresos inferiores al salario mínimo; después se normaliza la combinación lineal y la proporción de esta es considera como el riesgo de acoso.
 %\medskip
 
 \begin{figure}[h]
@@ -169,7 +169,7 @@ Para la obtención del mapa de Medellín, se empleó Open Street Maps (OSM) en P
 	\end{center}
 \end{figure}
 %\medskip
-Se crea un diccionario que almacena el peso de cada vértice mediante el producto entre la longitud y riesgo de acoso de cada relación entre origen y destino. Se implementa el algoritmo de Dijkstra que requiere de tres parámetros los cuáles son los grafos creados, y los vértices de origen y destino. Este algoritmo calcula cada vecino del vértice actual a través de sus pesos que están almacenados en el diccionario para calcular el camino con menos peso. Además del cálculo tradicional que emplea, el cuál es r*d, donde r es el riesgo de acoso, y d es la distancia en metros, se calculó dos caminos más. El primero es la suma entre la distancia y el riesgo, mientras que el segundo eleva la distancia al riesgo de acoso. Para graficar estos tres resultados, se empleó la librería GmPlot, une el camino del origen y destino mediante las coordenadas ubicadas en Google maps, siendo más fácil de visualizar para el usuario.
+Se crea un diccionario que almacena el peso de cada vértice mediante el producto entre la longitud y riesgo de acoso de cada relación entre origen y destino. Se implementa el algoritmo de Dijkstra que requiere de tres parámetros los cuáles son los grafos creados, y los vértices de origen y destino. Este algoritmo calcula cada vecino del vértice actual a través de sus pesos que están almacenados en el diccionario para calcular el camino con menos peso. Además del cálculo tradicional que emplea, el cuál es $r*d$, donde $r$ es el riesgo de acoso, y $d$ es la distancia en metros, se calculó dos caminos más. El primero es la suma entre la distancia y el riesgo, mientras que el segundo eleva la distancia al riesgo de acoso. Para graficar estos tres resultados, se empleó la librería GmPlot, une el camino del origen y destino mediante las coordenadas ubicadas en Google maps, siendo más fácil de visualizar para el usuario.
 %\medskip
 \begin{figure}[h]
 	\begin{center}
@@ -197,7 +197,7 @@ Se presenta los resultados que son obtenidos por el algoritmo, estableciendo el 
 
 %\medskip
 
-Se observa que en términos de evitar el mayor riesgo, la mejor opción es el tercer camino $d^r$; sin embargo, la distancia que puede recorrer una persona es amplia a comparación de los otros caminos; asimismo, la opción más balanceada en cuanto al índice de riesgo y la distancia recorrida es el primer camino (r*d). También se demuestra que el tiempo de ejecución es bastante bajo, por lo que abre la oportunidad de ser empleado en una aplicación móvil para el fácil uso de los usuario que lo emplearán en su vida cotidiana.
+Se observa que en términos de evitar el mayor riesgo, la mejor opción es el tercer camino $d^r$; sin embargo, la distancia que puede recorrer una persona es amplia a comparación de los otros caminos; asimismo, la opción más balanceada en cuanto al índice de riesgo y la distancia recorrida es el primer camino ($r*d$). También se demuestra que el tiempo de ejecución es bastante bajo, por lo que abre la oportunidad de ser empleado en una aplicación móvil para el fácil uso de los usuario que lo emplearán en su vida cotidiana.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -220,7 +220,7 @@ Este trabajo de investigación presenta la siguiente metodología utilizada para
 \end{figure}
 %\medskip
 Como primer paso de la metodología propuesta, se inicializa el mapa con el API de Google Maps, para luego proceder a configurar su función gmaps. Luego se cargan los datos, los cuáles contienen datos de delitos y accidentes desde el sitio web de datos abiertos de Nueva York, que brindan información del tipo de delito o accidente, así como su latitud y longitud. El siguiente paso se aplica al preprocesamiento de los datos para limpiar los datos atípicos o faltantes.
-Una vez realizado el preprocesamiento de los datos, se procede a etiquetar la puntuación de accidentes de un punto (AS) y la puntuación de delitos de un punto (CS). Para la puntuación de delitos se asigna ponderaciones que van desde 1 a 15 dependiendo del delito y tipo de castigo que se le impone al sospechoso. Mientras que la puntuación de accidentes se calcula de la siguiente manera:
+Una vez realizado el preprocesamiento de los datos, se procede a etiquetar la puntuación de accidentes de un punto ($AS$) y la puntuación de delitos de un punto ($CS$). Para la puntuación de delitos se asigna ponderaciones que van desde 1 a 15 dependiendo del delito y tipo de castigo que se le impone al sospechoso. Mientras que la puntuación de accidentes se calcula de la siguiente manera:
 
 %\medskip
 \begin{equation} 
@@ -254,7 +254,7 @@ Después de hacer las agrupaciones de los grupos formados de un distrito, se rea
 	A = \sum_{i = 1}^{N}\frac{A_{S}}{N}
 \end{equation}
 %\medskip
-Donde N es el número de puntos de un grupo. Después se procede a calcular la puntuación del riesgo (RS) que toma como entrada el origen y destino de la ruta a calcular gracias al API de google maps llamado Direction Service,  que proporciona una serie de pasos al usuario para seguir la ruta. Luego se utiliza el modelo KNN Regresor para hallar el vecino más cercano según el grado de riesgo de cada punto. La puntuación de riesgo (RS) se calcula de la siguiente manera: 
+Donde $N$ es el número de puntos de un grupo. Después se procede a calcular la puntuación del riesgo ($RS$) que toma como entrada el origen y destino de la ruta a calcular gracias al API de google maps llamado Direction Service,  que proporciona una serie de pasos al usuario para seguir la ruta. Luego se utiliza el modelo KNN Regresor para hallar el vecino más cercano según el grado de riesgo de cada punto. La puntuación de riesgo ($RS$) se calcula de la siguiente manera: 
 
 
 %\medskip
@@ -263,7 +263,7 @@ Donde N es el número de puntos de un grupo. Después se procede a calcular la p
 \end{equation}
 %\medskip
 
-Donde W es el número de puntos de rutas que hay entre el origen y el destino.
+Donde $W$ es el número de puntos de rutas que hay entre el origen y el destino.
 
 Como último punto, el modelo debe mostrar la ruta más segura bajo las siguientes dos condiciones: el primero es que la ruta debe presentar la puntuación de riesgo más baja, y la segunda es que si hay más de una ruta segura, se debe elegir la distancia más corta.
 %\medskip
@@ -312,7 +312,7 @@ Se utiliza un conjunto de datos de código abierto llamado pNEUMA, de la ciudad 
 \end{figure}
 %\medskip
 
-El modelo propuesto es un modelo de teoría de valores extremos (EVT), específicamente el modelo bayesiano jerárquico para estimar el riesgo de accidente de cada ubicación en tiempo real y se incorporan covariables para optimizar el rendimiento del modelo propuesto. Después de desarrollar el modelo bayesiano, se calcula el riesgo de colisión (ROC), que estima el número total de accidentes que se observan en una ubicación, también se calcula una métrica de tiempo de viaje para desarrollar una función de impedancia para realizar comparaciones entre los distintos nodos de una red de carreteras bajo un algoritmo de enrutamiento. Para el cálculo de la función de impedancia (S) es de la siguiente manera:
+El modelo propuesto es un modelo de teoría de valores extremos (EVT), específicamente el modelo bayesiano jerárquico para estimar el riesgo de accidente de cada ubicación en tiempo real y se incorporan covariables para optimizar el rendimiento del modelo propuesto. Después de desarrollar el modelo bayesiano, se calcula el riesgo de colisión (ROC), que estima el número total de accidentes que se observan en una ubicación, también se calcula una métrica de tiempo de viaje para desarrollar una función de impedancia para realizar comparaciones entre los distintos nodos de una red de carreteras bajo un algoritmo de enrutamiento. Para el cálculo de la función de impedancia ($S$) es de la siguiente manera:
 
 %\medskip
 
@@ -384,7 +384,7 @@ Se comparó con el método de Dijkstra y el algoritmo clásico de aprendiza por 
 Por la gran complejidad que existe para el logro de una predicción precisa, como es el gran tamaño y condiciones de redes de tráfico, los métodos de Aprendizaje Profundo basados en grafos ha sido una alternativa de solución en tendencia. Además, mientras más complejo sea las redes de tráfico, el rendimiento de los modelos de Graph Convolution Network (GCN) son cada vez más bajos. Para afrontar estos problemas, los autores del presente artículo proponen un enfoque basado en agrupamiento de grafos para aplicar un modelo de Spatio-Temporal Graph Convolutional Networks (STGCN) para la predicción de la velocidad de tráfico en lugares urbanos a gran escala.
 
 \subsubsection{Metodología empleada por los autores}
-La metodología propuesta empieza utilizando dos conjuntos de datos, el primer conjunto de datos pertenece a Nav-BJ y contiene datos de 1159 estaciones de sensores desplegadas en las diferentes carreteras de la ciudad de Beijing del mes de marzo de 2019, mientras que el segundo conjunto de datos pertenece a Caltrans Performace Measurement System (PeMS) que contiene 228 estaciones de sensores en el distrito 7 de California de los meses de mayo y junio de 2012. Luego se realiza un preprocesamiento de los datos, se realiza una normalización Z-Score y se aplica una interpolación lineal para la recuperación de datos faltantes. 
+La metodología propuesta empieza utilizando dos conjuntos de datos, el primer conjunto de datos pertenece a Nav-BJ y contiene datos de 1159 estaciones de sensores desplegadas en las diferentes carreteras de la ciudad de Beijing del mes de marzo de 2019, mientras que el segundo conjunto de datos pertenece a Caltrans Performace Measurement System (PeMS) que contiene 228 estaciones de sensores en el distrito 7 de California de los meses de mayo y junio de 2012. Luego se realiza un preprocesamiento de los datos, se realiza una normalización $Z-Score$ y se aplica una interpolación lineal para la recuperación de datos faltantes. 
 
 %\medskip
 \begin{figure}[h]
@@ -399,7 +399,7 @@ La metodología propuesta empieza utilizando dos conjuntos de datos, el primer c
 
 Se utilizan otros tres enfoques del modelo propuesto EMGC-STGCN (agrupación de grafos), el primero es el modelo STGCN sin agrupación de grafos, el segundo es Random-STGCN, el cual utiliza el método de agrupación de grafos aleatorios, mientras que el último enfoque es Metis-STGCN que utiliza el método ingénuo de Metis. Para el entrenamiento del modelo propuesto, se necesita como parámetro las matrices de adyacencia de los dos conjuntos de datos y que representa el 60\% de estas; además, se utiliza el optimizador Adam durante 50 épocas. Luego se realiza el proceso de prueba del 20\% del conjunto de datos y por último el proceso de validación que representa el 20\%. 
 
-Se compara el modelo propuesto de los 3 enfoques distintos con los métodos de Promedio Histórico (HA) y ARIMA, así como el modelo GRU. Para esto, se hace uso de las métricas de Error Absoluto Medio (MAE), Error Porcentual Absoluto Medio (MAPE) y Raíz del Error Cuadrático Medio (RMSE).
+Se compara el modelo propuesto de los 3 enfoques distintos con los métodos de Promedio Histórico (HA) y ARIMA, así como el modelo GRU. Para esto, se hace uso de las métricas de Error Absoluto Medio ($MAE$), Error Porcentual Absoluto Medio ($MAPE$) y Raíz del Error Cuadrático Medio ($RMSE$).
 
 \subsubsection{Resultados obtenidos}
 %\medskip

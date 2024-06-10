@@ -159,22 +159,148 @@ Un grafo puede ser denotado como $G = \{V, E\}$, donde $V = \{v_{1}, . . ., v_{N
 Otro aspecto que conforma un grafo es su Matriz de Adyacencia, el cual se denota como $A \in \{0, 1\}$$NxN$. Cada $A_{ij}$ representa la relación que hay entre dos nodos. Cabe mencionar que, en un grafo no dirigido, su matriz de adyacencia es simétrica, es decir, $A_{ij} = A_{ji}$  \parencite{bk_grafo}.
 
 
-\subsubsection{Propiedades de un grafo}
-\subsubsection{Procesamiento de señales de Grafos}
-\subsubsection{Transformación de Fourier en Grafos (GFT)}
-\subsubsection{Tipo de Grafos}
+\subsubsection{Propiedades de un grafo \parencite{bk_grafo}}
+El grado indica la cantidad de veces que un nodo está conectado a otro, el cual puede ser calculado de la siguiente forma:
+%\medskip
+\begin{equation} 
+	d(v_{i}) = \sum_{v_{j}\in V }\mathbb{I}_{\varepsilon}(\left \{v_{i},v_{j}  \right \}) ,
+\end{equation}
+%\medskip
+
+\begin{equation} 
+	\mathbb{I}_{\varepsilon}(\left \{v_{i},v_{j}  \right \}) = \begin{Bmatrix}
+		1\;\;\;\; \textrm{if}\;  (v_{i},v_{j}) \in \varepsilon, \\ 
+		0\;\;\;\; \textrm{if}\;  (v_{i},v_{j}) \notin \varepsilon
+	\end{Bmatrix}
+\end{equation}
+%\medskip
+El grado también puede ser calculado mediante su matriz de adyacencia de la siguiente forma:
+%\medskip
+
+\begin{equation} 
+	d(v_{i}) = \sum_{j = 1}^{N}A_{i,j}
+\end{equation}
+%\medskip
+En contraste al grado, los vecinos son el conjunto de nodos que están conectados a un nodo. El camino de un grafo es el recorrido que hay entre los nodos y las aristas y su longitud es el número de aristas que existen. En este camino, se forman rastros que son aristas distintas y la trayectoria que son los nodos distintos. Para que haya conectividad, se necesita al menos que haya un camino entre cualquier par de nodos. Para hallar el camino más corto, se calcula de la siguiente manera:
+%\medskip
+
+\begin{equation}
+	p_{st}^{sp} = arg \min_{p\in p_{st}}\left | p \right |
+\end{equation}
+%\medskip
+
+Donde $p$ es el camino en $p_{st}$ con su longitud.
+Para calcular el diámetro de un grafo, es de la siguiente manera:
+%\medskip
+
+\begin{equation}
+	diameter(G) = \max_{v_{s},v_{t}\in V}\min_{p\in P_{st}}
+\end{equation}
+%\medskip
 
 
+\subsubsection{Procesamiento de señales de Grafos \parencite{bk_grafo}}
+
+Las señales de grafos son las características o atributos asociados en cada nodo, los cuales almacenan la conectividad o estructura de los nodos, como también sus datos. Esta señal consiste en un grafo y una función de mapeo donde se le asigna los valores reales correspondiente a los nodos, el cual es representado de la siguiente manera:
+%\medskip
+
+\begin{equation}
+	f: V \rightarrow \mathbb{R}^{Nxd}
+\end{equation}
+%\medskip
+
+Donde $d$ es el vector (dimensión del valor) que está asociado a cada nodo.
+
+
+\subsubsection{Transformación de Fourier en Grafos (GFT) \parencite{bk_grafo}}
+En comparación a la clásica transformación de Fourier, que realiza un análisis de señales establecidas en la dimensión del tiempo o espacio, esta extensión realiza el análisis en la dimensión de un grafo, con el fin de descomponer dicha señal en una serie de componentes espectrales basados en los autovectores de la matriz Laplaciana del grafo, la cual es una matriz que captura la estructura del grafo con el fin de realizar diversas operaciones y análisis. Dicha Matriz Laplaciana ($L$) es la diferencia de la matriz diagonal de los grados ($D$) y la matriz de adyacencia del grafo ($A$). 
+
+La Transformación de Fourier en grafos se puede definir matemáticamente de la siguiente manera: 
+
+%\medskip
+
+\begin{equation}
+	f[i] = \sum_{l=1}^{N}\hat{f}[l]u_{l}[i]
+\end{equation}
+%\medskip
+
+Donde: 
+
+$\hat{f}[l]$ es el l-ésimo coeficiente de Fourier en grafos.
+
+$u_{l}$ es el l-ésimo autovector de la matriz Laplaciana $L$ del grafo.
+
+\subsubsection{Tipo de Grafos \parencite{bk_grafo}}
+
+\begin{itemize}
+	\item \textbf{Grafos Heterogéneos:} Son los grafos más simples explicados en los anteriores puntos, en donde solo tienen un tipo de nodos y aristas.
+	
+	\item \textbf{Grafos Multidimensionales:} Este tipo de grafo puede compartir múltiples relaciones en simultáneo entre un par de nodos, como por ejemplo cuando los usuarios de YouTube, considerados como nodos, pueden suscribirse entre ellos, donde cada tipo de relación se considera como una dimensión.
+	
+	\item \textbf{Signed Graphs:} Este tipo de grafo contiene tanto aristas positivas como negativas, y son popularmente representados en las plataformas sociales en línea, como, por ejemplo, cuando un usuario puede bloquear o dejar de seguir a otros usuarios, dicha acción de seguir o no seguir pueden considerarse como las aristas positivas y negativas, respectivamente.
+	
+	\item \textbf{Hypergrafos:} Este tipo de grafo en comparación a los anteriores, este no solo tiene información entre pares de aristas, ya que, en el mundo real, estas relaciones van más allá que las asociaciones entre pares, como por ejemplo los artículos publicados por un autor.
+	
+	\item \textbf{Dynamic Graph:} Es un tipo de grafo en el cual sus conexiones entre los nodos pueden cambiar con el tiempo, reflejando un comportamiento y evolución continua entre estos.
+	
+\end{itemize}
 
 
 \subsection{Métodos de Redes Neuronales Profundas basadas en Grafos}
-\subsubsection{Graph Neural Networks}
+\subsubsection{Graph Neural Networks \parencite{bk_grafo}}
+
+Las Redes Neuronales Gráficas (GNNs) son métodos que aplican Redes Neuronales Profundas a datos estructurados representados en grafos. Este método puede ser representado como un proceso de aprendizaje de representación en grafos y que están enfocados en aprender las características representativas de cada nodo con el fin de facilitar las tareas del grafo. Dicho proceso se puede representar de la siguiente manera:
+
+%\medskip
+
+\begin{equation}
+	F^{(of)}= h(A,F^{^{(if)}})
+\end{equation}
+%\medskip
+
+Donde $A$ representa la matriz de adyacencia del grafo con $N$ nodos y $F^{^{(if)}}$ y $F^{^{(of)}}$ representan las matrices de características de entrada y salida, las cuales también tienen las dimensiones  del grafo. Los subíndices “$if$” y “$of$” son los filtros que se realizan dentro del grafo y que en la figura está representada el proceso tradicional de filtrado del grafo a sus características de los nodos:
+
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{2/MT/7.jpg}
+		\caption{Operación de filtración de grafos \\
+			Fuente: \citep*{bk_grafo}. \citetitle{bk_grafo}. (p. 108)}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+
+
+Existen otras operaciones que son necesarias para las tareas centradas en grados y generalmente son operaciones de agrupación a partir de las características de los nodos. Este proceso de agrupación toma un grafo como entrada y luego producen un grafo reducido con pocos nodos, como se observa en la siguiente figura:
+
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{2/MT/8.jpg}
+		\caption{Operación de filtración de grafos \\
+			Fuente: \citep*{bk_grafo}. \citetitle{bk_grafo}. (p. 109)}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+
+Dicha operación se puede describir de la siguiente manera:
+
+%\medskip
+
+\begin{equation}
+	A^{(op)},F^{(op)}= pool(A^{^{(ip)}},F^{^{(ip)}})
+\end{equation}
+%\medskip
+Los subindices $ip$ y $op$ indican la entrada y salida de la agrupación.
+
 
 
 \subsubsection{Robust Graph Neural Networks}
-Al igual que las DNNs tradicionales, estas son vulnerables a ataques adversarios, generando perturbaciones en la manipulación de la estructura del grafo y la características de los nodos para engañar a los modelos de GNNs. Por esta limitación, Robusta Graph Neural Networks es una extensión de las GNNs que adoptan medidas críticas de seguridad, las cuáles pueden estar presentes en los sistemas financieros y la gestión de riesgo. La RGNNs comunmente utiliza un enfoque de limpieza del grafo perturbado, los cuáles han sido victimas de una violación de ciertas propiedades que presenta el grafo real 
+Al igual que las DNNs tradicionales, estas son vulnerables a ataques adversarios, generando perturbaciones en la manipulación de la estructura del grafo y la características de los nodos para engañar a los modelos de GNNs. Por esta limitación, Robusta Graph Neural Networks es una extensión de las GNNs que adoptan medidas críticas de seguridad, las cuáles pueden estar presentes en los sistemas financieros y la gestión de riesgo. La RGNNs comunmente utiliza un enfoque de limpieza del grafo perturbado, los cuáles han sido victimas de una violación de ciertas propiedades que presenta el grafo real \parencite{jin2020graph}.
 
 
 \subsubsection{Scalable Graph Neural Networks}
-Las GNNs tradicionales presentan problemas de escalabilidad que impide la adopción de grados a gran escala, debido a que utiliza un método de gradiente para minimizar la función de pérdida en cada etapa de representación de nodos, requiriendo una gran cantidad de recursos computacionales y operaciones de cálculos (Libro). Para abordar dichos problemas, se utilizan las técnicas y enfoques de las SGNNs para que las GNNs sean más eficientes a medida que el tamaño y la complejidad de los grafos van aumentando. Una de las principales técnicas de las SGNNs es el Graph Coarsening que utiliza la reducción de grafos para el entrenamiento escalable de estas (https://arxiv.org/abs/2106.05150).
+Las GNNs tradicionales presentan problemas de escalabilidad que impide la adopción de grados a gran escala, debido a que utiliza un método de gradiente para minimizar la función de pérdida en cada etapa de representación de nodos, requiriendo una gran cantidad de recursos computacionales y operaciones de cálculos (Libro). Para abordar dichos problemas, se utilizan las técnicas y enfoques de las SGNNs para que las GNNs sean más eficientes a medida que el tamaño y la complejidad de los grafos van aumentando. Una de las principales técnicas de las SGNNs es el Graph Coarsening que utiliza la reducción de grafos para el entrenamiento escalable de estas \parencite{huang2021scaling}.
 

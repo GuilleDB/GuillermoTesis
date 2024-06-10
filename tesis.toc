@@ -68,27 +68,27 @@
 \contentsline {subsubsection}{\numberline {2.2.4.4}Modelo y Planificación}{43}{subsubsection.2.2.4.4}%
 \contentsline {subsubsection}{\numberline {2.2.4.5}Exploracion}{43}{subsubsection.2.2.4.5}%
 \contentsline {subsection}{\numberline {2.2.5}Fundamentos de grafos}{44}{subsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.5.1}Propiedades de un grafo}{45}{subsubsection.2.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.2.5.2}Procesamiento de señales de Grafos}{45}{subsubsection.2.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.2.5.3}Transformación de Fourier en Grafos (GFT)}{45}{subsubsection.2.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.2.5.4}Tipo de Grafos}{45}{subsubsection.2.2.5.4}%
-\contentsline {subsection}{\numberline {2.2.6}Métodos de Redes Neuronales Profundas basadas en Grafos}{45}{subsection.2.2.6}%
-\contentsline {subsubsection}{\numberline {2.2.6.1}Graph Neural Networks}{45}{subsubsection.2.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.2.6.2}Robust Graph Neural Networks}{45}{subsubsection.2.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.2.6.3}Scalable Graph Neural Networks}{45}{subsubsection.2.2.6.3}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{46}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Aprendizaje Profundo}{46}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Aprendizaje Profundo (RL)}{46}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Aprendizaje Profundo por Refuerzo (DRL)}{46}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Redes Neuronales Profundas (DNN)}{46}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Graph Neural Network (GNN)}{46}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Zona Urbana}{47}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Delincuencia}{47}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Ruta}{47}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Riesgo}{47}{subsection.2.3.9}%
-\contentsline {chapter}{Anexos}{48}{section*.33}%
-\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{49}{appendix.Alph1}%
-\contentsline {section}{\numberline {A.1}Árbol de Problemas}{49}{section.Alph1.1}%
-\contentsline {section}{\numberline {A.2}Árbol de Objetivos}{51}{section.Alph1.2}%
-\contentsline {chapter}{\numberline {B}Anexo II: Resumen de Papers investigados}{52}{appendix.Alph2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{54}{appendix*.38}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}Propiedades de un grafo \blx@tocontentsinit {0}\parencite {bk_grafo}}{45}{subsubsection.2.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.2.5.2}Procesamiento de señales de Grafos \blx@tocontentsinit {0}\parencite {bk_grafo}}{45}{subsubsection.2.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.2.5.3}Transformación de Fourier en Grafos (GFT) \blx@tocontentsinit {0}\parencite {bk_grafo}}{46}{subsubsection.2.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.2.5.4}Tipo de Grafos \blx@tocontentsinit {0}\parencite {bk_grafo}}{46}{subsubsection.2.2.5.4}%
+\contentsline {subsection}{\numberline {2.2.6}Métodos de Redes Neuronales Profundas basadas en Grafos}{47}{subsection.2.2.6}%
+\contentsline {subsubsection}{\numberline {2.2.6.1}Graph Neural Networks \blx@tocontentsinit {0}\parencite {bk_grafo}}{47}{subsubsection.2.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.2.6.2}Robust Graph Neural Networks}{48}{subsubsection.2.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.2.6.3}Scalable Graph Neural Networks}{48}{subsubsection.2.2.6.3}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{49}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Aprendizaje Profundo}{49}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Aprendizaje Profundo (RL)}{49}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Aprendizaje Profundo por Refuerzo (DRL)}{49}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Redes Neuronales Profundas (DNN)}{49}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Graph Neural Network (GNN)}{49}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Zona Urbana}{50}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Delincuencia}{50}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Ruta}{50}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Riesgo}{50}{subsection.2.3.9}%
+\contentsline {chapter}{Anexos}{51}{section*.35}%
+\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{52}{appendix.Alph1}%
+\contentsline {section}{\numberline {A.1}Árbol de Problemas}{52}{section.Alph1.1}%
+\contentsline {section}{\numberline {A.2}Árbol de Objetivos}{54}{section.Alph1.2}%
+\contentsline {chapter}{\numberline {B}Anexo II: Resumen de Papers investigados}{55}{appendix.Alph2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{57}{appendix*.40}%

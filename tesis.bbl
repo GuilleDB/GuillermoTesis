@@ -617,6 +617,60 @@
       \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
       \endverb
     \endentry
+    \entry{huang2021scaling}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=cfccd23c6b0960d4f44bf5184d00fcdf}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zengfeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82871ca92e1840eab959be534b5e536d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shengzhong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=583528795acfea487f798c98c2e77aa6}{%
+           family={Xi},
+           familyi={X\bibinitperiod},
+           given={Chong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c52dbeedf682e724e448d4f609de332}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tang},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f18ed0379542e330dab8ec3d169b83ee}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2de8d8f0f8a3b800ee3a3c321844d4d0}
+      \strng{fullhash}{b056932987fe1c6859ac847972dade07}
+      \strng{bibnamehash}{b056932987fe1c6859ac847972dade07}
+      \strng{authorbibnamehash}{b056932987fe1c6859ac847972dade07}
+      \strng{authornamehash}{2de8d8f0f8a3b800ee3a3c321844d4d0}
+      \strng{authorfullhash}{b056932987fe1c6859ac847972dade07}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Scaling Up Graph Neural Networks Via Graph Coarsening}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2106.05150
+      \endverb
+    \endentry
     \entry{gl_IBMIA}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -697,6 +751,66 @@
       \endverb
       \verb{url}
       \verb https://www.iic.uam.es/aprendizaje-profundo-por-refuerzo/
+      \endverb
+    \endentry
+    \entry{jin2020graph}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8a8de624d5118be2e7c4acdcdacde17c}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9495c8a5a2c9489e8af928b6f0eed6b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c14e09fbd30e0b29904958c290b87f6b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaorui},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21d9efa31d7e59f043f7eb88d143ce0f}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xianfeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=854278958e1021c53ca312cc8316e2a6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jiliang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e429cefb84a49ffdf8965d8238f84e45}
+      \strng{fullhash}{3b1475c90ea6eb2b27f82778f871c015}
+      \strng{bibnamehash}{3b1475c90ea6eb2b27f82778f871c015}
+      \strng{authorbibnamehash}{3b1475c90ea6eb2b27f82778f871c015}
+      \strng{authornamehash}{e429cefb84a49ffdf8965d8238f84e45}
+      \strng{authorfullhash}{3b1475c90ea6eb2b27f82778f871c015}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Graph Structure Learning for Robust Graph Neural Networks}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2005.10203
       \endverb
     \endentry
     \entry{pr_koh}{article}{}
@@ -2100,6 +2214,60 @@
       \verb https://noticias.autocosmos.com.co/2022/08/29/cuantos-usuarios-consultan-waze-mensualmente
       \endverb
     \endentry
+    \entry{huang2021scaling}{misc}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=cfccd23c6b0960d4f44bf5184d00fcdf}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Zengfeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=82871ca92e1840eab959be534b5e536d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shengzhong},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=583528795acfea487f798c98c2e77aa6}{%
+           family={Xi},
+           familyi={X\bibinitperiod},
+           given={Chong},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c52dbeedf682e724e448d4f609de332}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Tang},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f18ed0379542e330dab8ec3d169b83ee}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2de8d8f0f8a3b800ee3a3c321844d4d0}
+      \strng{fullhash}{b056932987fe1c6859ac847972dade07}
+      \strng{bibnamehash}{b056932987fe1c6859ac847972dade07}
+      \strng{authorbibnamehash}{b056932987fe1c6859ac847972dade07}
+      \strng{authornamehash}{2de8d8f0f8a3b800ee3a3c321844d4d0}
+      \strng{authorfullhash}{b056932987fe1c6859ac847972dade07}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Scaling Up Graph Neural Networks Via Graph Coarsening}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2106.05150
+      \endverb
+    \endentry
     \entry{gl_IBMIA}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
@@ -2180,6 +2348,66 @@
       \endverb
       \verb{url}
       \verb https://www.iic.uam.es/aprendizaje-profundo-por-refuerzo/
+      \endverb
+    \endentry
+    \entry{jin2020graph}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8a8de624d5118be2e7c4acdcdacde17c}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9495c8a5a2c9489e8af928b6f0eed6b}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yao},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c14e09fbd30e0b29904958c290b87f6b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaorui},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21d9efa31d7e59f043f7eb88d143ce0f}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Xianfeng},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d51786a0dffbd8ee68a63e5263f05e7f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Suhang},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=854278958e1021c53ca312cc8316e2a6}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jiliang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e429cefb84a49ffdf8965d8238f84e45}
+      \strng{fullhash}{3b1475c90ea6eb2b27f82778f871c015}
+      \strng{bibnamehash}{3b1475c90ea6eb2b27f82778f871c015}
+      \strng{authorbibnamehash}{3b1475c90ea6eb2b27f82778f871c015}
+      \strng{authornamehash}{e429cefb84a49ffdf8965d8238f84e45}
+      \strng{authorfullhash}{3b1475c90ea6eb2b27f82778f871c015}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{title}{Graph Structure Learning for Robust Graph Neural Networks}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2005.10203
       \endverb
     \endentry
     \entry{pr_koh}{article}{}
