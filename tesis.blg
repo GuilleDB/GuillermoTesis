@@ -1,22 +1,22 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'tesis.blg'
-[143] biber-MSWIN64:340> INFO - === 
-[189] Biber.pm:419> INFO - Reading 'tesis.bcf'
-[360] Biber.pm:979> INFO - Found 27 citekeys in bib section 0
-[384] Biber.pm:4419> INFO - Processing section 0
-[398] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
-[467] bibtex.pm:1713> INFO - LaTeX decoding ...
-[530] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
-[600] Utils.pm:410> ERROR - Name "Diya Li, Zhe Zhang, Bahareh Alizadeh, Ziyi Zhang, Nick Duffield," has too many commas, skipping entry 'pr_de'
-[722] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[722] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[722] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[781] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[781] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[781] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[820] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
-[854] bbl.pm:763> INFO - Output to tesis.bbl
-[854] Biber.pm:131> WARN - Entry with key 'pr_de' in section '0' is cited and found but not created (likely due to sourcemap)
-[854] Biber.pm:131> WARN - legacy month field 'March' in entry 'cu_ceplan' is not an integer - this will probably not sort properly.
-[854] Biber.pm:133> INFO - WARNINGS: 2
-[854] Biber.pm:136> INFO - ERRORS: 1
+[129] biber-MSWIN64:340> INFO - === 
+[177] Biber.pm:419> INFO - Reading 'tesis.bcf'
+[367] Biber.pm:979> INFO - Found 44 citekeys in bib section 0
+[389] Biber.pm:4419> INFO - Processing section 0
+[401] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
+[474] bibtex.pm:1713> INFO - LaTeX decoding ...
+[535] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
+[601] Utils.pm:410> ERROR - Name "Diya Li, Zhe Zhang, Bahareh Alizadeh, Ziyi Zhang, Nick Duffield," has too many commas, skipping entry 'pr_de'
+[777] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[777] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[777] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[854] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[854] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[854] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[902] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[948] bbl.pm:763> INFO - Output to tesis.bbl
+[949] Biber.pm:131> WARN - Entry with key 'pr_de' in section '0' is cited and found but not created (likely due to sourcemap)
+[949] Biber.pm:131> WARN - legacy month field 'March' in entry 'cu_ceplan' is not an integer - this will probably not sort properly.
+[949] Biber.pm:133> INFO - WARNINGS: 2
+[949] Biber.pm:136> INFO - ERRORS: 1

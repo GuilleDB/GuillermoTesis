@@ -13,34 +13,32 @@ La segunda parte del framework propuesto es el middleware, que conecta el entorn
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/SUMO.jpg}
-		\caption{Framework propuesto}
+		\includegraphics[width=0.6\textwidth]{2/figures/SUMO.jpg}
+		\caption[Framework propuesto]{Framework propuesto\\
+			Fuente: \cite{pr_koh}. \citetitle{pr_koh}. (p. 3)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
-%%%Ecuacion
-%\begin{equation}  
-%\label{eq:RMSE}
-%RMSE = \sqrt{\frac{\sum_{i=1}^{N}{\Big(O_i -T_i\Big)^2}}{N}}
-%\end{equation}
+%\medskip
 
 \subsubsection{Resultados obtenidos}
 Para demostrar la eficiencia del modelo propuesto, se compara con diferentes modelos por ciudad, los resultados de una ciudad demuestran que el modelo reduce como máximo el tiempo de viaje en 5.3\%, 5.1\% y 16.4\% dependiendo de la demanda del tráfico. Otro indicador que se utiliza para medir su eficacia es la prueba de Wilcoxon, demostrando que el modelo propuesto es superior a los demás modelos.%\medskip
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/ResultSumo.jpg}
-		\caption{Comparación de rendimiento de los modelos}
+		\includegraphics[width=0.7\textwidth]{2/figures/ResultSumo.jpg}
+		\caption{Comparación de rendimiento de los modelos \\
+			Fuente: \cite{pr_koh}. \citetitle{pr_koh}. (p. 14)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
-
 %\medskip
 
  \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/Result2Sumo.jpg}
-		\caption{Análisis de significancia de los modelas con la prueba de Wilcoxon}
+		\includegraphics[width=0.7\textwidth]{2/figures/Result2Sumo.jpg}
+		\caption{Análisis de significancia de los modelas con la prueba de Wilcoxon \\
+			Fuente: \cite{pr_koh}. \citetitle{pr_koh}. (p. 14)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -59,18 +57,20 @@ Se emplea información pública de delitos de la ciudad de Nueva York, San Franc
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/SafeMetodo.jpg}
-		\caption{Metodología propuesta por los autores}
+		\caption{Elaboración propia: Metodología propuesta por los autores. \\
+			Fuente: \cite{pr_saferoute}. \citetitle{pr_saferoute}.}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
-
+%\medskip
 De acuerdo a la metodología propuesta por los autores, la arquitectura se divide en dos partes, la primera es donde interviene la red neuronal de aprendizaje por refuerzo, y el segundo es la red de políticas definidas para que la red neuronal utiliza al momento de tomar decisiones. Este entorno se presenta como proceso de decisión de Markov con tuplas que contienen los estados contínuos del mapa, las acciones disponibles para el algoritmo y la probabilidad de pasar de un estado a otro.
 %\medskip
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/safeRouteAgent.jpg}
-		\caption{Estructura de la red neuronal del modelo propuesto}
+		\caption{Estructura de la red neuronal del modelo propuesto \\
+			Fuente: \cite{pr_saferoute}. \citetitle{pr_saferoute}. (p. 5)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -98,7 +98,8 @@ El modelo propuesto se comparó con el algoritmo de Dijkstra y SafePath, el cual
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/resultSafe.jpg}
-		\caption{Comparación de rendimiento de los modelos}
+		\caption{Comparación de rendimiento de los modelos \\
+			Fuente: \cite{pr_saferoute}. \citetitle{pr_saferoute}. (p. 11)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -119,11 +120,12 @@ Los autores proponen la siguiente metodología: %\medskip
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/ChileMetodo.jpg}
-		\caption{Metodología propuesta por los autores}
+		\caption{Elaboración propia: Metodología propuesta por los autores \\
+			Fuente: \citep*{pr_esquivel}. \citetitle{pr_esquivel}}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
-
+%\medskip
 El primer paso de esta metodología empieza con la recolección de los datos, que en este caso son los eventos de robos de vehículos en las comunas de la Región de Chile del año 2015 al 2019, que contiene un total de 129.127 registros. Luego se procedió a realizar la suma de los eventos de robo por día de cada comuna para la creación de una serie de tiempo y posterior a esto, aplicar la regresión LOESS, el cual es una técnica no paramétrica que utiliza los mínimos cuadrados ponderados para asignar un mayor peso a los más cercanos y menos a los que están más lejos. La aplicación de dicha técnica permite la reducción de ruido de la serie de tiempo. De este paso, se obtuvo una matriz suavizada de número de eventos de robos, el cuál sirve como input para la red GCLSTM. 
 
 Dicha red suma las matrices de adyacencia e identidad para realizar la convolución con parámetros K, luego se le asigna a cada vecino un peso por iteración y estas van a las compuertas LSTM para la extracción de la última celda para el desarrollo de una capa de salida lineal con la función tanh. Para la optimización de la red GCLSTM, se aplicó el algoritmo de RMSprop para entrenar el modelo hasta que haya un sobreajuste en los datos.
@@ -133,10 +135,12 @@ Dicha red suma las matrices de adyacencia e identidad para realizar la convoluci
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/EsquivelRed.jpg}
-		\caption{Estructura de la red convolucional LSTM basada en grafos}
+		\caption{Estructura de la red convolucional LSTM basada en grafos \\
+			Fuente: \citep*{pr_esquivel}. \citetitle{pr_esquivel}. (p. 4)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
+%\medskip
 
 Para la fase de entrenamiento, se utilizó el 70\% del conjunto de datos, 20\% de validación y 10\% para la fase de prueba.
 
@@ -151,31 +155,33 @@ Mientras que, en la fase de pruebas, se demuestra, con la métrica R2, que el mo
 La creciente cifra de casos de acoso callejero en las calles de Medellín, así como casos de asaltos y violación, ha tenido como consecuencia que el miedo de las mujeres aumente y por ende, se sientan inseguras por cuál ruta tomar. A pesar de los distintos métodos de prevención, se menciona que no siempre son efectivos para evitar ser víctima de acoso en espacios públicos. Además, aplicaciones de generación de rutas para el transporte, como Google Maps o Waze, no cuentan con la capacidad de detectar rutas seguras, ya que es propio sistema de estas sólo calculan sus rutas en base a la distancia más corta. Este trabajo de investigación busca solucionar este problema implementando el algoritmo de Dijkstra, para calcular tres caminos diferentes tomando en cuenta la distancia y el índice de riesgo.
 
 \subsubsection{Metodología empleada por los autores}
+
+
 Para la obtención del mapa de Medellín, se empleó Open Street Maps (OSM) en Python, el cual contiene en cada segmento su longitud en metros, en qué sentidos va, y sus representaciones binarias proporcionadas por la propia librería OSM. Para el cálculo del riesgo, se empleó un conjunto de datos de la encuesta de calidad de vida de Medellín del año 2017; luego se procedió a realizar una combinación lineal (CL)  mediante el análisis de componentes principales, el cual  es la máxima varianza de la proporción de hogares que se sienten inseguros entre la proporción de hogares que tienen ingresos inferiores al salario mínimo; después se normaliza la combinación lineal y la proporción de esta es considera como el riesgo de acoso.
 %\medskip
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/segmento.jpg}
-		\caption{Riesgo de acoso sexual mediante combinación lineal}
+		\includegraphics[width=0.6\textwidth]{2/figures/segmento.jpg}
+		\caption{Riesgo de acoso sexual mediante combinación lineal \\
+			Fuente: \citep*{pr_areiza}. \citetitle{pr_areiza}. (p. 3)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
-
+%\medskip
 Se crea un diccionario que almacena el peso de cada vértice mediante el producto entre la longitud y riesgo de acoso de cada relación entre origen y destino. Se implementa el algoritmo de Dijkstra que requiere de tres parámetros los cuáles son los grafos creados, y los vértices de origen y destino. Este algoritmo calcula cada vecino del vértice actual a través de sus pesos que están almacenados en el diccionario para calcular el camino con menos peso. Además del cálculo tradicional que emplea, el cuál es r*d, donde r es el riesgo de acoso, y d es la distancia en metros, se calculó dos caminos más. El primero es la suma entre la distancia y el riesgo, mientras que el segundo eleva la distancia al riesgo de acoso. Para graficar estos tres resultados, se empleó la librería GmPlot, une el camino del origen y destino mediante las coordenadas ubicadas en Google maps, siendo más fácil de visualizar para el usuario.
 %\medskip
-
-
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/medellinMetodo.jpg}
-		\caption{Metodología propuesta por los autores}
+		\caption{Elaboración propia: Metodología propuesta por los autores  \\
+			Fuente: \citep*{pr_areiza}. \citetitle{pr_areiza}}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
-
+%\medskip
 \subsubsection{Resultados obtenidos}
-Se presenta los resultados que son obtenidos por el algoritmo, estableciendo el origen en la Universidad EAFIT hasta la Universidad Nacional, el cual se puede visualizar en la siguiente tabla:%\medskip
+Se presenta los resultados que son obtenidos por el algoritmo, estableciendo el origen en la Universidad EAFIT hasta la Universidad Nacional, el cual se puede visualizar en la tabla \ref{tab:results}.%\medskip
 
 \begin{table}[h]
 	\centering
@@ -183,14 +189,15 @@ Se presenta los resultados que son obtenidos por el algoritmo, estableciendo el 
 		Camino & Distancia & Riesgo & Tiempo de ejecución\\\hline
 		r*d & 9061.75m & 0.58& 1.01033s\\
 		r+d & 8574m& 0.69& 1.01030s\\
-		d\^r& 16642m& 0.35& 1.00640s
+		$d^r$& 16642m& 0.35& 1.00640s
 	\end{tabular}
-	\caption{\label{tab:results}Tabla de resultados.}
+	\caption{\label{tab:results}Elaboración propia: Tabla de resultados.\\
+		Fuente: \citep*{pr_areiza}. \citetitle{pr_areiza}}
 \end{table}
 
 %\medskip
 
-Se observa que en términos de evitar el mayor riesgo, la mejor opción es el tercer camino (d\^r); sin embargo, la distancia que puede recorrer una persona es amplia a comparación de los otros caminos; asimismo, la opción más balanceada en cuanto al índice de riesgo y la distancia recorrida es el primer camino (r*d). También se demuestra que el tiempo de ejecución es bastante bajo, por lo que abre la oportunidad de ser empleado en una aplicación móvil para el fácil uso de los usuario que lo emplearán en su vida cotidiana.
+Se observa que en términos de evitar el mayor riesgo, la mejor opción es el tercer camino $d^r$; sin embargo, la distancia que puede recorrer una persona es amplia a comparación de los otros caminos; asimismo, la opción más balanceada en cuanto al índice de riesgo y la distancia recorrida es el primer camino (r*d). También se demuestra que el tiempo de ejecución es bastante bajo, por lo que abre la oportunidad de ser empleado en una aplicación móvil para el fácil uso de los usuario que lo emplearán en su vida cotidiana.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -205,8 +212,9 @@ Este trabajo de investigación presenta la siguiente metodología utilizada para
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.35\textwidth]{2/figures/routeMet.jpg}
-		\caption{Metodología Propuesta}
+		\includegraphics[width=0.30\textwidth]{2/figures/routeMet.jpg}
+		\caption{Metodología Propuesta \\
+			Fuente: \citep*{pr_Soni}. \citetitle{pr_Soni}. (p. 1419)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -222,17 +230,17 @@ Una vez realizado el preprocesamiento de los datos, se procede a etiquetar la pu
 
 	Donde:
 
-PK: Recuento de peatones fallecidos
+$PK$: Recuento de peatones fallecidos
 
-CK: Recuento de ciclistas fallecidos
+$CK$: Recuento de ciclistas fallecidos
 
-MK: Recuento de automovilistas fallecidos
+$MK$: Recuento de automovilistas fallecidos
 
-PI: Recuento de peatones heridos
+$PI$: Recuento de peatones heridos
 
-CI: Recuento de ciclistas heridos
+$CI$: Recuento de ciclistas heridos
 
-MI: Recuento de automovilistas heridos
+$MI$: Recuento de automovilistas heridos
 
 El siguiente paso es la formación de los grupos utilizando K Means, que es un algoritmo de agrupación de aprendizaje automático no supervisado, basado en la latitud y longitud, así como los conjuntos de datos se concatenan para agruparlos y determinar las regiones de riesgo. Específicamente, primero se agrupa en función a la longitud y latitud donde ocurrieron los hechos, para dividir el mapa de Nueva York en regiones más pequeñas. Asimismo, para generar las regiones de riesgo, se agrupa bajo los grupos ya formados en un distrito, como por ejemplo, el distrito de Manhattan. 
 
@@ -261,8 +269,9 @@ Como último punto, el modelo debe mostrar la ruta más segura bajo las siguient
 %\medskip
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.35\textwidth]{2/figures/CondicionSafe.jpg}
-		\caption{Flujo de condición para detectar rutas seguras}
+		\includegraphics[width=0.5\textwidth]{2/figures/CondicionSafe.jpg}
+		\caption{Flujo de condición para detectar rutas seguras\\
+			Fuente: \citep*{pr_Soni}. \citetitle{pr_Soni}. (p. 1420)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -275,7 +284,8 @@ Se establece un punto de origen A y un punto de destino B en el distrito de Manh
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{2/figures/resultRoute.jpg}
-		\caption{Resultados obtenidos}
+		\caption{Resultados obtenidos\\
+			Fuente: \citep*{pr_Soni}. \citetitle{pr_Soni}. (p. 1426)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -295,7 +305,8 @@ Se utiliza un conjunto de datos de código abierto llamado pNEUMA, de la ciudad 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/AtenaMetodo.jpg}
-		\caption{Metodología propuesta por los autores}
+		\caption{Elaboración propia: Metodología propuesta por los autores \\
+			Fuente: \citep*{pr_Ghoul}. \citetitle{pr_areiza}}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -330,8 +341,9 @@ Para el algoritmo de aprendizaje por refuerzo, el sistema de enrutamiento puede 
 %\medskip
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/algoMod.jpg}
-		\caption{Puntuaciones de evaluación}
+		\includegraphics[width=0.6\textwidth]{2/figures/algoMod.jpg}
+		\caption{Framework Propuesto\\
+			Fuente: \citep*{pr_de}. \citetitle{pr_de}. (p. 202)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -342,8 +354,9 @@ Para hacer frente a los entornos complejos y dinámicos, se requiere de una red 
 %\medskip
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/politica.jpg}
-		\caption{Puntuaciones de evaluación}
+		\includegraphics[width=0.6\textwidth]{2/figures/politica.jpg}
+		\caption{Función de política del modelo \\
+			Fuente: \citep*{pr_de}. \citetitle{pr_de}. (p. 199)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -356,7 +369,8 @@ Se comparó con el método de Dijkstra y el algoritmo clásico de aprendiza por 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/resultN.jpg}
-		\caption{Puntuaciones de evaluación}
+		\caption{Puntuaciones de evaluación \\
+			Fuente: \citep*{pr_de}. \citetitle{pr_de}. (p. 215)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
@@ -372,40 +386,43 @@ Por la gran complejidad que existe para el logro de una predicción precisa, com
 \subsubsection{Metodología empleada por los autores}
 La metodología propuesta empieza utilizando dos conjuntos de datos, el primer conjunto de datos pertenece a Nav-BJ y contiene datos de 1159 estaciones de sensores desplegadas en las diferentes carreteras de la ciudad de Beijing del mes de marzo de 2019, mientras que el segundo conjunto de datos pertenece a Caltrans Performace Measurement System (PeMS) que contiene 228 estaciones de sensores en el distrito 7 de California de los meses de mayo y junio de 2012. Luego se realiza un preprocesamiento de los datos, se realiza una normalización Z-Score y se aplica una interpolación lineal para la recuperación de datos faltantes. 
 
-Se utilizan otros tres enfoques del modelo propuesto EMGC-STGCN (agrupación de grafos), el primero es el modelo STGCN sin agrupación de grafos, el segundo es Random-STGCN, el cual utiliza el método de agrupación de grafos aleatorios, mientras que el último enfoque es Metis-STGCN que utiliza el método ingénuo de Metis. Para el entrenamiento del modelo propuesto, se necesita como parámetro las matrices de adyacencia de los dos conjuntos de datos y que representa el 60\% de estas; además, se utiliza el optimizador Adam durante 50 épocas. Luego se realiza el proceso de prueba del 20\% del conjunto de datos y por último el proceso de validación que representa el 20\%. 
-
-Se compara el modelo propuesto de los 3 enfoques distintos con los métodos de Promedio Histórico (HA) y ARIMA, así como el modelo GRU. Para esto, se hace uso de las métricas de Error Absoluto Medio (MAE), Error Porcentual Absoluto Medio (MAPE) y Raíz del Error Cuadrático Medio (RMSE).
 %\medskip
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.65\textwidth]{2/figures/CLUSTER.jpg}
-		\caption{Metodología EMGC-STGCN propuesta por los autores}
-		\label{1:fig2}
-	\end{center}
-\end{figure}
-%\medskip
-\subsubsection{Resultados obtenidos}
-Mediante la comparación de los distintos módelos y métodos, se evidencia que el modelo propuesto es mejor que sus distintos enfoques, como también los métodos HA, ARIMA y el modelo GRU.
- 
-%\medskip
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/clusterRE1.jpg}
-		\caption{Resultados de modelos propuestos con el conjunto de datos Nav-BJ}
-		\label{1:fig2}
-	\end{center}
-\end{figure}
-%\medskip
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=0.65\textwidth]{2/figures/clusterRE2.jpg}
-		\caption{Resultados de modelos propuestos con el conjunto de datos PeMS}
+		\caption{Metodología EMGC-STGCN propuesta por los autores \\
+			Fuente: \citep*{pr_zhang}. \citetitle{pr_zhang}. (p. 4)}
 		\label{1:fig2}
 	\end{center}
 \end{figure}
 %\medskip
 
-\subsection{Deep reinforcement learning meets graph neural networks: Exploring a routing optimization use case \citep*{ALMASAN}}
-\subsubsection{Planteamiento del Problema y objetivo }
-\subsubsection{Metodología empleada por los autores}
+Se utilizan otros tres enfoques del modelo propuesto EMGC-STGCN (agrupación de grafos), el primero es el modelo STGCN sin agrupación de grafos, el segundo es Random-STGCN, el cual utiliza el método de agrupación de grafos aleatorios, mientras que el último enfoque es Metis-STGCN que utiliza el método ingénuo de Metis. Para el entrenamiento del modelo propuesto, se necesita como parámetro las matrices de adyacencia de los dos conjuntos de datos y que representa el 60\% de estas; además, se utiliza el optimizador Adam durante 50 épocas. Luego se realiza el proceso de prueba del 20\% del conjunto de datos y por último el proceso de validación que representa el 20\%. 
+
+Se compara el modelo propuesto de los 3 enfoques distintos con los métodos de Promedio Histórico (HA) y ARIMA, así como el modelo GRU. Para esto, se hace uso de las métricas de Error Absoluto Medio (MAE), Error Porcentual Absoluto Medio (MAPE) y Raíz del Error Cuadrático Medio (RMSE).
+
 \subsubsection{Resultados obtenidos}
+%\medskip
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/clusterRE1.jpg}
+		\caption{Resultados de modelos propuestos con el conjunto de datos Nav-BJ \\
+			Fuente: \citep*{pr_zhang}. \citetitle{pr_zhang}. (p. 5)}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
+
+Mediante la comparación de los distintos módelos y métodos, se evidencia que el modelo propuesto es mejor que sus distintos enfoques, como también los métodos HA, ARIMA y el modelo GRU.
+ 
+
+
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{2/figures/clusterRE2.jpg}
+		\caption{Resultados de modelos propuestos con el conjunto de datos PeMS \\
+			Fuente: \citep*{pr_zhang}. \citetitle{pr_zhang}. (p. 5)}
+		\label{1:fig2}
+	\end{center}
+\end{figure}
+%\medskip
