@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.20)  9 JUN 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.20)  17 JUN 2024 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -748,6 +748,9 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip82
 \f@nch@O@orf=\skip83
 )
+(D:\Program Files (x86)\latex\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
 (D:\Program Files (x86)\latex\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen175
@@ -757,6 +760,14 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip84
 \backup@length=\skip85
 \ar@cellbox=\box99
+)
+\TX@col@width=\dimen177
+\TX@old@table=\dimen178
+\TX@old@col=\dimen179
+\TX@target=\dimen180
+\TX@delta=\dimen181
+\TX@cols=\count440
+\TX@ftn=\toks26
 )
 (D:\Program Files (x86)\latex\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
@@ -778,15 +789,15 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 (D:\Program Files (x86)\latex\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip100
-\multirow@cntb=\count440
+\multirow@cntb=\count441
 \multirow@dima=\skip101
-\bigstrutjot=\dimen177
+\bigstrutjot=\dimen182
 )
 (D:\Program Files (x86)\latex\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen178
-\c@nlinenum=\count441
-\TeXr@lab=\toks26
+\rotheadsize=\dimen183
+\c@nlinenum=\count442
+\TeXr@lab=\toks27
 )
 (D:\Program Files (x86)\latex\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
@@ -798,24 +809,24 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (D:\Program Files (x86)\latex\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks27
-\ex@=\dimen179
+\@emptytoks=\toks28
+\ex@=\dimen184
 ))
 (D:\Program Files (x86)\latex\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen180
+\pmbraise@=\dimen185
 )
 (D:\Program Files (x86)\latex\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count442
+\inf@bad=\count443
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count443
-\leftroot@=\count444
+\uproot@=\count444
+\leftroot@=\count445
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count445
-\DOTSCASE@=\count446
+\classnum@=\count446
+\DOTSCASE@=\count447
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -825,79 +836,79 @@ LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
 LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen181
+\big@size=\dimen186
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count447
+\macc@depth=\count448
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count448
+\c@MaxMatrixCols=\count449
 \dotsspace@=\muskip21
-\c@parentequation=\count449
-\dspbrk@lvl=\count450
-\tag@help=\toks28
-\row@=\count451
-\column@=\count452
-\maxfields@=\count453
-\andhelp@=\toks29
-\eqnshift@=\dimen182
-\alignsep@=\dimen183
-\tagshift@=\dimen184
-\tagwidth@=\dimen185
-\totwidth@=\dimen186
-\lineht@=\dimen187
-\@envbody=\toks30
+\c@parentequation=\count450
+\dspbrk@lvl=\count451
+\tag@help=\toks29
+\row@=\count452
+\column@=\count453
+\maxfields@=\count454
+\andhelp@=\toks30
+\eqnshift@=\dimen187
+\alignsep@=\dimen188
+\tagshift@=\dimen189
+\tagwidth@=\dimen190
+\totwidth@=\dimen191
+\lineht@=\dimen192
+\@envbody=\toks31
 \multlinegap=\skip103
 \multlinetaggap=\skip104
-\mathdisplay@stack=\toks31
+\mathdisplay@stack=\toks32
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
 (D:\Program Files (x86)\latex\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count454
+\c@r@tfl@t=\count455
 \rotFPtop=\skip105
 \rotFPbot=\skip106
 \rot@float@box=\box102
-\rot@mess@toks=\toks32
+\rot@mess@toks=\toks33
 )
 (D:\Program Files (x86)\latex\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2024-04-15 v3.3.14 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count455
-\l__siunitx_number_exponent_fixed_int=\count456
-\l__siunitx_number_min_decimal_int=\count457
-\l__siunitx_number_min_integer_int=\count458
-\l__siunitx_number_round_precision_int=\count459
-\l__siunitx_number_lower_threshold_int=\count460
-\l__siunitx_number_upper_threshold_int=\count461
-\l__siunitx_number_group_first_int=\count462
-\l__siunitx_number_group_size_int=\count463
-\l__siunitx_number_group_minimum_int=\count464
-\l__siunitx_angle_tmp_dim=\dimen188
+\l__siunitx_number_uncert_offset_int=\count456
+\l__siunitx_number_exponent_fixed_int=\count457
+\l__siunitx_number_min_decimal_int=\count458
+\l__siunitx_number_min_integer_int=\count459
+\l__siunitx_number_round_precision_int=\count460
+\l__siunitx_number_lower_threshold_int=\count461
+\l__siunitx_number_upper_threshold_int=\count462
+\l__siunitx_number_group_first_int=\count463
+\l__siunitx_number_group_size_int=\count464
+\l__siunitx_number_group_minimum_int=\count465
+\l__siunitx_angle_tmp_dim=\dimen193
 \l__siunitx_angle_marker_box=\box103
 \l__siunitx_angle_unit_box=\box104
-\l__siunitx_compound_count_int=\count465
+\l__siunitx_compound_count_int=\count466
 
 (D:\Program Files (x86)\latex\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
 \l__siunitx_table_tmp_box=\box105
-\l__siunitx_table_tmp_dim=\dimen189
-\l__siunitx_table_column_width_dim=\dimen190
+\l__siunitx_table_tmp_dim=\dimen194
+\l__siunitx_table_column_width_dim=\dimen195
 \l__siunitx_table_integer_box=\box106
 \l__siunitx_table_decimal_box=\box107
 \l__siunitx_table_uncert_box=\box108
 \l__siunitx_table_before_box=\box109
 \l__siunitx_table_after_box=\box110
-\l__siunitx_table_before_dim=\dimen191
-\l__siunitx_table_carry_dim=\dimen192
-\l__siunitx_unit_tmp_int=\count466
-\l__siunitx_unit_position_int=\count467
-\l__siunitx_unit_total_int=\count468
+\l__siunitx_table_before_dim=\dimen196
+\l__siunitx_table_carry_dim=\dimen197
+\l__siunitx_unit_tmp_int=\count467
+\l__siunitx_unit_position_int=\count468
+\l__siunitx_unit_total_int=\count469
 )
 (D:\Program Files (x86)\latex\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
@@ -921,44 +932,44 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
 (D:\Program Files (x86)\latex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
-\everycr=\toks33
+\everycr=\toks34
 \minrowclearance=\skip107
-\rownum=\count469
+\rownum=\count470
 )
 (D:\Program Files (x86)\latex\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/03/11 v1.30 mathematical typesetting tools
 
 (D:\Program Files (x86)\latex\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count470
-\calc@Bcount=\count471
-\calc@Adimen=\dimen193
-\calc@Bdimen=\dimen194
+\calc@Acount=\count471
+\calc@Bcount=\count472
+\calc@Adimen=\dimen198
+\calc@Bdimen=\dimen199
 \calc@Askip=\skip108
 \calc@Bskip=\skip109
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count472
+\calc@Ccount=\count473
 \calc@Cskip=\skip110
 )
 (D:\Program Files (x86)\latex\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count473
-\l_MT_multwidth_dim=\dimen195
+\g_MT_multlinerow_int=\count474
+\l_MT_multwidth_dim=\dimen256
 \origjot=\skip111
-\l_MT_shortvdotswithinadjustabove_dim=\dimen196
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen197
-\l_MT_above_intertext_sep=\dimen198
-\l_MT_below_intertext_sep=\dimen199
-\l_MT_above_shortintertext_sep=\dimen256
-\l_MT_below_shortintertext_sep=\dimen257
+\l_MT_shortvdotswithinadjustabove_dim=\dimen257
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen258
+\l_MT_above_intertext_sep=\dimen259
+\l_MT_below_intertext_sep=\dimen260
+\l_MT_above_shortintertext_sep=\dimen261
+\l_MT_below_shortintertext_sep=\dimen262
 \xmathstrut@box=\box111
-\xmathstrut@dim=\dimen258
+\xmathstrut@dim=\dimen263
 )
 (D:\Program Files (x86)\latex\tex/latex/ncctools\nccmath.sty
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
-\NCC@fracrulewidth=\dimen259
+\NCC@fracrulewidth=\dimen264
 )
 (D:\Program Files (x86)\latex\tex/latex/cool\cool.sty
 Package: cool 2023/05/03 v1.35 COntent Oriented LaTeX
@@ -968,20 +979,20 @@ Package: coollist 2023/05/03 v1.4 COntent Oriented LaTeX Lists
 
 (D:\Program Files (x86)\latex\tex/latex/coolstr\coolstr.sty
 Package: coolstr 2009/09/09 v2.2 COntent Oriented LaTeX Strings
-\c@COOL@strlen=\count474
-\c@COOL@strpointer=\count475
-\c@COOL@str@index=\count476
-\c@COOL@str@start=\count477
-\c@COOL@str@end=\count478
+\c@COOL@strlen=\count475
+\c@COOL@strpointer=\count476
+\c@COOL@str@index=\count477
+\c@COOL@str@start=\count478
+\c@COOL@str@end=\count479
 )
 (D:\Program Files (x86)\latex\tex/latex/forloop\forloop.sty
 Package: forloop 2023/05/03 v3.0 For Loops for LaTeX
 )
-\c@COOL@listlen=\count479
-\c@COOL@listpointer=\count480
-\c@COOL@intsum=\count481
-\c@COOL@register@ct=\count482
-\c@COOL@register@len=\count483
+\c@COOL@listlen=\count480
+\c@COOL@listpointer=\count481
+\c@COOL@intsum=\count482
+\c@COOL@register@ct=\count483
+\c@COOL@register@len=\count484
 )
 (D:\Program Files (x86)\latex\tex/latex/bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
@@ -990,11 +1001,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-\c@COOL@ct=\count484
-\c@COOL@ct@=\count485
-\c@COOL@multideriv=\count486
-\c@COOL@row=\count487
-\c@COOL@col=\count488
+\c@COOL@ct=\count485
+\c@COOL@ct@=\count486
+\c@COOL@multideriv=\count487
+\c@COOL@row=\count488
+\c@COOL@col=\count489
 )
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
@@ -1107,7 +1118,7 @@ LaTeX Warning: Label `1:fig2' multiply defined.
 
 LaTeX Warning: Label `1:fig2' multiply defined.
 
-) (anexos/anexo.aux))
+) (3/metodologia.aux) (anexos/anexo.aux))
 \openout1 = `tesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
@@ -1200,17 +1211,17 @@ Package hyperref Info: Link coloring ON on input line 143.
 
 (D:\Program Files (x86)\latex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count489
-\scratchdimen=\dimen260
+\scratchcounter=\count490
+\scratchdimen=\dimen265
 \scratchbox=\box112
-\nofMPsegments=\count490
-\nofMParguments=\count491
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count492
-\MPscratchDim=\dimen261
-\MPnumerator=\count493
-\makeMPintoPDFobject=\count494
-\everyMPtoPDFconversion=\toks35
+\nofMPsegments=\count491
+\nofMParguments=\count492
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count493
+\MPscratchDim=\dimen266
+\MPnumerator=\count494
+\makeMPintoPDFobject=\count495
+\everyMPtoPDFconversion=\toks36
 ) (D:\Program Files (x86)\latex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1230,7 +1241,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `spanish'. on input line 143.
-<images_repo/esanlogomin.png, id=375, 100.6962pt x 100.2144pt>
+<images_repo/esanlogomin.png, id=399, 100.6962pt x 100.2144pt>
 File: images_repo/esanlogomin.png Graphic file (type png)
 <use images_repo/esanlogomin.png>
 Package pdftex.def Info: images_repo/esanlogomin.png  used on input line 149.
@@ -1360,7 +1371,7 @@ LaTeX Info: Redefining \% on input line 1.
 
  (1/planteamiento.tex
 Cap\'{\i }tulo 1.
-<1/figures/fig11.jpg, id=729, 404.712pt x 393.26926pt>
+<1/figures/fig11.jpg, id=759, 404.712pt x 393.26926pt>
 File: 1/figures/fig11.jpg Graphic file (type jpg)
 <use 1/figures/fig11.jpg>
 Package pdftex.def Info: 1/figures/fig11.jpg  used on input line 10.
@@ -1368,7 +1379,7 @@ Package pdftex.def Info: 1/figures/fig11.jpg  used on input line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<1/figures/fig1.jpg, id=740, 483.0045pt x 281.25075pt>
+<1/figures/fig1.jpg, id=770, 483.0045pt x 281.25075pt>
 File: 1/figures/fig1.jpg Graphic file (type jpg)
 <use 1/figures/fig1.jpg>
 Package pdftex.def Info: 1/figures/fig1.jpg  used on input line 21.
@@ -1423,7 +1434,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<2/figures/SUMO.jpg, id=809, 341.47575pt x 316.7835pt>
+<2/figures/SUMO.jpg, id=839, 341.47575pt x 316.7835pt>
 File: 2/figures/SUMO.jpg Graphic file (type jpg)
 <use 2/figures/SUMO.jpg>
 Package pdftex.def Info: 2/figures/SUMO.jpg  used on input line 16.
@@ -1431,12 +1442,12 @@ Package pdftex.def Info: 2/figures/SUMO.jpg  used on input line 16.
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
  [16 <./2/figures/SUMO.jpg>]
-<2/figures/ResultSumo.jpg, id=820, 744.98325pt x 239.09325pt>
+<2/figures/ResultSumo.jpg, id=850, 744.98325pt x 239.09325pt>
 File: 2/figures/ResultSumo.jpg Graphic file (type jpg)
 <use 2/figures/ResultSumo.jpg>
 Package pdftex.def Info: 2/figures/ResultSumo.jpg  used on input line 29.
 (pdftex.def)             Requested size: 317.0764pt x 101.76103pt.
-<2/figures/Result2Sumo.jpg, id=827, 745.5855pt x 186.6975pt>
+<2/figures/Result2Sumo.jpg, id=857, 745.5855pt x 186.6975pt>
 File: 2/figures/Result2Sumo.jpg Graphic file (type jpg)
 <use 2/figures/Result2Sumo.jpg>
 Package pdftex.def Info: 2/figures/Result2Sumo.jpg  used on input line 39.
@@ -1453,12 +1464,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \. on input line 51.
 LaTeX Info: Redefining \% on input line 51.
 [17 <./2/figures/ResultSumo.jpg> <./2/figures/Result2Sumo.jpg>]
-<2/figures/SafeMetodo.jpg, id=842, 1135.24126pt x 425.1885pt>
+<2/figures/SafeMetodo.jpg, id=872, 1135.24126pt x 425.1885pt>
 File: 2/figures/SafeMetodo.jpg Graphic file (type jpg)
 <use 2/figures/SafeMetodo.jpg>
 Package pdftex.def Info: 2/figures/SafeMetodo.jpg  used on input line 59.
 (pdftex.def)             Requested size: 294.4266pt x 110.27391pt.
-<2/figures/safeRouteAgent.jpg, id=849, 349.305pt x 215.00325pt>
+<2/figures/safeRouteAgent.jpg, id=879, 349.305pt x 215.00325pt>
 File: 2/figures/safeRouteAgent.jpg Graphic file (type jpg)
 <use 2/figures/safeRouteAgent.jpg>
 Package pdftex.def Info: 2/figures/safeRouteAgent.jpg  used on input line 71.
@@ -1476,7 +1487,7 @@ LaTeX Info: Redefining \% on input line 86.
 LaTeX Info: Redefining \. on input line 97.
 LaTeX Info: Redefining \% on input line 97.
  [19 <./2/figures/safeRouteAgent.jpg>]
-<2/figures/resultSafe.jpg, id=870, 420.3705pt x 190.91325pt>
+<2/figures/resultSafe.jpg, id=900, 420.3705pt x 190.91325pt>
 File: 2/figures/resultSafe.jpg Graphic file (type jpg)
 <use 2/figures/resultSafe.jpg>
 Package pdftex.def Info: 2/figures/resultSafe.jpg  used on input line 100.
@@ -1493,7 +1504,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \. on input line 114.
 LaTeX Info: Redefining \% on input line 114.
 [20 <./2/figures/resultSafe.jpg>]
-<2/figures/ChileMetodo.jpg, id=886, 589.0005pt x 483.0045pt>
+<2/figures/ChileMetodo.jpg, id=916, 589.0005pt x 483.0045pt>
 File: 2/figures/ChileMetodo.jpg Graphic file (type jpg)
 <use 2/figures/ChileMetodo.jpg>
 Package pdftex.def Info: 2/figures/ChileMetodo.jpg  used on input line 122.
@@ -1501,7 +1512,7 @@ Package pdftex.def Info: 2/figures/ChileMetodo.jpg  used on input line 122.
 LaTeX Info: Redefining \. on input line 130.
 LaTeX Info: Redefining \% on input line 130.
  [21 <./2/figures/ChileMetodo.jpg>]
-<2/figures/EsquivelRed.jpg, id=898, 287.8755pt x 354.123pt>
+<2/figures/EsquivelRed.jpg, id=928, 287.8755pt x 354.123pt>
 File: 2/figures/EsquivelRed.jpg Graphic file (type jpg)
 <use 2/figures/EsquivelRed.jpg>
 Package pdftex.def Info: 2/figures/EsquivelRed.jpg  used on input line 137.
@@ -1525,12 +1536,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \. on input line 162.
 LaTeX Info: Redefining \% on input line 162.
 [23]
-<2/figures/segmento.jpg, id=921, 287.8755pt x 217.41225pt>
+<2/figures/segmento.jpg, id=951, 287.8755pt x 217.41225pt>
 File: 2/figures/segmento.jpg Graphic file (type jpg)
 <use 2/figures/segmento.jpg>
 Package pdftex.def Info: 2/figures/segmento.jpg  used on input line 165.
 (pdftex.def)             Requested size: 271.7837pt x 205.27982pt.
-<2/figures/medellinMetodo.jpg, id=928, 772.0845pt x 479.391pt>
+<2/figures/medellinMetodo.jpg, id=958, 772.0845pt x 479.391pt>
 File: 2/figures/medellinMetodo.jpg Graphic file (type jpg)
 <use 2/figures/medellinMetodo.jpg>
 Package pdftex.def Info: 2/figures/medellinMetodo.jpg  used on input line 176.
@@ -1556,7 +1567,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \. on input line 209.
 LaTeX Info: Redefining \% on input line 209.
 [25 <./2/figures/medellinMetodo.jpg>]
-<2/figures/routeMet.jpg, id=956, 164.41425pt x 401.0985pt>
+<2/figures/routeMet.jpg, id=986, 164.41425pt x 401.0985pt>
 File: 2/figures/routeMet.jpg Graphic file (type jpg)
 <use 2/figures/routeMet.jpg>
 Package pdftex.def Info: 2/figures/routeMet.jpg  used on input line 215.
@@ -1567,12 +1578,12 @@ LaTeX Info: Redefining \% on input line 224.
 LaTeX Info: Redefining \. on input line 258.
 LaTeX Info: Redefining \% on input line 258.
  [27]
-<2/figures/CondicionSafe.jpg, id=975, 278.2395pt x 264.99pt>
+<2/figures/CondicionSafe.jpg, id=1005, 278.2395pt x 264.99pt>
 File: 2/figures/CondicionSafe.jpg Graphic file (type jpg)
 <use 2/figures/CondicionSafe.jpg>
 Package pdftex.def Info: 2/figures/CondicionSafe.jpg  used on input line 272.
 (pdftex.def)             Requested size: 226.48413pt x 215.70009pt.
-<2/figures/resultRoute.jpg, id=982, 295.70474pt x 428.802pt>
+<2/figures/resultRoute.jpg, id=1012, 295.70474pt x 428.802pt>
 File: 2/figures/resultRoute.jpg Graphic file (type jpg)
 <use 2/figures/resultRoute.jpg>
 Package pdftex.def Info: 2/figures/resultRoute.jpg  used on input line 286.
@@ -1592,7 +1603,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \. on input line 298.
 LaTeX Info: Redefining \% on input line 298.
 [28 <./2/figures/CondicionSafe.jpg>]
-<2/figures/AtenaMetodo.jpg, id=999, 868.4445pt x 362.5545pt>
+<2/figures/AtenaMetodo.jpg, id=1029, 868.4445pt x 362.5545pt>
 File: 2/figures/AtenaMetodo.jpg Graphic file (type jpg)
 <use 2/figures/AtenaMetodo.jpg>
 Package pdftex.def Info: 2/figures/AtenaMetodo.jpg  used on input line 307.
@@ -1624,7 +1635,7 @@ LaTeX Warning: Citation 'pr_de' on page 31 undefined on input line 331.
 LaTeX Info: Redefining \. on input line 338.
 LaTeX Info: Redefining \% on input line 338.
 [31]
-<2/figures/algoMod.jpg, id=1022, 376.40625pt x 178.86826pt>
+<2/figures/algoMod.jpg, id=1052, 376.40625pt x 178.86826pt>
 File: 2/figures/algoMod.jpg Graphic file (type jpg)
 <use 2/figures/algoMod.jpg>
 Package pdftex.def Info: 2/figures/algoMod.jpg  used on input line 344.
@@ -1642,7 +1653,7 @@ LaTeX Warning: Citation 'pr_de' on page 32 undefined on input line 346.
 
 LaTeX Warning: Citation 'pr_de' on page 32 undefined on input line 346.
 
-<2/figures/politica.jpg, id=1023, 379.4175pt x 184.89075pt>
+<2/figures/politica.jpg, id=1053, 379.4175pt x 184.89075pt>
 File: 2/figures/politica.jpg Graphic file (type jpg)
 <use 2/figures/politica.jpg>
 Package pdftex.def Info: 2/figures/politica.jpg  used on input line 357.
@@ -1662,7 +1673,7 @@ LaTeX Warning: Citation 'pr_de' on page 32 undefined on input line 359.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<2/figures/resultN.jpg, id=1024, 431.211pt x 146.34676pt>
+<2/figures/resultN.jpg, id=1054, 431.211pt x 146.34676pt>
 File: 2/figures/resultN.jpg Graphic file (type jpg)
 <use 2/figures/resultN.jpg>
 Package pdftex.def Info: 2/figures/resultN.jpg  used on input line 371.
@@ -1693,7 +1704,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Info: Redefining \. on input line 385.
 LaTeX Info: Redefining \% on input line 385.
 [33 <./2/figures/politica.jpg> <./2/figures/resultN.jpg>]
-<2/figures/CLUSTER.jpg, id=1038, 350.5095pt x 260.172pt>
+<2/figures/CLUSTER.jpg, id=1068, 350.5095pt x 260.172pt>
 File: 2/figures/CLUSTER.jpg Graphic file (type jpg)
 <use 2/figures/CLUSTER.jpg>
 Package pdftex.def Info: 2/figures/CLUSTER.jpg  used on input line 392.
@@ -1701,12 +1712,12 @@ Package pdftex.def Info: 2/figures/CLUSTER.jpg  used on input line 392.
 LaTeX Info: Redefining \. on input line 401.
 LaTeX Info: Redefining \% on input line 401.
  [34 <./2/figures/CLUSTER.jpg>]
-<2/figures/clusterRE1.jpg, id=1050, 585.387pt x 121.05225pt>
+<2/figures/clusterRE1.jpg, id=1080, 585.387pt x 121.05225pt>
 File: 2/figures/clusterRE1.jpg Graphic file (type jpg)
 <use 2/figures/clusterRE1.jpg>
 Package pdftex.def Info: 2/figures/clusterRE1.jpg  used on input line 408.
 (pdftex.def)             Requested size: 294.4266pt x 60.88431pt.
-<2/figures/clusterRE2.jpg, id=1057, 585.387pt x 122.25674pt>
+<2/figures/clusterRE2.jpg, id=1087, 585.387pt x 122.25674pt>
 File: 2/figures/clusterRE2.jpg Graphic file (type jpg)
 <use 2/figures/clusterRE2.jpg>
 Package pdftex.def Info: 2/figures/clusterRE2.jpg  used on input line 422.
@@ -1729,12 +1740,12 @@ LaTeX Info: Redefining \% on input line 21.
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
  [37]
-<2/MT/1.jpg, id=1107, 638.98724pt x 391.4625pt>
+<2/MT/1.jpg, id=1137, 638.98724pt x 391.4625pt>
 File: 2/MT/1.jpg Graphic file (type jpg)
 <use 2/MT/1.jpg>
 Package pdftex.def Info: 2/MT/1.jpg  used on input line 40.
 (pdftex.def)             Requested size: 294.4266pt x 180.37358pt.
-<2/MT/2.jpg, id=1117, 407.72325pt x 361.35pt>
+<2/MT/2.jpg, id=1147, 407.72325pt x 361.35pt>
 File: 2/MT/2.jpg Graphic file (type jpg)
 <use 2/MT/2.jpg>
 Package pdftex.def Info: 2/MT/2.jpg  used on input line 52.
@@ -1749,12 +1760,12 @@ LaTeX Info: Redefining \% on input line 67.
 LaTeX Info: Redefining \. on input line 75.
 LaTeX Info: Redefining \% on input line 75.
  [39 <./2/MT/2.jpg>]
-<2/MT/3.jpg, id=1143, 635.976pt x 340.27126pt>
+<2/MT/3.jpg, id=1173, 635.976pt x 340.27126pt>
 File: 2/MT/3.jpg Graphic file (type jpg)
 <use 2/MT/3.jpg>
 Package pdftex.def Info: 2/MT/3.jpg  used on input line 79.
 (pdftex.def)             Requested size: 294.4266pt x 157.52875pt.
-<2/MT/4.jpg, id=1156, 752.8125pt x 240.9pt>
+<2/MT/4.jpg, id=1186, 752.8125pt x 240.9pt>
 File: 2/MT/4.jpg Graphic file (type jpg)
 <use 2/MT/4.jpg>
 Package pdftex.def Info: 2/MT/4.jpg  used on input line 95.
@@ -1766,7 +1777,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Info: Redefining \. on input line 104.
 LaTeX Info: Redefining \% on input line 104.
 [40 <./2/MT/3.jpg>]
-<2/MT/5.png, id=1179, 1012.78375pt x 728.7225pt>
+<2/MT/5.png, id=1209, 1012.78375pt x 728.7225pt>
 File: 2/MT/5.png Graphic file (type png)
 <use 2/MT/5.png>
 Package pdftex.def Info: 2/MT/5.png  used on input line 113.
@@ -1784,7 +1795,7 @@ LaTeX Info: Redefining \% on input line 131.
 LaTeX Info: Redefining \. on input line 145.
 LaTeX Info: Redefining \% on input line 145.
  [43]
-<2/MT/6.jpg, id=1218, 260.172pt x 383.63326pt>
+<2/MT/6.jpg, id=1248, 260.172pt x 383.63326pt>
 File: 2/MT/6.jpg Graphic file (type jpg)
 <use 2/MT/6.jpg>
 Package pdftex.def Info: 2/MT/6.jpg  used on input line 151.
@@ -1838,12 +1849,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `subscript' on input line 250.
 
-<2/MT/7.jpg, id=1257, 578.76225pt x 261.97874pt>
+<2/MT/7.jpg, id=1287, 578.76225pt x 261.97874pt>
 File: 2/MT/7.jpg Graphic file (type jpg)
 <use 2/MT/7.jpg>
 Package pdftex.def Info: 2/MT/7.jpg  used on input line 266.
 (pdftex.def)             Requested size: 339.7262pt x 153.77861pt.
-<2/MT/8.jpg, id=1264, 512.51476pt x 209.583pt>
+<2/MT/8.jpg, id=1294, 512.51476pt x 209.583pt>
 File: 2/MT/8.jpg Graphic file (type jpg)
 <use 2/MT/8.jpg>
 Package pdftex.def Info: 2/MT/8.jpg  used on input line 280.
@@ -1863,7 +1874,48 @@ LaTeX Info: Redefining \% on input line 20.
 [49]))
 LaTeX Info: Redefining \. on input line 196.
 LaTeX Info: Redefining \% on input line 196.
- [50] [51
+ [50]
+\openout2 = `3/metodologia.aux'.
+
+ (3/metodologia.tex
+Cap\'{\i }tulo 3.
+
+Underfull \hbox (badness 7963) in paragraph at lines 28--28
+[]|\OT1/ptm/b/n/12 Variable y ti-po de
+ []
+
+[51
+
+
+
+
+]
+Overfull \vbox (17.68007pt too high) detected at line 67
+ []
+
+
+Overfull \vbox (123.7603pt too high) detected at line 67
+ []
+
+
+Overfull \vbox (123.7603pt too high) detected at line 67
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|$\OML/ztmcm/m/it/10.95 Success Rate \OT1/ztmcm/m/n/10.95 =
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
+ [52]
+LaTeX Info: Redefining \. on input line 197.
+LaTeX Info: Redefining \% on input line 197.
+ [53] [54
 
 
 
@@ -1873,12 +1925,6 @@ LaTeX Info: Redefining \% on input line 196.
 
  (anexos/anexo.tex
 Anexos A.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 
 Underfull \hbox (badness 7649) in paragraph at lines 15--15
 []|\OT1/ptm/m/n/10.95 Desarrollar un al-go-rit-mo de
@@ -1907,7 +1953,7 @@ Overfull \hbox (11.42305pt too wide) in paragraph at lines 7--29
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<anexos/PROBLEMAS.jpg, id=1327, 1109.3445pt x 575.14874pt>
+<anexos/PROBLEMAS.jpg, id=1372, 1109.3445pt x 575.14874pt>
 File: anexos/PROBLEMAS.jpg Graphic file (type jpg)
 <use anexos/PROBLEMAS.jpg>
 Package pdftex.def Info: anexos/PROBLEMAS.jpg  used on input line 40.
@@ -1917,14 +1963,14 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 40--42
  [] 
  []
 
-[52
+[55
 
 
  <./anexos/PROBLEMAS.jpg>]
 LaTeX Info: Redefining \. on input line 44.
 LaTeX Info: Redefining \% on input line 44.
- [53]
-<anexos/OBJETIVOS.jpg, id=1337, 1112.958pt x 585.387pt>
+ [56]
+<anexos/OBJETIVOS.jpg, id=1382, 1112.958pt x 585.387pt>
 File: anexos/OBJETIVOS.jpg Graphic file (type jpg)
 <use anexos/OBJETIVOS.jpg>
 Package pdftex.def Info: anexos/OBJETIVOS.jpg  used on input line 53.
@@ -1936,7 +1982,7 @@ Overfull \hbox (22.64978pt too wide) in paragraph at lines 53--55
 
 LaTeX Info: Redefining \. on input line 57.
 LaTeX Info: Redefining \% on input line 57.
-[54
+[57
 
  <./anexos/OBJETIVOS.jpg>]
 Anexos B.
@@ -2176,13 +2222,13 @@ Overfull \hbox (2.92818pt too wide) in paragraph at lines 86--86
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [55
+) [58
 
 
 ]
 LaTeX Info: Redefining \. on input line 209.
 LaTeX Info: Redefining \% on input line 209.
- [56] [57
+ [59] [60
 
 
 
@@ -2194,7 +2240,7 @@ Overfull \hbox (11.2576pt too wide) in paragraph at lines 214--214
 
 LaTeX Info: Redefining \. on input line 214.
 LaTeX Info: Redefining \% on input line 214.
-[58]
+[61]
 Overfull \hbox (0.47482pt too wide) in paragraph at lines 214--214
 \OT1/ptm/m/n/12 ges, and re-search di-rec-tions. \OT1/ptm/m/it/12 Neu-ral Com-p
 u-ting and Ap-pli-ca-tions\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 35\OT1/ptm/m/n/12 
@@ -2203,14 +2249,15 @@ u-ting and Ap-pli-ca-tions\OT1/ptm/m/n/12 , \OT1/ptm/m/it/12 35\OT1/ptm/m/n/12
 
 LaTeX Info: Redefining \. on input line 214.
 LaTeX Info: Redefining \% on input line 214.
-[59]
+[62]
 LaTeX Info: Redefining \. on input line 216.
 LaTeX Info: Redefining \% on input line 216.
- [60] (tesis.aux
+ [63] (tesis.aux
 LaTeX Info: Redefining \sptext on input line 12.
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
- (1/planteamiento.aux) (2/marco.aux) (anexos/anexo.aux))
+ (1/planteamiento.aux) (2/marco.aux) (3/metodologia.aux)
+(anexos/anexo.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2223,7 +2270,7 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `tesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7B0388683C90B7A5C3DAA0D81B0C2216;20888.
+(rerunfilecheck)             Checksum: D8B61AC3C06A2DF16C5109A007633BD7;22047.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                tesis
@@ -2234,11 +2281,11 @@ Package logreq Info: Writing requests to 'tesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29730 strings out of 474485
- 575377 string characters out of 5751192
+ 29850 strings out of 474485
+ 577494 string characters out of 5751192
  1962542 words of memory out of 5000000
- 51329 multiletter control sequences out of 15000+600000
- 611815 words of font info for 153 fonts, out of 8000000 for 9000
+ 51411 multiletter control sequences out of 15000+600000
+ 617945 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,32n,88p,1572b,3702s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Program Files (x86)/latex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/P
@@ -2251,9 +2298,9 @@ fonts/type1/urw/symbol/usyr.pfb><D:/Program Files (x86)/latex/fonts/type1/urw/s
 ymbol/usyr.pfb><D:/Program Files (x86)/latex/fonts/type1/urw/times/utmb8a.pfb><
 D:/Program Files (x86)/latex/fonts/type1/urw/times/utmr8a.pfb><D:/Program Files
  (x86)/latex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on tesis.pdf (61 pages, 2986692 bytes).
+Output written on tesis.pdf (64 pages, 2999349 bytes).
 PDF statistics:
- 1548 PDF objects out of 1728 (max. 8388607)
- 251 named destinations out of 1000 (max. 500000)
- 910 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1595 PDF objects out of 1728 (max. 8388607)
+ 262 named destinations out of 1000 (max. 500000)
+ 958 words of extra memory for PDF output out of 10000 (max. 10000000)
 

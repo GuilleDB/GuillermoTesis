@@ -1,83 +1,118 @@
 \chapter{METODOLOGÍA DE LA INVESTIGACIÓN}
 \section{Diseño de la investigación}
-En esta sección del documento se explicará cual es el diseño, el tipo y el enfoque del trabajo de
-investigación, así como también la población y la muestra. 
+El diseño del presente trabajo de investigación es de tipo experimental puro, ya que se analizarán las variables, procesando los valores con técnicas de regresión para obtener un vector característico que sirva como entrada al modelo de Aprendizaje Profundo, específicamente un modelo de Redes Neuronales Profundas basadas en Grafos.
 %Para finalizar se explicará el
 %proceso de aplicación de las redes neuronales convolucionales.
-\subsection{Diseño no experimental}
-El diseño es no experimental longitudinal, ya que las variables no serán manipuladas y serán analizadas tal como se encuentran. Es decir, tanto los datos textuales (noticias) y el precio del cobre serán analizados sin ningún cambio aplicando técnicas de procesamiento de lenguaje natural y algoritmos de aprendizaje automático con la finalidad de crear un modelo productivo robusto y facilitar la predicción del cobre. Asimismo, la recolección de datos que se realizará será en un determinado periodo de tiempo. 
-
-\subsection{Tipo explicativo}
-El alcance de la presente investigación es explicativo debido a que se busca explicar el comportamiento volátil del precio del cobre en base a noticias de periódicos digitales y además predecirlo.
-
-\subsection{Enfoque cuantitativo}
-El enfoque esta investigación es cuantitativo dado que se empleará técnicas del procesamiento de lenguaje natural (NLP), las cuales conllevan a procesar los datos de tipo textual a numéricos (vectores de características) y con ello posteriormente usar técnicas estadísticas como la regresión lineal para la predicción del precio del cobre.
+\subsection{Tipo de investigación}
+El tipo de investigación del presente trabajo es de alcance experimental, ya que el desarrollo de un algoritmo de Aprendizaje Profundo para la detección de rutas seguras en la ciudad de Los Ángeles busca una explicación a partir de patrones que predigan qué rutas son las más seguras basándose en los datos de geolocalización de incidentes delictivos; para ello, se establece una relación de causa efecto, donde a través de una función de riesgo determine qué rutas debe evitar para determinar la opción más segura.
 
 
+\subsection{Enfoque de investigación}
+El enfoque que presenta este trabajo es cuantitativo, ya que utiliza instrumentos de identificación y medición de riesgo en los datos de incidencias, cuyo resultado numérico servirá para entrenar al modelo de Aprendizaje Profundo para detectar qué rutas debe evitar.
+%\medskip
 
 \section{Población y muestra}
-
- Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit. La Figura \ref{fig1} y el Cuadro \ref{tab:widgets}
-
-	\begin{figure}[h]
-		\begin{center}
-			\includegraphics[width=0.8\textwidth]{3/figures/largepotato.jpg}
-			\caption{Prueba de Figura}
-			\label{fig1}
-		\end{center}
-		
-	\end{figure}
-
+%\medskip
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|m{4cm}|m{10cm}|}
+		\hline
+		\textbf{Categoría} & \textbf{Descripción} \\
+		\hline
+		\textbf{Población} & Registro de crímenes extraídos de la página oficial del Departamento de Policía de Los Ángeles, Estados Unidos, desde el año 2020 hasta el año 2024. \\
+		\hline
+		\textbf{Muestra} & Aproximadamente más de 680,000 registros de crímenes de la página oficial del Departamento de Policía de Los Ángeles. Para la selección de la muestra, se utilizó muestreo no probabilístico o dirigido, ya que se seleccionaron los registros que tienen como descripción aquellos crímenes perpetuados en las calles, tiendas o bancos; como por ejemplo asaltos a mano armada, violación, robo de vehículos, acoso sexual, vandalismo, entre otros. \\
+		\hline
+		\textbf{Unidad de análisis} & Latitud y Longitud donde ocurrió el crimen registrado. \\
+		\hline
+		\textbf{Variable y tipo de análisis} & Variable cuantitativa discreta, ya que el presente trabajo se centra en variables numéricas y la medición de riesgo de las rutas. \\
+		\hline
+	\end{tabular}
+\end{table}
+%\medskip
 
 \section{Operacionalización de Variables}
-
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
-\section{Instrumentos de medida}
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat \begin{itemize}
-	\item muscle and fat cells remove glucose from the blood,
-	\item cells breakdown glucose via glycolysis and the citrate cycle, storing its energy in the form of ATP,
-	\item liver and muscle store glucose as glycogen as a short-term energy reserve,
-	\item adipose tissue stores glucose as fat for long-term energy reserve, and
-	\item cells use glucose for protein synthesis.
-\end{itemize}
-
-\section{Técnicas de recolección de datos}
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
-
-\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with
-\begin{equation}
-	S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
-	= \frac{1}{n}\sum_{i}^{n} X_i
-	\label{eq1}
-\end{equation}
-
-La Ecuación \ref{eq1} denote their mean. Then as $n$ approaches infinity, the random variables $$\sqrt{n}(S_n - \mu)$$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
-
-\section{Técnicas para el procesamiento y análisis de la información}
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
-
-You can make lists with automatic numbering \dots
-
-\begin{enumerate}
-	\item Like this,
-	\item and like this.
-\end{enumerate}
-\dots or bullet points \dots
-\begin{itemize}
-	\item Like this,
-	\item and like this.
-\end{itemize}
-
-
-\section{Cronograma de actividades y presupuesto}
-Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
-
-\begin{table}[h]
+%\medskip
+\begin{table}[h!]
 	\centering
-	\begin{tabular}{l|r}
-		Item & Quantity \\\hline
-		Widgets & 42 \\
-		Gadgets & 13
-	\end{tabular}
-	\caption{\label{tab:widgets}An example table.}
+	\small
+	\begin{tabularx}{\textwidth}{|X|X|X|}
+		\hline
+		\multicolumn{3}{|c|}{\textbf{DEFINICIÓN DE VARIABLES}} \\
+		\hline
+		\textbf{VARIABLE Y DEFINICIÓN} & \textbf{INDICADOR} & \textbf{FÓRMULA} \\
+		\hline
+		RUTAS SEGURAS\newline Trayecto el cual evita las zonas con alto nivel de delincuencia para una persona. & Indicador de Riesgo & $R = \sum _{i=1}^{n}(W_{i}\times C_{i})$\newline Donde: 
+		\begin{itemize}
+			\item $n$ es el número de factores considerados.
+			\item $W_{i}$ son los pesos asignados a cada factor.
+			\item $C_{i}$ son los valores normalizados de cada factor.
+		\end{itemize} \\
+		\hline
+		\multirow{3}{\hsize}{ALGORITMO DE APRENDIZAJE PROFUNDO\newline Tipo de algoritmo de la subcategoría del Aprendizaje Automático, el cual es el Aprendizaje Profundo, que utiliza Redes Neuronales Artificiales con múltiples capas para el procesamiento y análisis de datos complejos.} & Indicador de Eficiencia & $TTM = N_{ep} \times T_{ep}$ \newline Donde: 
+		\begin{itemize}
+			\item $N_{ep}$ es el número de épocas del modelo.
+			\item $T_{ep}$ el tiempo promedio necesario para completar una época en el entrenamiento.
+		\end{itemize}\\
+		\cline{2-3}
+		& Indicador de Precisión & $RMSE = \sqrt{\frac{1}{n}\sum _{i = 1}^{n}(y_{i}-\hat{y}_{i})^{2}}$ \newline Donde: 
+		\begin{itemize}
+			\item $n$ es el número total de observaciones o datos.
+			\item $y_{i}$ es el valor observado en la posición $i$.
+			\item $\hat{y}_{i}$ es el valor predicho en la posición $i$.
+		\end{itemize}\\
+		\cline{2-3}
+		& Tasa de éxito del agente & $Success\: Rate = \frac{Number\,of \, Successful\,Routes}{Total\,Number\,of \, Routes}$ \\
+		\hline
+	\end{tabularx}
 \end{table}
+%\medskip
+%\section{Instrumentos de medida}
+%Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac %placerat \begin{itemize}
+%	\item muscle and fat cells remove glucose from the blood,
+%	\item cells breakdown glucose via glycolysis and the citrate cycle, storing its energy in the form of ATP,
+%	\item liver and muscle store glucose as glycogen as a short-term energy reserve,
+%	\item adipose tissue stores glucose as fat for long-term energy reserve, and
+%	\item cells use glucose for protein synthesis.
+%\end{itemize}
+
+%\section{Técnicas de recolección de datos}
+%Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
+
+%\LaTeX{} is great at typesetting mathematics. Let $X_1, X_2, \ldots, X_n$ be a sequence of independent and identically distributed random variables with
+%\begin{equation}
+%	S_n = \frac{X_1 + X_2 + \cdots + X_n}{n}
+%	= \frac{1}{n}\sum_{i}^{n} X_i
+%	\label{eq1}
+%\end{equation}
+
+%La Ecuación \ref{eq1} denote their mean. Then as $n$ approaches infinity, the random variables $$\sqrt{n}(S_n - \mu)$$ converge in distribution to a normal $\mathcal{N}(0, \sigma^2)$.
+
+%\section{Técnicas para el procesamiento y análisis de la información}
+%Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
+
+%You can make lists with automatic numbering \dots
+
+%\begin{enumerate}
+%	\item Like this,
+%	\item and like this.
+%\end{enumerate}
+%\dots or bullet points \dots
+%\begin{itemize}
+%	\item Like this,
+%	\item and like this.
+%\end{itemize}
+
+
+%\section{Cronograma de actividades y presupuesto}
+%Nisi porta lorem mollis aliquam ut porttitor leo. Aenean pharetra magna ac placerat vestibulum. Est placerat in egestas erat imperdiet sed euismod. Velit euismod in pellentesque massa placerat. Enim praesent elementum facilisis leo vel fringilla. Ante in nibh mauris cursus mattis molestie a iaculis. Erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Porttitor lacus luctus accumsan tortor posuere ac ut. Tortor at auctor urna nunc id. A iaculis at erat pellentesque adipiscing commodo elit.
+
+%\begin{table}[h]
+%	\centering
+%	\begin{tabular}{l|r}
+%		Item & Quantity \\\hline
+%		Widgets & 42 \\
+%		Gadgets & 13
+%	\end{tabular}
+%	\caption{\label{tab:widgets}An example table.}
+%\end{table}
