@@ -1,36 +1,46 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Índice de criminalidad de los países de América 2023}}{9}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Días con más robos de celulares registrados en el 2023}}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Índice de criminalidad de los países de América 2023}}{10}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Días con más robos de celulares registrados en el 2023}}{11}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Framework propuesto}}{16}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparación de rendimiento de los modelos Fuente: \blx@tocontentsinit {0}\cite {pr_koh}. \blx@tocontentsinit {0}\citetitle {pr_koh}. (p. 14)}}{17}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Análisis de significancia de los modelas con la prueba de Wilcoxon Fuente: \blx@tocontentsinit {0}\cite {pr_koh}. \blx@tocontentsinit {0}\citetitle {pr_koh}. (p. 14)}}{17}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Elaboración propia: Metodología propuesta por los autores. Fuente: \blx@tocontentsinit {0}\cite {pr_saferoute}. \blx@tocontentsinit {0}\citetitle {pr_saferoute}.}}{18}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Estructura de la red neuronal del modelo propuesto Fuente: \blx@tocontentsinit {0}\cite {pr_saferoute}. \blx@tocontentsinit {0}\citetitle {pr_saferoute}. (p. 5)}}{19}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparación de rendimiento de los modelos Fuente: \blx@tocontentsinit {0}\cite {pr_saferoute}. \blx@tocontentsinit {0}\citetitle {pr_saferoute}. (p. 11)}}{20}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Elaboración propia: Metodología propuesta por los autores Fuente: \citep *{pr_esquivel}. \blx@tocontentsinit {0}\citetitle {pr_esquivel}}}{21}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Estructura de la red convolucional LSTM basada en grafos Fuente: \citep *{pr_esquivel}. \blx@tocontentsinit {0}\citetitle {pr_esquivel}. (p. 4)}}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Riesgo de acoso sexual mediante combinación lineal Fuente: \citep *{pr_areiza}. \blx@tocontentsinit {0}\citetitle {pr_areiza}. (p. 3)}}{24}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Elaboración propia: Metodología propuesta por los autores Fuente: \citep *{pr_areiza}. \blx@tocontentsinit {0}\citetitle {pr_areiza}}}{25}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Metodología Propuesta Fuente: \citep *{pr_Soni}. \blx@tocontentsinit {0}\citetitle {pr_Soni}. (p. 1419)}}{26}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Flujo de condición para detectar rutas seguras Fuente: \citep *{pr_Soni}. \blx@tocontentsinit {0}\citetitle {pr_Soni}. (p. 1420)}}{28}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Resultados obtenidos Fuente: \citep *{pr_Soni}. \blx@tocontentsinit {0}\citetitle {pr_Soni}. (p. 1426)}}{29}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Elaboración propia: Metodología propuesta por los autores Fuente: \citep *{pr_Ghoul}. \blx@tocontentsinit {0}\citetitle {pr_areiza}}}{30}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Framework Propuesto Fuente: \citep *{pr_de}. \blx@tocontentsinit {0}\citetitle {pr_de}. (p. 202)}}{32}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Función de política del modelo Fuente: \citep *{pr_de}. \blx@tocontentsinit {0}\citetitle {pr_de}. (p. 199)}}{33}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Puntuaciones de evaluación Fuente: \citep *{pr_de}. \blx@tocontentsinit {0}\citetitle {pr_de}. (p. 215)}}{33}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Metodología EMGC-STGCN propuesta por los autores Fuente: \citep *{pr_zhang}. \blx@tocontentsinit {0}\citetitle {pr_zhang}. (p. 4)}}{34}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Resultados de modelos propuestos con el conjunto de datos Nav-BJ Fuente: \citep *{pr_zhang}. \blx@tocontentsinit {0}\citetitle {pr_zhang}. (p. 5)}}{35}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Resultados de modelos propuestos con el conjunto de datos PeMS Fuente: \citep *{pr_zhang}. \blx@tocontentsinit {0}\citetitle {pr_zhang}. (p. 5)}}{35}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Representación del Aprendizaje por Refuerzo Fuente: \citep *{gl_ceupe}. \blx@tocontentsinit {0}\citetitle {gl_ceupe}}}{38}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Proceso de decisión de Markov Fuente: \citep *{gl_markov}. \blx@tocontentsinit {0}\citetitle {gl_markov}}}{39}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Comparación entre una Red Neuronal Artificial y una Red Neuronal Profunda Fuente: \citep *{gl_compara}. \blx@tocontentsinit {0}\citetitle {gl_compara}}}{40}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Componentes que conforma el Aprendizaje por Refuerzo Fuente: \citep *{gl_iic}. \blx@tocontentsinit {0}\citetitle {gl_iic}}}{41}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Diferencias entre Q-Learning y Deep Q-Learning Fuente: \citep *{gl_Damavis}. \blx@tocontentsinit {0}\citetitle {gl_Damavis}}}{42}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Propiedades u medidas de un grafo Fuente: \citep *{bk_grafo}. \blx@tocontentsinit {0}\citetitle {bk_grafo}. (p. 19)}}{44}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Operación de filtración de grafos Fuente: \citep *{bk_grafo}. \blx@tocontentsinit {0}\citetitle {bk_grafo}. (p. 108)}}{47}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Operación de filtración de grafos Fuente: \citep *{bk_grafo}. \blx@tocontentsinit {0}\citetitle {bk_grafo}. (p. 109)}}{48}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Framework propuesto}}{17}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparación de rendimiento de los modelos Fuente: \blx@tocontentsinit {0}\cite {pr_koh}. \blx@tocontentsinit {0}\citetitle {pr_koh}. (p. 14)}}{18}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Análisis de significancia de los modelas con la prueba de Wilcoxon Fuente: \blx@tocontentsinit {0}\cite {pr_koh}. \blx@tocontentsinit {0}\citetitle {pr_koh}. (p. 14)}}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Elaboración propia: Metodología propuesta por los autores. Fuente: \blx@tocontentsinit {0}\cite {pr_saferoute}. \blx@tocontentsinit {0}\citetitle {pr_saferoute}.}}{19}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Estructura de la red neuronal del modelo propuesto Fuente: \blx@tocontentsinit {0}\cite {pr_saferoute}. \blx@tocontentsinit {0}\citetitle {pr_saferoute}. (p. 5)}}{20}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Comparación de rendimiento de los modelos Fuente: \blx@tocontentsinit {0}\cite {pr_saferoute}. \blx@tocontentsinit {0}\citetitle {pr_saferoute}. (p. 11)}}{21}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Elaboración propia: Metodología propuesta por los autores Fuente: \citep *{pr_esquivel}. \blx@tocontentsinit {0}\citetitle {pr_esquivel}}}{22}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Estructura de la red convolucional LSTM basada en grafos Fuente: \citep *{pr_esquivel}. \blx@tocontentsinit {0}\citetitle {pr_esquivel}. (p. 4)}}{23}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Riesgo de acoso sexual mediante combinación lineal Fuente: \citep *{pr_areiza}. \blx@tocontentsinit {0}\citetitle {pr_areiza}. (p. 3)}}{25}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Elaboración propia: Metodología propuesta por los autores Fuente: \citep *{pr_areiza}. \blx@tocontentsinit {0}\citetitle {pr_areiza}}}{26}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Metodología Propuesta Fuente: \citep *{pr_Soni}. \blx@tocontentsinit {0}\citetitle {pr_Soni}. (p. 1419)}}{27}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Flujo de condición para detectar rutas seguras Fuente: \citep *{pr_Soni}. \blx@tocontentsinit {0}\citetitle {pr_Soni}. (p. 1420)}}{29}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Resultados obtenidos Fuente: \citep *{pr_Soni}. \blx@tocontentsinit {0}\citetitle {pr_Soni}. (p. 1426)}}{30}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Elaboración propia: Metodología propuesta por los autores Fuente: \citep *{pr_Ghoul}. \blx@tocontentsinit {0}\citetitle {pr_areiza}}}{31}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Framework Propuesto Fuente: \citep *{pr_de}. \blx@tocontentsinit {0}\citetitle {pr_de}. (p. 202)}}{33}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Función de política del modelo Fuente: \citep *{pr_de}. \blx@tocontentsinit {0}\citetitle {pr_de}. (p. 199)}}{34}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Puntuaciones de evaluación Fuente: \citep *{pr_de}. \blx@tocontentsinit {0}\citetitle {pr_de}. (p. 215)}}{34}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Metodología EMGC-STGCN propuesta por los autores Fuente: \citep *{pr_zhang}. \blx@tocontentsinit {0}\citetitle {pr_zhang}. (p. 4)}}{35}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Resultados de modelos propuestos con el conjunto de datos Nav-BJ Fuente: \citep *{pr_zhang}. \blx@tocontentsinit {0}\citetitle {pr_zhang}. (p. 5)}}{36}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Resultados de modelos propuestos con el conjunto de datos PeMS Fuente: \citep *{pr_zhang}. \blx@tocontentsinit {0}\citetitle {pr_zhang}. (p. 5)}}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Representación del Aprendizaje por Refuerzo Fuente: \citep *{gl_ceupe}. \blx@tocontentsinit {0}\citetitle {gl_ceupe}}}{39}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Proceso de decisión de Markov Fuente: \citep *{gl_markov}. \blx@tocontentsinit {0}\citetitle {gl_markov}}}{40}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Comparación entre una Red Neuronal Artificial y una Red Neuronal Profunda Fuente: \citep *{gl_compara}. \blx@tocontentsinit {0}\citetitle {gl_compara}}}{41}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces Componentes que conforma el Aprendizaje por Refuerzo Fuente: \citep *{gl_iic}. \blx@tocontentsinit {0}\citetitle {gl_iic}}}{42}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Diferencias entre Q-Learning y Deep Q-Learning Fuente: \citep *{gl_Damavis}. \blx@tocontentsinit {0}\citetitle {gl_Damavis}}}{43}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Propiedades u medidas de un grafo Fuente: \citep *{bk_grafo}. \blx@tocontentsinit {0}\citetitle {bk_grafo}. (p. 19)}}{45}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Operación de filtración de grafos Fuente: \citep *{bk_grafo}. \blx@tocontentsinit {0}\citetitle {bk_grafo}. (p. 108)}}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Operación de filtración de grafos Fuente: \citep *{bk_grafo}. \blx@tocontentsinit {0}\citetitle {bk_grafo}. (p. 109)}}{49}{figure.caption.34}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Elaboración propia: Flujo de recolección de datos}}{55}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Elaboración propia: Metodología propuesta}}{56}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Zona de la ciudad de Los Ángeles en OpenStreetMap}}{61}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Estructura simple de un grafo}}{64}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Estructura de GCN}}{65}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Experimentación de tasa de aprendizajes}}{67}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Efectos de la frecuencia de actualización de la red objetivo en la tarea del laberinto MNIST}}{68}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Elaboración propia: Flujo de condición de elección de ruta}}{70}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Mapa de Tampa, Florida, creado en Folium y OpenStreetMap}}{71}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Cronograma de actividades de la investigación}}{72}{figure.caption.46}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

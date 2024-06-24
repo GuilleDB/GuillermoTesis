@@ -45,6 +45,34 @@
       \verb https://academia-lab.com/enciclopedia/proceso-de-decision-de-markov/%5C#google_vignette
       \endverb
     \endentry
+    \entry{gl_aisummer}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c6f1627d5d35bbb54210fce0626ad0e}{%
+           family={{AI SUMMER}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{fullhash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{bibnamehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{authorbibnamehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{authornamehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{authorfullhash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Neural Networks - An overview}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://theaisummer.com/Graph_Neural_Networks/
+      \endverb
+      \verb{url}
+      \verb https://theaisummer.com/Graph_Neural_Networks/
+      \endverb
+    \endentry
     \entry{pr_areiza}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=5c946dca5f6bef5291d6f3ca216af46c}{%
@@ -124,6 +152,32 @@
       \endverb
       \verb{url}
       \verb https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-machine-learning-platform
+      \endverb
+    \endentry
+    \entry{gl_git}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=208744fee1400ba18558a416f36e87bb}{%
+           family={{Bernstein M.}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{fullhash}{208744fee1400ba18558a416f36e87bb}
+      \strng{bibnamehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{authorbibnamehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{authornamehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{authorfullhash}{208744fee1400ba18558a416f36e87bb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph convolutional neural networks}
+      \verb{urlraw}
+      \verb https://mbernste.github.io/posts/gcn/
+      \endverb
+      \verb{url}
+      \verb https://mbernste.github.io/posts/gcn/
       \endverb
     \endentry
     \entry{gl_bot}{misc}{}
@@ -727,6 +781,60 @@
       \verb https://www.ibm.com/es-es/topics/supervised-learning
       \endverb
     \endentry
+    \entry{gl_crisp}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conceptos básicos de ayuda de CRISP-DM}
+      \verb{urlraw}
+      \verb https://www.ibm.com/docs/es/spss-modeler/saas?topic=dm-crisp-help-overview
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/docs/es/spss-modeler/saas?topic=dm-crisp-help-overview
+      \endverb
+    \endentry
+    \entry{gl_LAPD}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b0e237ce89373f2d799125c19dd86cf}{%
+           family={{ILAPD}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{fullhash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{bibnamehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{authorbibnamehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{authornamehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{authorfullhash}{2b0e237ce89373f2d799125c19dd86cf}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crime Data from 2020 to Present}
+      \verb{urlraw}
+      \verb https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+      \endverb
+      \verb{url}
+      \verb https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+      \endverb
+    \endentry
     \entry{gl_iic}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6b1f757be764daad95e153ab2add565}{%
@@ -751,6 +859,32 @@
       \endverb
       \verb{url}
       \verb https://www.iic.uam.es/aprendizaje-profundo-por-refuerzo/
+      \endverb
+    \endentry
+    \entry{gl_interactive}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a28e8d1dee8924550bbb1075898d76de}{%
+           family={{InteractiveChaos}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{fullhash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{bibnamehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{authorbibnamehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{authornamehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{authorfullhash}{a28e8d1dee8924550bbb1075898d76de}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adam}
+      \verb{urlraw}
+      \verb https://interactivechaos.com/es/manual/tutorial-de-machine-learning/adam
+      \endverb
+      \verb{url}
+      \verb https://interactivechaos.com/es/manual/tutorial-de-machine-learning/adam
       \endverb
     \endentry
     \entry{jin2020graph}{misc}{}
@@ -1052,6 +1186,151 @@
       \field{type}{techreport}
       \field{year}{2023}
     \endentry
+    \entry{gl_maxima}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9de34ad35d55f6254e95731902407b1f}{%
+           family={{MAXIMA FORMACION}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{fullhash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{bibnamehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{authorbibnamehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{authornamehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{authorfullhash}{9de34ad35d55f6254e95731902407b1f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿QUÉ ES LA REGRESIÓN LOCAL LOESS O LOWESS?}
+      \verb{urlraw}
+      \verb https://www.maximaformacion.es/blog-dat/que-es-la-regresion-local-loess-o-lowess/
+      \endverb
+      \verb{url}
+      \verb https://www.maximaformacion.es/blog-dat/que-es-la-regresion-local-loess-o-lowess/
+      \endverb
+    \endentry
+    \entry{gl_findin}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Finding a learning rate in Deep Reinforcement Learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://nieznanm.medium.com/finding-a-learning-rate-in-deep-reinforcement-learning-27ed725f6b90
+      \endverb
+      \verb{url}
+      \verb https://nieznanm.medium.com/finding-a-learning-rate-in-deep-reinforcement-learning-27ed725f6b90
+      \endverb
+    \endentry
+    \entry{gl_med}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Por qué la normalización es clave e importante en Machine Learning y Ciencia de Datos?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://jorgeiblanco.medium.com/por-qu\%C3\%A9-la-normalizaci\%C3\%B3n-es-clave-e-importante-en-machine-learning-y-ciencia-de-datos-4595f15d5be0
+      \endverb
+      \verb{url}
+      \verb https://jorgeiblanco.medium.com/por-qu%5C%C3%5C%A9-la-normalizaci%5C%C3%5C%B3n-es-clave-e-importante-en-machine-learning-y-ciencia-de-datos-4595f15d5be0
+      \endverb
+    \endentry
+    \entry{gl_gnnmed}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Convolutional Networks: Introduction to GNNs}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/graph-convolutional-networks-introduction-to-gnns-24b3f60d6c95
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/graph-convolutional-networks-introduction-to-gnns-24b3f60d6c95
+      \endverb
+    \endentry
+    \entry{gl_folium}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Generate Interactive Maps with Folium}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/how-to-generate-interactive-maps-with-folium-b232778758c4
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/how-to-generate-interactive-maps-with-folium-b232778758c4
+      \endverb
+    \endentry
     \entry{cu_infobae}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=53b35d56cf409da246bcaf51f32d1103}{%
@@ -1225,6 +1504,60 @@
       \endverb
       \verb{url}
       \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+    \endentry
+    \entry{gl_ray}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=714ef50254c30abf463ac8409745e44d}{%
+           family={{RAY}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{fullhash}{714ef50254c30abf463ac8409745e44d}
+      \strng{bibnamehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{authorbibnamehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{authornamehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{authorfullhash}{714ef50254c30abf463ac8409745e44d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Replay Buffers}
+      \verb{urlraw}
+      \verb https://docs.ray.io/en/latest/rllib/rllib-replay-buffers.html
+      \endverb
+      \verb{url}
+      \verb https://docs.ray.io/en/latest/rllib/rllib-replay-buffers.html
+      \endverb
+    \endentry
+    \entry{gl_constr}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c71ca0e8ac5da7336ffa149007898f9}{%
+           family={{ResearchGate}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{fullhash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{bibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{authorbibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{authornamehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{authorfullhash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Constrained Deep Q-Learning Gradually Approaching Ordinary Q-Learning}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/337860304_Constrained_Deep_Q-Learning_Gradually_Approaching_Ordinary_Q-Learning
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/337860304_Constrained_Deep_Q-Learning_Gradually_Approaching_Ordinary_Q-Learning
       \endverb
     \endentry
     \entry{bk_russell2004intart}{book}{}
@@ -1562,6 +1895,32 @@
       \endverb
       \verb{url}
       \verb https://www.techopedia.com/es/definicion/aprendizaje-por-refuerzo
+      \endverb
+    \endentry
+    \entry{gl_gym}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46ccaf8f13a43b1c0e8d4cf82437e4ae}{%
+           family={{Universitat Oberta de Catalunya}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{fullhash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{bibnamehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{authorbibnamehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{authornamehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{authorfullhash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gym}
+      \verb{urlraw}
+      \verb https://datascience.recursos.uoc.edu/es/gym/
+      \endverb
+      \verb{url}
+      \verb https://datascience.recursos.uoc.edu/es/gym/
       \endverb
     \endentry
     \entry{pr_zhang}{article}{}
@@ -1642,6 +2001,34 @@
       \verb https://academia-lab.com/enciclopedia/proceso-de-decision-de-markov/%5C#google_vignette
       \endverb
     \endentry
+    \entry{gl_aisummer}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3c6f1627d5d35bbb54210fce0626ad0e}{%
+           family={{AI SUMMER}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{fullhash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{bibnamehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{authorbibnamehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{authornamehash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \strng{authorfullhash}{3c6f1627d5d35bbb54210fce0626ad0e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Neural Networks - An overview}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://theaisummer.com/Graph_Neural_Networks/
+      \endverb
+      \verb{url}
+      \verb https://theaisummer.com/Graph_Neural_Networks/
+      \endverb
+    \endentry
     \entry{pr_areiza}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=5c946dca5f6bef5291d6f3ca216af46c}{%
@@ -1721,6 +2108,32 @@
       \endverb
       \verb{url}
       \verb https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-machine-learning-platform
+      \endverb
+    \endentry
+    \entry{gl_git}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=208744fee1400ba18558a416f36e87bb}{%
+           family={{Bernstein M.}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{fullhash}{208744fee1400ba18558a416f36e87bb}
+      \strng{bibnamehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{authorbibnamehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{authornamehash}{208744fee1400ba18558a416f36e87bb}
+      \strng{authorfullhash}{208744fee1400ba18558a416f36e87bb}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph convolutional neural networks}
+      \verb{urlraw}
+      \verb https://mbernste.github.io/posts/gcn/
+      \endverb
+      \verb{url}
+      \verb https://mbernste.github.io/posts/gcn/
       \endverb
     \endentry
     \entry{gl_bot}{misc}{}
@@ -2324,6 +2737,60 @@
       \verb https://www.ibm.com/es-es/topics/supervised-learning
       \endverb
     \endentry
+    \entry{gl_crisp}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{3}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradate}{3}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conceptos básicos de ayuda de CRISP-DM}
+      \verb{urlraw}
+      \verb https://www.ibm.com/docs/es/spss-modeler/saas?topic=dm-crisp-help-overview
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/docs/es/spss-modeler/saas?topic=dm-crisp-help-overview
+      \endverb
+    \endentry
+    \entry{gl_LAPD}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b0e237ce89373f2d799125c19dd86cf}{%
+           family={{ILAPD}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{fullhash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{bibnamehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{authorbibnamehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{authornamehash}{2b0e237ce89373f2d799125c19dd86cf}
+      \strng{authorfullhash}{2b0e237ce89373f2d799125c19dd86cf}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crime Data from 2020 to Present}
+      \verb{urlraw}
+      \verb https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+      \endverb
+      \verb{url}
+      \verb https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8/about_data
+      \endverb
+    \endentry
     \entry{gl_iic}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d6b1f757be764daad95e153ab2add565}{%
@@ -2348,6 +2815,32 @@
       \endverb
       \verb{url}
       \verb https://www.iic.uam.es/aprendizaje-profundo-por-refuerzo/
+      \endverb
+    \endentry
+    \entry{gl_interactive}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a28e8d1dee8924550bbb1075898d76de}{%
+           family={{InteractiveChaos}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{fullhash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{bibnamehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{authorbibnamehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{authornamehash}{a28e8d1dee8924550bbb1075898d76de}
+      \strng{authorfullhash}{a28e8d1dee8924550bbb1075898d76de}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adam}
+      \verb{urlraw}
+      \verb https://interactivechaos.com/es/manual/tutorial-de-machine-learning/adam
+      \endverb
+      \verb{url}
+      \verb https://interactivechaos.com/es/manual/tutorial-de-machine-learning/adam
       \endverb
     \endentry
     \entry{jin2020graph}{misc}{}
@@ -2649,6 +3142,151 @@
       \field{type}{techreport}
       \field{year}{2023}
     \endentry
+    \entry{gl_maxima}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9de34ad35d55f6254e95731902407b1f}{%
+           family={{MAXIMA FORMACION}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{fullhash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{bibnamehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{authorbibnamehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{authornamehash}{9de34ad35d55f6254e95731902407b1f}
+      \strng{authorfullhash}{9de34ad35d55f6254e95731902407b1f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿QUÉ ES LA REGRESIÓN LOCAL LOESS O LOWESS?}
+      \verb{urlraw}
+      \verb https://www.maximaformacion.es/blog-dat/que-es-la-regresion-local-loess-o-lowess/
+      \endverb
+      \verb{url}
+      \verb https://www.maximaformacion.es/blog-dat/que-es-la-regresion-local-loess-o-lowess/
+      \endverb
+    \endentry
+    \entry{gl_findin}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Finding a learning rate in Deep Reinforcement Learning}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://nieznanm.medium.com/finding-a-learning-rate-in-deep-reinforcement-learning-27ed725f6b90
+      \endverb
+      \verb{url}
+      \verb https://nieznanm.medium.com/finding-a-learning-rate-in-deep-reinforcement-learning-27ed725f6b90
+      \endverb
+    \endentry
+    \entry{gl_med}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{¿Por qué la normalización es clave e importante en Machine Learning y Ciencia de Datos?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://jorgeiblanco.medium.com/por-qu\%C3\%A9-la-normalizaci\%C3\%B3n-es-clave-e-importante-en-machine-learning-y-ciencia-de-datos-4595f15d5be0
+      \endverb
+      \verb{url}
+      \verb https://jorgeiblanco.medium.com/por-qu%5C%C3%5C%A9-la-normalizaci%5C%C3%5C%B3n-es-clave-e-importante-en-machine-learning-y-ciencia-de-datos-4595f15d5be0
+      \endverb
+    \endentry
+    \entry{gl_gnnmed}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Graph Convolutional Networks: Introduction to GNNs}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/graph-convolutional-networks-introduction-to-gnns-24b3f60d6c95
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/graph-convolutional-networks-introduction-to-gnns-24b3f60d6c95
+      \endverb
+    \endentry
+    \entry{gl_folium}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87f8a6ab85c9ced3702b4ea641ad4bb5}{%
+           family={{Medium}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{fullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{bibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorbibnamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authornamehash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \strng{authorfullhash}{87f8a6ab85c9ced3702b4ea641ad4bb5}
+      \field{extraname}{4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How to Generate Interactive Maps with Folium}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/how-to-generate-interactive-maps-with-folium-b232778758c4
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/how-to-generate-interactive-maps-with-folium-b232778758c4
+      \endverb
+    \endentry
     \entry{cu_infobae}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=53b35d56cf409da246bcaf51f32d1103}{%
@@ -2822,6 +3460,60 @@
       \endverb
       \verb{url}
       \verb https://elcomercio.pe/lima/osiptel-cada-hora-roban-200-celulares-en-el-pais-que-hay-detras-del-aumento-de-este-delito-operadoras-reportaron-723375-sustracciones-de-celulares-muertes-por-robo-de-celular-noticia/?ref=ecr
+      \endverb
+    \endentry
+    \entry{gl_ray}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=714ef50254c30abf463ac8409745e44d}{%
+           family={{RAY}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{fullhash}{714ef50254c30abf463ac8409745e44d}
+      \strng{bibnamehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{authorbibnamehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{authornamehash}{714ef50254c30abf463ac8409745e44d}
+      \strng{authorfullhash}{714ef50254c30abf463ac8409745e44d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Replay Buffers}
+      \verb{urlraw}
+      \verb https://docs.ray.io/en/latest/rllib/rllib-replay-buffers.html
+      \endverb
+      \verb{url}
+      \verb https://docs.ray.io/en/latest/rllib/rllib-replay-buffers.html
+      \endverb
+    \endentry
+    \entry{gl_constr}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9c71ca0e8ac5da7336ffa149007898f9}{%
+           family={{ResearchGate}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{fullhash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{bibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{authorbibnamehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{authornamehash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \strng{authorfullhash}{9c71ca0e8ac5da7336ffa149007898f9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Constrained Deep Q-Learning Gradually Approaching Ordinary Q-Learning}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/337860304_Constrained_Deep_Q-Learning_Gradually_Approaching_Ordinary_Q-Learning
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/337860304_Constrained_Deep_Q-Learning_Gradually_Approaching_Ordinary_Q-Learning
       \endverb
     \endentry
     \entry{bk_russell2004intart}{book}{}
@@ -3159,6 +3851,32 @@
       \endverb
       \verb{url}
       \verb https://www.techopedia.com/es/definicion/aprendizaje-por-refuerzo
+      \endverb
+    \endentry
+    \entry{gl_gym}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=46ccaf8f13a43b1c0e8d4cf82437e4ae}{%
+           family={{Universitat Oberta de Catalunya}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{fullhash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{bibnamehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{authorbibnamehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{authornamehash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \strng{authorfullhash}{46ccaf8f13a43b1c0e8d4cf82437e4ae}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gym}
+      \verb{urlraw}
+      \verb https://datascience.recursos.uoc.edu/es/gym/
+      \endverb
+      \verb{url}
+      \verb https://datascience.recursos.uoc.edu/es/gym/
       \endverb
     \endentry
     \entry{pr_zhang}{article}{}

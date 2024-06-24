@@ -3090,21 +3090,20 @@
     <bcf:citekey order="59" intorder="1">bk_grafo</bcf:citekey>
     <bcf:citekey order="61" intorder="1">bk_grafo</bcf:citekey>
     <bcf:citekey order="63" intorder="1">pr_areiza</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">cu_ceplan</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">tec_PPIC</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">cu_numbeo2023</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">cu_numbeo2023</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">gl_LAPD</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">cu_ceplan</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">tec_PPIC</bcf:citekey>
     <bcf:citekey order="69" intorder="1">cu_numbeo2023</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">cu_statista2023</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">cu_infobae</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">cu_comercio</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">cu_numbeo2023</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">cu_numbeo2023</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">cu_statista2023</bcf:citekey>
     <bcf:citekey order="73" intorder="1">cu_infobae</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">cu_infobae</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">cu_amcha</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">cu_track</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">cu_luishernan</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">pr_koh</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">pr_koh</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">cu_comercio</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">cu_infobae</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">cu_infobae</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">cu_amcha</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">cu_track</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">cu_luishernan</bcf:citekey>
     <bcf:citekey order="80" intorder="1">pr_koh</bcf:citekey>
     <bcf:citekey order="81" intorder="1">pr_koh</bcf:citekey>
     <bcf:citekey order="82" intorder="1">pr_koh</bcf:citekey>
@@ -3118,8 +3117,8 @@
     <bcf:citekey order="90" intorder="1">pr_koh</bcf:citekey>
     <bcf:citekey order="91" intorder="1">pr_koh</bcf:citekey>
     <bcf:citekey order="92" intorder="1">pr_koh</bcf:citekey>
-    <bcf:citekey order="93" intorder="1">pr_saferoute</bcf:citekey>
-    <bcf:citekey order="94" intorder="1">pr_saferoute</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">pr_koh</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">pr_koh</bcf:citekey>
     <bcf:citekey order="95" intorder="1">pr_saferoute</bcf:citekey>
     <bcf:citekey order="96" intorder="1">pr_saferoute</bcf:citekey>
     <bcf:citekey order="97" intorder="1">pr_saferoute</bcf:citekey>
@@ -3133,8 +3132,8 @@
     <bcf:citekey order="105" intorder="1">pr_saferoute</bcf:citekey>
     <bcf:citekey order="106" intorder="1">pr_saferoute</bcf:citekey>
     <bcf:citekey order="107" intorder="1">pr_saferoute</bcf:citekey>
-    <bcf:citekey order="108" intorder="1">pr_esquivel</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">pr_esquivel</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">pr_saferoute</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">pr_saferoute</bcf:citekey>
     <bcf:citekey order="110" intorder="1">pr_esquivel</bcf:citekey>
     <bcf:citekey order="111" intorder="1">pr_esquivel</bcf:citekey>
     <bcf:citekey order="112" intorder="1">pr_esquivel</bcf:citekey>
@@ -3144,8 +3143,8 @@
     <bcf:citekey order="116" intorder="1">pr_esquivel</bcf:citekey>
     <bcf:citekey order="117" intorder="1">pr_esquivel</bcf:citekey>
     <bcf:citekey order="118" intorder="1">pr_esquivel</bcf:citekey>
-    <bcf:citekey order="119" intorder="1">pr_areiza</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">pr_areiza</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">pr_esquivel</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">pr_esquivel</bcf:citekey>
     <bcf:citekey order="121" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="122" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="123" intorder="1">pr_areiza</bcf:citekey>
@@ -3159,8 +3158,8 @@
     <bcf:citekey order="131" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="132" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="133" intorder="1">pr_areiza</bcf:citekey>
-    <bcf:citekey order="134" intorder="1">pr_Soni</bcf:citekey>
-    <bcf:citekey order="135" intorder="1">pr_Soni</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">pr_areiza</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="136" intorder="1">pr_Soni</bcf:citekey>
     <bcf:citekey order="137" intorder="1">pr_Soni</bcf:citekey>
     <bcf:citekey order="138" intorder="1">pr_Soni</bcf:citekey>
@@ -3174,15 +3173,15 @@
     <bcf:citekey order="146" intorder="1">pr_Soni</bcf:citekey>
     <bcf:citekey order="147" intorder="1">pr_Soni</bcf:citekey>
     <bcf:citekey order="148" intorder="1">pr_Soni</bcf:citekey>
-    <bcf:citekey order="149" intorder="1">pr_Ghoul</bcf:citekey>
-    <bcf:citekey order="150" intorder="1">pr_Ghoul</bcf:citekey>
+    <bcf:citekey order="149" intorder="1">pr_Soni</bcf:citekey>
+    <bcf:citekey order="150" intorder="1">pr_Soni</bcf:citekey>
     <bcf:citekey order="151" intorder="1">pr_Ghoul</bcf:citekey>
     <bcf:citekey order="152" intorder="1">pr_Ghoul</bcf:citekey>
-    <bcf:citekey order="153" intorder="1">pr_areiza</bcf:citekey>
+    <bcf:citekey order="153" intorder="1">pr_Ghoul</bcf:citekey>
     <bcf:citekey order="154" intorder="1">pr_Ghoul</bcf:citekey>
     <bcf:citekey order="155" intorder="1">pr_areiza</bcf:citekey>
-    <bcf:citekey order="156" intorder="1">pr_de</bcf:citekey>
-    <bcf:citekey order="157" intorder="1">pr_de</bcf:citekey>
+    <bcf:citekey order="156" intorder="1">pr_Ghoul</bcf:citekey>
+    <bcf:citekey order="157" intorder="1">pr_areiza</bcf:citekey>
     <bcf:citekey order="158" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="159" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="160" intorder="1">pr_de</bcf:citekey>
@@ -3196,8 +3195,8 @@
     <bcf:citekey order="168" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="169" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="170" intorder="1">pr_de</bcf:citekey>
-    <bcf:citekey order="171" intorder="1">pr_zhang</bcf:citekey>
-    <bcf:citekey order="172" intorder="1">pr_zhang</bcf:citekey>
+    <bcf:citekey order="171" intorder="1">pr_de</bcf:citekey>
+    <bcf:citekey order="172" intorder="1">pr_de</bcf:citekey>
     <bcf:citekey order="173" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="174" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="175" intorder="1">pr_zhang</bcf:citekey>
@@ -3211,57 +3210,57 @@
     <bcf:citekey order="183" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="184" intorder="1">pr_zhang</bcf:citekey>
     <bcf:citekey order="185" intorder="1">pr_zhang</bcf:citekey>
-    <bcf:citekey order="186" intorder="1">gl_DEFIA</bcf:citekey>
-    <bcf:citekey order="187" intorder="1">bk_russell2004intart</bcf:citekey>
-    <bcf:citekey order="188" intorder="1">bk_russell2004intart</bcf:citekey>
-    <bcf:citekey order="189" intorder="1">pr_diaz</bcf:citekey>
-    <bcf:citekey order="190" intorder="1">gl_azure</bcf:citekey>
+    <bcf:citekey order="186" intorder="1">pr_zhang</bcf:citekey>
+    <bcf:citekey order="187" intorder="1">pr_zhang</bcf:citekey>
+    <bcf:citekey order="188" intorder="1">gl_DEFIA</bcf:citekey>
+    <bcf:citekey order="189" intorder="1">bk_russell2004intart</bcf:citekey>
+    <bcf:citekey order="190" intorder="1">bk_russell2004intart</bcf:citekey>
     <bcf:citekey order="191" intorder="1">pr_diaz</bcf:citekey>
-    <bcf:citekey order="192" intorder="1">gl_oci</bcf:citekey>
-    <bcf:citekey order="193" intorder="1">gl_super</bcf:citekey>
+    <bcf:citekey order="192" intorder="1">gl_azure</bcf:citekey>
+    <bcf:citekey order="193" intorder="1">pr_diaz</bcf:citekey>
     <bcf:citekey order="194" intorder="1">gl_oci</bcf:citekey>
-    <bcf:citekey order="195" intorder="1">bk_russell2004intart</bcf:citekey>
-    <bcf:citekey order="196" intorder="1">gl_cordis</bcf:citekey>
-    <bcf:citekey order="197" intorder="1">gl_ceupe</bcf:citekey>
-    <bcf:citekey order="198" intorder="1">gl_ceupe</bcf:citekey>
+    <bcf:citekey order="195" intorder="1">gl_super</bcf:citekey>
+    <bcf:citekey order="196" intorder="1">gl_oci</bcf:citekey>
+    <bcf:citekey order="197" intorder="1">bk_russell2004intart</bcf:citekey>
+    <bcf:citekey order="198" intorder="1">gl_cordis</bcf:citekey>
     <bcf:citekey order="199" intorder="1">gl_ceupe</bcf:citekey>
     <bcf:citekey order="200" intorder="1">gl_ceupe</bcf:citekey>
-    <bcf:citekey order="201" intorder="1">gl_markov</bcf:citekey>
-    <bcf:citekey order="202" intorder="1">gl_markov</bcf:citekey>
+    <bcf:citekey order="201" intorder="1">gl_ceupe</bcf:citekey>
+    <bcf:citekey order="202" intorder="1">gl_ceupe</bcf:citekey>
     <bcf:citekey order="203" intorder="1">gl_markov</bcf:citekey>
     <bcf:citekey order="204" intorder="1">gl_markov</bcf:citekey>
     <bcf:citekey order="205" intorder="1">gl_markov</bcf:citekey>
     <bcf:citekey order="206" intorder="1">gl_markov</bcf:citekey>
-    <bcf:citekey order="207" intorder="1">bk_grafo</bcf:citekey>
-    <bcf:citekey order="208" intorder="1">gl_bot</bcf:citekey>
-    <bcf:citekey order="209" intorder="1">gl_edutech</bcf:citekey>
-    <bcf:citekey order="210" intorder="1">gl_compara</bcf:citekey>
-    <bcf:citekey order="211" intorder="1">gl_compara</bcf:citekey>
+    <bcf:citekey order="207" intorder="1">gl_markov</bcf:citekey>
+    <bcf:citekey order="208" intorder="1">gl_markov</bcf:citekey>
+    <bcf:citekey order="209" intorder="1">bk_grafo</bcf:citekey>
+    <bcf:citekey order="210" intorder="1">gl_bot</bcf:citekey>
+    <bcf:citekey order="211" intorder="1">gl_edutech</bcf:citekey>
     <bcf:citekey order="212" intorder="1">gl_compara</bcf:citekey>
     <bcf:citekey order="213" intorder="1">gl_compara</bcf:citekey>
-    <bcf:citekey order="214" intorder="1">gl_bot</bcf:citekey>
-    <bcf:citekey order="215" intorder="1">gl_geekrein</bcf:citekey>
-    <bcf:citekey order="216" intorder="1">gl_iic</bcf:citekey>
-    <bcf:citekey order="217" intorder="1">gl_iic</bcf:citekey>
+    <bcf:citekey order="214" intorder="1">gl_compara</bcf:citekey>
+    <bcf:citekey order="215" intorder="1">gl_compara</bcf:citekey>
+    <bcf:citekey order="216" intorder="1">gl_bot</bcf:citekey>
+    <bcf:citekey order="217" intorder="1">gl_geekrein</bcf:citekey>
     <bcf:citekey order="218" intorder="1">gl_iic</bcf:citekey>
     <bcf:citekey order="219" intorder="1">gl_iic</bcf:citekey>
     <bcf:citekey order="220" intorder="1">gl_iic</bcf:citekey>
     <bcf:citekey order="221" intorder="1">gl_iic</bcf:citekey>
-    <bcf:citekey order="222" intorder="1">pr_artiDeep</bcf:citekey>
-    <bcf:citekey order="223" intorder="1">pr_artiDeep</bcf:citekey>
-    <bcf:citekey order="224" intorder="1">gl_DeepMind</bcf:citekey>
-    <bcf:citekey order="225" intorder="1">gl_Damavis</bcf:citekey>
-    <bcf:citekey order="226" intorder="1">gl_Damavis</bcf:citekey>
+    <bcf:citekey order="222" intorder="1">gl_iic</bcf:citekey>
+    <bcf:citekey order="223" intorder="1">gl_iic</bcf:citekey>
+    <bcf:citekey order="224" intorder="1">pr_artiDeep</bcf:citekey>
+    <bcf:citekey order="225" intorder="1">pr_artiDeep</bcf:citekey>
+    <bcf:citekey order="226" intorder="1">gl_DeepMind</bcf:citekey>
     <bcf:citekey order="227" intorder="1">gl_Damavis</bcf:citekey>
     <bcf:citekey order="228" intorder="1">gl_Damavis</bcf:citekey>
-    <bcf:citekey order="229" intorder="1">gl_DeepMind</bcf:citekey>
-    <bcf:citekey order="230" intorder="1">pr_artiDeep</bcf:citekey>
-    <bcf:citekey order="231" intorder="1">pr_artiDeep</bcf:citekey>
+    <bcf:citekey order="229" intorder="1">gl_Damavis</bcf:citekey>
+    <bcf:citekey order="230" intorder="1">gl_Damavis</bcf:citekey>
+    <bcf:citekey order="231" intorder="1">gl_DeepMind</bcf:citekey>
     <bcf:citekey order="232" intorder="1">pr_artiDeep</bcf:citekey>
     <bcf:citekey order="233" intorder="1">pr_artiDeep</bcf:citekey>
     <bcf:citekey order="234" intorder="1">pr_artiDeep</bcf:citekey>
-    <bcf:citekey order="235" intorder="1">bk_grafo</bcf:citekey>
-    <bcf:citekey order="236" intorder="1">bk_grafo</bcf:citekey>
+    <bcf:citekey order="235" intorder="1">pr_artiDeep</bcf:citekey>
+    <bcf:citekey order="236" intorder="1">pr_artiDeep</bcf:citekey>
     <bcf:citekey order="237" intorder="1">bk_grafo</bcf:citekey>
     <bcf:citekey order="238" intorder="1">bk_grafo</bcf:citekey>
     <bcf:citekey order="239" intorder="1">bk_grafo</bcf:citekey>
@@ -3280,17 +3279,57 @@
     <bcf:citekey order="252" intorder="1">bk_grafo</bcf:citekey>
     <bcf:citekey order="253" intorder="1">bk_grafo</bcf:citekey>
     <bcf:citekey order="254" intorder="1">bk_grafo</bcf:citekey>
-    <bcf:citekey order="255" intorder="1">jin2020graph</bcf:citekey>
-    <bcf:citekey order="256" intorder="1">huang2021scaling</bcf:citekey>
-    <bcf:citekey order="257" intorder="1">gl_IBMIA</bcf:citekey>
-    <bcf:citekey order="258" intorder="1">gl_techopedia</bcf:citekey>
-    <bcf:citekey order="259" intorder="1">gl_Gamco</bcf:citekey>
-    <bcf:citekey order="260" intorder="1">pr_talaei</bcf:citekey>
-    <bcf:citekey order="261" intorder="1">gl_Nvidia</bcf:citekey>
-    <bcf:citekey order="262" intorder="1">gl_humanidades</bcf:citekey>
-    <bcf:citekey order="263" intorder="1">gl_concepto</bcf:citekey>
-    <bcf:citekey order="264" intorder="1">gl_ruta</bcf:citekey>
-    <bcf:citekey order="265" intorder="1">gl_riesgo</bcf:citekey>
+    <bcf:citekey order="255" intorder="1">bk_grafo</bcf:citekey>
+    <bcf:citekey order="256" intorder="1">bk_grafo</bcf:citekey>
+    <bcf:citekey order="257" intorder="1">jin2020graph</bcf:citekey>
+    <bcf:citekey order="258" intorder="1">huang2021scaling</bcf:citekey>
+    <bcf:citekey order="259" intorder="1">gl_IBMIA</bcf:citekey>
+    <bcf:citekey order="260" intorder="1">gl_techopedia</bcf:citekey>
+    <bcf:citekey order="261" intorder="1">gl_Gamco</bcf:citekey>
+    <bcf:citekey order="262" intorder="1">pr_talaei</bcf:citekey>
+    <bcf:citekey order="263" intorder="1">gl_Nvidia</bcf:citekey>
+    <bcf:citekey order="264" intorder="1">gl_humanidades</bcf:citekey>
+    <bcf:citekey order="265" intorder="1">gl_concepto</bcf:citekey>
+    <bcf:citekey order="266" intorder="1">gl_ruta</bcf:citekey>
+    <bcf:citekey order="267" intorder="1">gl_riesgo</bcf:citekey>
+    <bcf:citekey order="268" intorder="1">gl_crisp</bcf:citekey>
+    <bcf:citekey order="269" intorder="1">pr_saferoute</bcf:citekey>
+    <bcf:citekey order="270" intorder="1">pr_saferoute</bcf:citekey>
+    <bcf:citekey order="271" intorder="1">pr_esquivel</bcf:citekey>
+    <bcf:citekey order="272" intorder="1">pr_esquivel</bcf:citekey>
+    <bcf:citekey order="273" intorder="1">pr_Soni</bcf:citekey>
+    <bcf:citekey order="274" intorder="1">pr_Soni</bcf:citekey>
+    <bcf:citekey order="275" intorder="1">gl_LAPD</bcf:citekey>
+    <bcf:citekey order="276" intorder="1">gl_LAPD</bcf:citekey>
+    <bcf:citekey order="277" intorder="1">gl_LAPD</bcf:citekey>
+    <bcf:citekey order="278" intorder="1">gl_LAPD</bcf:citekey>
+    <bcf:citekey order="279" intorder="1">gl_maxima</bcf:citekey>
+    <bcf:citekey order="280" intorder="1">gl_med</bcf:citekey>
+    <bcf:citekey order="281" intorder="1">gl_gym</bcf:citekey>
+    <bcf:citekey order="282" intorder="1">gl_git</bcf:citekey>
+    <bcf:citekey order="283" intorder="1">gl_gnnmed</bcf:citekey>
+    <bcf:citekey order="284" intorder="1">gl_gnnmed</bcf:citekey>
+    <bcf:citekey order="285" intorder="1">gl_gnnmed</bcf:citekey>
+    <bcf:citekey order="286" intorder="1">gl_gnnmed</bcf:citekey>
+    <bcf:citekey order="287" intorder="1">gl_aisummer</bcf:citekey>
+    <bcf:citekey order="288" intorder="1">gl_aisummer</bcf:citekey>
+    <bcf:citekey order="289" intorder="1">gl_aisummer</bcf:citekey>
+    <bcf:citekey order="290" intorder="1">gl_aisummer</bcf:citekey>
+    <bcf:citekey order="291" intorder="1">gl_interactive</bcf:citekey>
+    <bcf:citekey order="292" intorder="1">gl_ray</bcf:citekey>
+    <bcf:citekey order="293" intorder="1">gl_findin</bcf:citekey>
+    <bcf:citekey order="294" intorder="1">gl_findin</bcf:citekey>
+    <bcf:citekey order="295" intorder="1">gl_findin</bcf:citekey>
+    <bcf:citekey order="296" intorder="1">gl_findin</bcf:citekey>
+    <bcf:citekey order="297" intorder="1">gl_findin</bcf:citekey>
+    <bcf:citekey order="298" intorder="1">gl_constr</bcf:citekey>
+    <bcf:citekey order="299" intorder="1">gl_constr</bcf:citekey>
+    <bcf:citekey order="300" intorder="1">gl_constr</bcf:citekey>
+    <bcf:citekey order="301" intorder="1">gl_constr</bcf:citekey>
+    <bcf:citekey order="302" intorder="1">gl_folium</bcf:citekey>
+    <bcf:citekey order="303" intorder="1">gl_folium</bcf:citekey>
+    <bcf:citekey order="304" intorder="1">gl_folium</bcf:citekey>
+    <bcf:citekey order="305" intorder="1">gl_folium</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
