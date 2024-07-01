@@ -215,15 +215,14 @@ Además de la adquisición del conjunto de datos, se debe obtener el mapa de la 
 En esta fase se realizará 4 pasos para que la carga de la información esté lista y limpia para hacer su uso en la etapa de entrenamiento del modelo, por lo que se detallará a continuación los siguientes pasos.
 
 \begin{itemize}
-	\item[\textbf{a.Limpieza de dato}]
+	\item[a.] Limpieza de dato \\
 
 Este primer paso ayudará en primera instancia a eliminar los datos vacíos que se encuentran en la base de datos de registro de crímenes. Esto puede causar problemas a la hora de entrenar el modelo y reducir la precisión de este, por lo que es esencial mantener la integridad del conjunto de datos, para esto, Python cuenta con múltiples librerías o lista de comandos que le permite eliminar los datos faltante según los parámetros que se le imponga, una de las más conocidas es “.dropna()”.
 
 El segundo paso el cambio de tipo de variable, ya que el conjunto de datos está compuesto mayoritariamente por variables de tipo texto que no deberían ser consideradas de esa manera, hacer un correcto cambio en el tipo de variables permitirá hacer un análisis de series de tiempo más eficiente y preciso o aplicarla correctamente en los pasos posteriores como la aplicación de regresión LOESS.  Python también ofrece múltiples listas de comandos que permiten cambiar el tipo de variable según las necesidades requeridas del proyecto.
 
 \textbf{Entregable:} Conjunto de datos completo con la correcta clasificación de sus variables.
-	\item[\textbf{b.Aplicación Regresión LOESS
-	}] 
+	\item[b.] Aplicación Regresión LOESS \\
 	
 La Regresión LOESS	es un método que combina la regresión lineal con la regresión no lineal, ajustando modelos sencillos sobre subconjuntos locales de datos para la creación de una función que describa la variación de los datos. En cada punto del conjunto de datos se ajusta una regresión polinómica dando más peso a los puntos cercanos y menos peso a los más lejanos, esto puede ayudar para la determinar la relación entre entre las variables y sobre todo, el manejo de datos ruidosos, es decir, si presenta una gran variabilidad en los datos, por lo que puede resaltar las tendencias para entender mejor las áreas donde hay más crímenes, proporcionando una visión más clara de los patrones de los datos y mejorando la identificación de zonas de alto riesgo \parencite{gl_maxima}.
 
@@ -246,7 +245,7 @@ Donde $y_{i}$ son los valores de respuesta.
 
 \textbf{Entregable:} Conjunto de datos suavizados de los crímenes con baja variabilidad de estos.
 
-	\item[\textbf{c. Normalización}]\medskip
+	\item[c.] Normalización \\
 
 Dado a que se trabaja con la latitud y longitud, es importante el proceso de la normalización para que tengan una escala similar, esto ayuda a mejorar la eficiencia y precisión del modelo. Se hará uso de la normalización Min-Max, ya que asegura que todos los atributos están el el rango de 0 a 1, asimismo ayuda a preservar las relaciones entre los valores originales y es compatible con muchos algoritmos\parencite{gl_med}. 
 	\begin{equation} 
@@ -265,7 +264,7 @@ ${x}'$ es el valor normalizado.
 
 \textbf{Entregable:} Conjunto de datos normalizados en un mismo rango.
 	
-	\item[\textbf{d. Normalización}]
+	\item[d.] Normalización \\
 	
 Este paso es necesario para el análisis y toma de decisiones del modelo, por lo que se debe contar con la estructura geográfica de la ciudad representada en grafo de OpenStreetMap, junto con el conjunto de datos ya normalizados. Para la evaluación del riesgo de una ruta, se debe asociar cada registro de crimen con el vértice más cercano (intersección) o con la arista (calle) dónde ocurrió en la ciudad, para esto se utiliza la distancia euclidiana, el cual se representa de la siguiente manera:
 
@@ -439,7 +438,7 @@ $\hat{y}_{i}$ es la probabilidad de riesgo predicha por el modelo DGN para nodo 
 	Si el valor es bajo, quiere decir que las estimaciones de riesgo son precisas y asegura que el modelo propuesto es efectivo para la identificación de zonas de alto riesgo para que el agente pueda evitar dichas zonas en el proceso de entrenamiento DQN.
 	
 \textbf{Entregable:} Índice de efectividad del modelo DGN.
-	\item Indicador de Riesgo
+	\item Indicador de Riesgo \\
 	Se utiliza la función de riesgo total establecido para la planificación de la ruta, y se evalúa el riesgo a cada ruta propuesta. Asimismo se establece un umbral que servirá de comparación con el riesgo total de una ruta, el cual determinará si la ruta se acepta o no. A continuación, se presenta el flujo condicional para la aceptación de la ruta:
 	
 	\begin{figure}[h]
@@ -451,7 +450,7 @@ $\hat{y}_{i}$ es la probabilidad de riesgo predicha por el modelo DGN para nodo 
 	\end{figure}
 	
 \textbf{Entregable:} Ruta Segura con el menor índice de riesgo aceptada.
-	\item Indicador de Eficiencia (TTM)
+	\item Indicador de Eficiencia (TTM) \\
 El indicador de Eficiencia (TTM) evalúa el rendimiento del modelo DRL, con el fin de proporcionar una medida cuantitativa para el tiempo de procesamiento del modelo y que se determina de la siguiente manera:
 \begin{equation} 
 	TTM = N_{ep} \times T_{ep}
